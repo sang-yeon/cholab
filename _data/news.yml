@@ -1,36 +1,51 @@
-- date: "2026-05-23"
-  headline: 'Professor Cho was awarded the <a href="https://www.cprit.texas.gov/news-events/articles/cprit-awards-more-than-103-million-in-cancer-grants-expands-rural-clinical-trials/" target="_blank">Cancer Prevention and Research Institute of Texas (CPRIT) Rising Stars award</a>!'
-  news1:
+- date: "05.23.2026"
+  headline: 'Professor Cho was awarded the <a href="https://www.cprit.texas.gov/news-events/articles/cprit-awards-more-than-103-million-in-cancer-grants-expands-rural-clinical-trials/#:~:text=Rice%20University,Texas%20M.D.%20Anderson%20Cancer%20Center" target="_blank">Cancer Prevention and Research Institute of Texas (CPRIT) Rising Stars Award</a>!'
+  link: "/news/"
 
-- date: "2026-05-23"
+- date: "05.23.2026"
   headline: 'Professor Cho was invited to give seminars at Seoul National University Chemical and Biological Engineering (05.19.26), Asan Medical Center (05.21.26), and Samsung Advanced Institute of Technology (SAIT) (05.29.26).'
-  news2:
+  images:
+    - "images/news/Asan1.jpg"
+    - "images/news/Asan3.jpg"
+  pdfs:
+    - "images/news/Asan2.pdf"
+  link: "/news/"
 
-- date: "2026-05-01"
-  headline: 'Professor Cho''s ACS Photonics paper was featured on the journal front cover!'
-  news1:
+- date: "05.04.2026"
+  headline: 'May the 4th be with you! Professor Cho’s work on the world’s smallest laser was featured by Mass General Brigham (MGB) Research.'
+  images:
+    - "images/news/MGB_highlight.png"
+  link: "/news/"
 
-- date: "2026-04-22"
+- date: "05.01.2026"
+  headline: 'Professor Cho’s ACS Photonics paper was featured on <a href="https://pubs.acs.org/toc/apchd5/13/9" target="_blank">the journal front cover</a>!'
+  image: "images/news/ACS_Photonics_Cover.jpg"
+  link: "/news/"
+
+- date: "04.02.2026"
+  headline: 'Professor Cho was invited to give a talk at <a href="https://conference.kobra.kr/html/?pmode=speakers" target="_blank">the Korea Bio Research Association (KOBRA) Conference</a> (05.28.26) in Suwon, Korea.'
+  image: "images/news/KOBRA.png"
+  link: "/news/"
+
+- date: "04.22.2026"
   headline: 'Daniel received a Harvard undergraduate research award. Congratulations, Daniel!'
-  news2:
+  link: "/news/"
 
-- date: "2026-04-02"
-  headline: 'Professor Cho has been invited to give a talk at the <a href="https://conference.kobra.kr/html/?pmode=speakers" target="_blank">Korea Bio Research Association (KOBRA) Conference</a> (05.28.26) in Suwon, Korea.'
-  news2:
+- date: "02.01.2026"
+  headline: 'Professor Cho was invited to give a talk at <a href="https://metaconferences.org/META26/index.php/META/symposia" target="_blank">META 2026 in Dublin, Ireland</a>!'
+  image: "images/news/META26.webp"
+  link: "/news/"
 
-- date: "2026-02-01"
-  headline: 'Prof. Cho has been invited to give a talk at <a href="https://metaconferences.org/META26/index.php/META/symposia" target="_blank">META 2026 in Dublin, Ireland</a>.'
-  news2:
-
-- date: "2025-11-25"
+- date: "11.25.2025"
   headline: 'Welcome Minsun, Mark, Jada, Daniel, Toby, and Chloe to the Cho Lab!'
-  news1:
+  link: "/news/"
 
-- date: "2025-09-22"
-  headline: 'Prof. Cho received the <a href="https://reporter.nih.gov/search/73sh_S5jvECDPVpo8TEW6Q/project-details/11112601" target="_blank">K25 Research Grant</a> from the National Cancer Institute.'
-  news1:
+- date: "09.22.2025"
+  headline: 'Professor Cho received the <a href="https://reporter.nih.gov/search/73sh_S5jvECDPVpo8TEW6Q/project-details/11112601" target="_blank">K25 Research Grant</a> from the National Cancer Institute.'
+  image: "images/news/NCI.jpg"
+  link: "/news/"
 
-- date: "2025-08-01"
+- date: "08.2025"
   headline: 'Dr. Cho was promoted to Assistant Professor at the Wellman Center for Photomedicine at Massachusetts General Hospital and Harvard Medical School, and the Cho Lab was launched.'
-  image: "wellman_promotion.jpg"
-  news1:
+  image: "images/news/wellman_promotion.png"
+  link: "/news/"
