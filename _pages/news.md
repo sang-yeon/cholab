@@ -15,11 +15,11 @@ permalink: /news/
 <p><strong>{{ article.date }}</strong> &nbsp; {{ article.headline }}</p>
 
 {% if article.images %}
-<div class="news-images" style="margin-top: 12px; display: flex; gap: 12px; align-items: flex-start; flex-wrap: nowrap;">
+<div class="news-images" style="margin-top: 12px; display: flex; gap: 14px; align-items: flex-start; flex-wrap: wrap; justify-content: flex-start;">
 {% for img in article.images %}
 <img src="{{ site.url }}{{ site.baseurl }}/{{ img.path }}" 
      alt="News image" 
-     style="width: {{ img.width | default: '30%' }}; max-width: {{ img.width | default: '30%' }}; height: auto; object-fit: contain; margin-bottom: 10px;">
+     style="max-width: {{ img.width | default: '320px' }}; width: auto; height: auto; object-fit: contain; margin-bottom: 10px;">
 {% endfor %}
 </div>
 
@@ -27,7 +27,7 @@ permalink: /news/
 <div class="news-images" style="margin-top: 12px;">
 <img src="{{ site.url }}{{ site.baseurl }}/{{ article.image }}" 
      alt="News image" 
-     style="max-width: {{ article.width | default: '500px' }}; width: 100%; height: auto; margin-bottom: 10px;">
+     style="max-width: {{ article.width | default: '500px' }}; width: auto; height: auto; margin-bottom: 10px;">
 </div>
 {% endif %}
 
