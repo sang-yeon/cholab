@@ -8,6 +8,7 @@
     - "images/newspic/Asan1.jpg"
     - "images/newspic/Asan3.jpg"
     - "images/newspic/Asan2.jpg"
+       width: "130px"
   link: "/news/"
 
 - date: "05.04.2026"
