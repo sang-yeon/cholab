@@ -7,8 +7,7 @@
   images:
     - "images/newspic/Asan1.jpg"
     - "images/newspic/Asan3.jpg"
-  pdfs:
-    - "images/newspic/Asan2.pdf"
+    - "images/newspic/Asan2.jpeg"
   link: "/news/"
 
 - date: "05.04.2026"
