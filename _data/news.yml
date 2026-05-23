@@ -1,19 +1,36 @@
-- date: "05.2026"
-  headline: "Professor Cho’s ACS Photonics paper was featured on the journal front cover."
+- date: "05.23.2026"
+  headline: "Professor Cho was awarded <a href="https://www.cprit.texas.gov/news-events/articles/cprit-awards-more-than-103-million-in-cancer-grants-expands-rural-clinical-trials/#:~:text=Rice%20University,Texas%20M.D.%20Anderson%20Cancer%20Center" target="_blank"> Cancer Prevention and Research Institute of Texas (CPRIT) Rising Stars award</a>!."
   link: "/news/"
 
-- date: "05.2026"
-  headline: "Professor Cho has been invited to give a talk at the KOBRA Conference in Korea."
+- date: "05.23.2026"
+  headline: "Professor Cho was invited to give seminars at Seoul National University Chemical and Biological Engineering (05.19.26), Asan Medical Center (05.21.26), and Samsung Advanced Institute of Technology (SAIT) (05.29.26)."
   link: "/news/"
 
-- date: "04.2026"
+- date: "05.01.2026"
+  headline: "Professor Cho’s ACS Photonics paper was featured on <a href="https://reporter.nih.gov/search/73sh_S5jvECDPVpo8TEW6Q/project-details/11112601" target="_blank">the journal front cover</a>!."
+  link: "/news/"
+
+- date: "04.02.2026"
+  headline: "Professor Cho has been invited to give a talk at  <a href="https://conference.kobra.kr/html/?pmode=speakers" target="_blank">the Korea Bio Research Association (KOBRA) Conference</a>!(05.28.26) in Suwon, Korea."
+  link: "/news/"
+
+- date: "04.22.2026"
   headline: "Daniel received a Harvard undergraduate research award. Congratulations, Daniel!"
   link: "/news/"
 
-- date: "02.2026"
-  headline: "Professor Cho has been invited to give a talk at META 2026 in Dublin, Ireland."
+- date: "02.01.2026"
+  headline: "Prof. Cho has been invited to give a talk at <a href="https://metaconferences.org/META26/index.php/META/symposia" target="_blank">META 2026 in Dublin, Ireland</a>!."
   link: "/news/"
 
-- date: "09.2025"
-  headline: "Professor Cho received the K25 Research Grant from the National Cancer Institute."
+- date: "11.25.2025"
+  headline: "Welcome Minsun, Mark, Jada, Daniel, Toby, and Chloe to the Cho Lab!"
+  link: "/news/"    
+
+- date: "09.22.2025"
+  headline: "Prof. Cho received <a href="https://reporter.nih.gov/search/73sh_S5jvECDPVpo8TEW6Q/project-details/11112601" target="_blank">the K25 Research Grant</a>!from the National Cancer Institute."
+  link: "/news/"
+
+- date: "08.2025"
+  headline: 'Dr. Cho was promoted to Assistant Professor at the Wellman Center for Photomedicine at Massachusetts General Hospital and Harvard Medical School, and the Cho Lab was launched.'
+  image: "images/news/wellman_promotion.jpg"
   link: "/news/"
