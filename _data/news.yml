@@ -7,7 +7,7 @@
   images:
     - "images/newspic/Asan1.jpg"
     - "images/newspic/Asan3.jpg"
-    - "images/newspic/Asan2.jpeg"
+    - "images/newspic/Asan2.jpg"
   link: "/news/"
 
 - date: "05.04.2026"
@@ -19,6 +19,7 @@
 - date: "05.01.2026"
   headline: 'Professor Cho’s ACS Photonics paper was featured on <a href="https://pubs.acs.org/toc/apchd5/13/9" target="_blank">the journal front cover</a>!'
   image: "images/newspic/ACS_Photonics_Cover.jpeg"
+  width: "260px"
   link: "/news/"
 
 - date: "04.02.2026"
