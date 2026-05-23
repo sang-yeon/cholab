@@ -17,7 +17,7 @@
   headline: 'May the 4th be with you! Professor Cho’s work on the world’s smallest laser was featured by Mass General Brigham (MGB) Research.'
   images:
     - path: "images/newspic/MGB_highlight.png"
-      width: "250px"
+      width: "350px"
   link: "/news/"
 
 - date: "05.01.2026"
