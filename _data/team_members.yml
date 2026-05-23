@@ -1,3 +1,14 @@
+- name: Sangyeon (Fred) Cho, Ph.D.
+  photo: cho_headshot.jpg
+  info: Principal Investigator
+  email: scho1105@rice.edu
+  number_educ: 5
+  
+  education1: PhD, Medical  <a href="http://www.physik.uzh.ch/groups/osterwalder/">J Osterwalder</a>, University of Zurich
+  education2: PhD St Andrews (while at Cornell University) with <a href="http://dpmc.unige.ch/gr_baumberger/index.html">Felix Baumberger</a> and <a href="http://davisgroup.lassp.cornell.edu/">JC Davis</a>
+  education3: Postdoc Cornell
+  education4:
+
 - name: Milan P Allan
   photo: Milan1.jpg
   info: Professor
