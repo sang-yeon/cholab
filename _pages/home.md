@@ -1,7 +1,7 @@
 ---
 title: "Cho Lab - Home"
 layout: homelay
-excerpt: "Creative Nanobiophotonics Laboratory at Rice University"
+excerpt: "Creative Nanobiophotonics Laboratory"
 sitemap: false
 permalink: /
 ---
@@ -9,7 +9,6 @@ permalink: /
 # Welcome to the Cho Lab
 
 **Creative Nanobiophotonics Laboratory**  
-Department of Bioengineering, Rice University
 
 We develop optical nanolaser technologies for single-cell tracking, biological sensing, and dynamic phenotyping.
 
@@ -37,8 +36,7 @@ Our research brings together nanophotonics, bioengineering, optical microscopy, 
 
 <br>
 
-We are building a research group at Rice University Bioengineering focused on creative nanobiophotonics and translational optical technologies. Our goal is to develop new photonic tools that can read, track, and ultimately help control biological systems at the single-cell scale.
-
+The Cho Lab is relocating from Massachusetts General Hospital and Harvard Medical School to Rice University Bioengineering. 
 We are looking for passionate postdoctoral fellows, graduate students, undergraduate students, and visiting researchers to join the team. Please see [Openings / Contact]({{ site.url }}{{ site.baseurl }}/openings/) for more information.
 
 <br>
