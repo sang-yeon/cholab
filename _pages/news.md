@@ -6,7 +6,7 @@ sitemap: false
 permalink: /news/
 ---
 
-# News
+<h1>News</h1>
 
 <div class="news-list">
 {% for article in site.data.news %}
@@ -15,19 +15,14 @@ permalink: /news/
 <p><strong>{{ article.date }}</strong> &nbsp; {{ article.headline }}</p>
 
 {% if article.images %}
-<div class="news-images" style="margin-top: 12px; display: flex; gap: 14px; align-items: flex-start; flex-wrap: wrap; justify-content: flex-start;">
+<div class="news-images" style="margin-top: 12px; display: flex; flex-wrap: wrap; gap: 10px; align-items: flex-start;">
 {% for img in article.images %}
-<img src="{{ site.url }}{{ site.baseurl }}/{{ img.path }}" 
-     alt="News image" 
-     style="max-width: {{ img.width | default: '320px' }}; width: auto; height: auto; object-fit: contain; margin-bottom: 10px;">
+<img src="{{ site.url }}{{ site.baseurl }}/{{ img.path }}" alt="News image" style="height: 220px; width: auto; object-fit: contain;">
 {% endfor %}
 </div>
-
 {% elsif article.image %}
 <div class="news-images" style="margin-top: 12px;">
-<img src="{{ site.url }}{{ site.baseurl }}/{{ article.image }}" 
-     alt="News image" 
-     style="max-width: {{ article.width | default: '500px' }}; width: auto; height: auto; margin-bottom: 10px;">
+<img src="{{ site.url }}{{ site.baseurl }}/{{ article.image }}" alt="News image" style="max-width: {{ article.width | default: '500px' }}; width: auto; height: auto;">
 </div>
 {% endif %}
 
