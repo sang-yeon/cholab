@@ -15,7 +15,7 @@ permalink: /news/
 <p><strong>{{ article.date }}</strong> &nbsp; {{ article.headline }}</p>
 
 {% if article.images %}
-<div class="news-images" style="margin-top: 12px; display: flex; gap: 12px; align-items: flex-start; flex-wrap: wrap;">
+<div class="news-images" style="margin-top: 12px; display: flex; gap: 12px; align-items: flex-start; flex-wrap: nowrap;">
 {% for img in article.images %}
 <img src="{{ site.url }}{{ site.baseurl }}/{{ img.path }}" 
      alt="News image" 
