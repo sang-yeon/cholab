@@ -17,9 +17,9 @@ permalink: /news/
 {% if article.images %}
 <div class="news-images" style="margin-top: 12px;">
 {% for img in article.images %}
-<img src="{{ site.url }}{{ site.baseurl }}/{{ img }}" 
+<img src="{{ site.url }}{{ site.baseurl }}/{{ img.path }}" 
      alt="News image" 
-     style="max-width: 31%; width: 31%; margin-right: 1%; margin-bottom: 10px;">
+     style="max-width: {{ img.width | default: '31%' }}; width: {{ img.width | default: '31%' }}; height: auto; margin-right: 1%; margin-bottom: 10px;">
 {% endfor %}
 </div>
 
