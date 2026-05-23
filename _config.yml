@@ -6,12 +6,12 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: The Allan Lab
-email: your-email@domain.com
+title: The Cho Lab
+email: scho1105@rice.edu
 description: > # this means to ignore newlines until "baseurl:"
-  Website of the AllanLab.
+  Creative Nanobiophotonics Laboratory at Rice University Bioengineering.
 baseurl: ""
-url: ""
+url: "https://sang-yeon.github.io/cholab"
 
 include:
   - .htaccess
