@@ -5,26 +5,26 @@
 - date: "05.23.2026"
   headline: 'Professor Cho was invited to give seminars at Seoul National University Chemical and Biological Engineering (05.19.26), Asan Medical Center (05.21.26), and Samsung Advanced Institute of Technology (SAIT) (05.29.26).'
   images:
-    - "images/news/Asan1.jpg"
-    - "images/news/Asan3.jpg"
+    - "images/newspic/Asan1.jpg"
+    - "images/newspic/Asan3.jpg"
   pdfs:
-    - "images/news/Asan2.pdf"
+    - "images/newspic/Asan2.pdf"
   link: "/news/"
 
 - date: "05.04.2026"
   headline: 'May the 4th be with you! Professor Cho’s work on the world’s smallest laser was featured by Mass General Brigham (MGB) Research.'
   images:
-    - "images/news/MGB_highlight.png"
+    - "images/newspic/MGB_highlight.png"
   link: "/news/"
 
 - date: "05.01.2026"
   headline: 'Professor Cho’s ACS Photonics paper was featured on <a href="https://pubs.acs.org/toc/apchd5/13/9" target="_blank">the journal front cover</a>!'
-  image: "images/news/ACS_Photonics_Cover.jpg"
+  image: "images/newspic/ACS_Photonics_Cover.jpg"
   link: "/news/"
 
 - date: "04.02.2026"
   headline: 'Professor Cho was invited to give a talk at <a href="https://conference.kobra.kr/html/?pmode=speakers" target="_blank">the Korea Bio Research Association (KOBRA) Conference</a> (05.28.26) in Suwon, Korea.'
-  image: "images/news/KOBRA.png"
+  image: "images/newspic/KOBRA.png"
   link: "/news/"
 
 - date: "04.22.2026"
@@ -33,7 +33,7 @@
 
 - date: "02.01.2026"
   headline: 'Professor Cho was invited to give a talk at <a href="https://metaconferences.org/META26/index.php/META/symposia" target="_blank">META 2026 in Dublin, Ireland</a>!'
-  image: "images/news/META26.webp"
+  image: "images/newspic/META26.webp"
   link: "/news/"
 
 - date: "11.25.2025"
@@ -42,10 +42,10 @@
 
 - date: "09.22.2025"
   headline: 'Professor Cho received the <a href="https://reporter.nih.gov/search/73sh_S5jvECDPVpo8TEW6Q/project-details/11112601" target="_blank">K25 Research Grant</a> from the National Cancer Institute.'
-  image: "images/news/NCI.jpg"
+  image: "images/newspic/NCI.jpg"
   link: "/news/"
 
 - date: "08.2025"
   headline: 'Dr. Cho was promoted to Assistant Professor at the Wellman Center for Photomedicine at Massachusetts General Hospital and Harvard Medical School, and the Cho Lab was launched.'
-  image: "images/news/wellman_promotion.png"
+  image: "images/newspic/wellman_promotion.png"
   link: "/news/"
