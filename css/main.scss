@@ -1,5 +1,4 @@
 ---
----
 
 @import "bootstrap";
 
@@ -56,9 +55,9 @@ figcaption {
 
 /* Logo size */
 .logo-brand .navbar-logo {
-  height: 56px !important;
+  height: 50px !important;
   width: auto !important;
-  max-height: none !important;
+  max-height: 50px !important;
   max-width: none !important;
   object-fit: contain !important;
 
@@ -331,8 +330,8 @@ firstp {
   }
 
   .logo-brand .navbar-logo {
-    height: 42px !important;
-    max-height: none !important;
+    height: 38px !important;
+    max-height: 38px !important;
     max-width: none !important;
   }
 
@@ -387,6 +386,7 @@ firstp {
     height: 42px;
   }
 }
+
 /* Mobile menu fix */
 @media screen and (max-width: 700px) {
   .site-nav .trigger {
@@ -414,6 +414,7 @@ firstp {
     text-align: left;
   }
 }
+
 /* Bootstrap mobile menu fallback */
 @media screen and (max-width: 767px) {
   .navbar-collapse.collapse {
