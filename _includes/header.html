@@ -1,35 +1,62 @@
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid navbar-container">
+<header class="site-header">
 
-    <div class="navbar-header">
-      <button type="button"
-              class="navbar-toggle collapsed"
-              data-toggle="collapse"
-              data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+  <nav class="navbar navbar-default navbar-static-top">
+    <div class="container">
 
-      <a class="navbar-brand logo-brand" href="{{ site.url }}{{ site.baseurl }}/">
-        <img class="navbar-logo"
-             src="{{ site.url }}{{ site.baseurl }}/images/logo/cholab_logo_tran_cropped.png"
-             alt="Cho Lab">
-      </a>
+      <div class="navbar-header">
+
+        <button type="button" class="navbar-toggle collapsed"
+                data-toggle="collapse"
+                data-target="#navbar"
+                aria-expanded="false"
+                aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="navbar-brand" href="{{ "/" | prepend: site.baseurl | prepend: site.url }}">
+          {{ site.title }}
+        </a>
+
+      </div>
+
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+
+          <li>
+            <a href="{{ "/" | prepend: site.baseurl | prepend: site.url }}">Home</a>
+          </li>
+
+          <li>
+            <a href="{{ "/research/" | prepend: site.baseurl | prepend: site.url }}">Research</a>
+          </li>
+
+          <li>
+            <a href="{{ "/pi/" | prepend: site.baseurl | prepend: site.url }}">PI</a>
+          </li>
+
+          <li>
+            <a href="{{ "/team/" | prepend: site.baseurl | prepend: site.url }}">Team</a>
+          </li>
+
+          <li>
+            <a href="{{ "/publications/" | prepend: site.baseurl | prepend: site.url }}">Publications</a>
+          </li>
+
+          <li>
+            <a href="{{ "/news/" | prepend: site.baseurl | prepend: site.url }}">News</a>
+          </li>
+
+          <li>
+            <a href="{{ "/openings/" | prepend: site.baseurl | prepend: site.url }}">Openings / Contact</a>
+          </li>
+
+        </ul>
+      </div>
+
     </div>
+  </nav>
 
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="{{ site.url }}{{ site.baseurl }}/">Home</a></li>
-        <li><a href="{{ site.url }}{{ site.baseurl }}/research/">Research</a></li>
-        <li><a href="{{ site.url }}{{ site.baseurl }}/pi/">PI</a></li>
-        <li><a href="{{ site.url }}{{ site.baseurl }}/team/">Team</a></li>
-        <li><a href="{{ site.url }}{{ site.baseurl }}/publications/">Publications</a></li>
-        <li><a href="{{ site.url }}{{ site.baseurl }}/news/">News</a></li>
-        <li><a href="{{ site.url }}{{ site.baseurl }}/openings/">Openings / Contact</a></li>
-      </ul>
-    </div>
-
-  </div>
-</nav>
+</header>
