@@ -67,12 +67,10 @@ permalink: /publications/
 
 # US & International Patents
 
-**2. Systems and Methods for Plasmonic Lasers**  
-S. H. Yun, S. Cho.  
+**2. Systems and Methods for Plasmonic Lasers** S. H. Yun, S. Cho.  
 2024.
 
 <br>
 
-**1. Perovskite-Based Core-Shell Light-Emitting Structures and Materials, and Methods of Fabrication Thereof**  
-S. H. Yun, S. Cho.  
+**1. Perovskite-Based Core-Shell Light-Emitting Structures and Materials, and Methods of Fabrication Thereof** S. H. Yun, S. Cho.  
 2019.
