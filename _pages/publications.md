@@ -28,17 +28,16 @@ permalink: /publications/
 
 {% assign number = total | minus: forloop.index0 %}
 
-<div class="publication-item" style="display: grid; grid-template-columns: 180px 1fr; column-gap: 22px; align-items: start; margin-bottom: 30px;">
-
-<div class="publication-image" style="width: 180px; text-align: center;">
 {% if pub.image %}
+<div class="publication-item" style="display: flex; gap: 22px; align-items: flex-start; margin-bottom: 34px;">
+
+<div class="publication-image" style="flex: 0 0 auto; width: {{ pub.image_box_width | default: '190px' }};">
 <img src="{{ site.url }}{{ site.baseurl }}/{{ pub.image }}"
      alt="Publication image"
-     style="height: {{ pub.image_height | default: '120px' }}; width: auto; max-width: {{ pub.image_width | default: '170px' }}; object-fit: contain; border-radius: 4px;">
-{% endif %}
+     style="height: {{ pub.image_height | default: '150px' }}; width: auto; max-width: {{ pub.image_width | default: '180px' }}; object-fit: contain; border-radius: 4px;">
 </div>
 
-<div class="publication-text" style="min-width: 0;">
+<div class="publication-text" style="flex: 1; min-width: 0;">
 <p style="margin: 0;">
 <strong>{{ number }}.
 {% if pub.link %}
@@ -47,27 +46,21 @@ permalink: /publications/
 {{ pub.title }}
 {% endif %}
 </strong><br>
-
 {{ pub.authors }}<br>
-
 {% if pub.journal_name %}
 <strong><em>{{ pub.journal_name }}</em></strong>{% if pub.journal_info %} <em>{{ pub.journal_info }}</em>{% endif %}
 {% else %}
 <em>{{ pub.journal }}</em>
 {% endif %}
-
 {% if pub.note %}
 <br>{{ pub.note }}
 {% endif %}
-
 {% if pub.pdf or pub.extra_links %}
 <br>
 {% endif %}
-
 {% if pub.pdf %}
 <a href="{{ site.url }}{{ site.baseurl }}/{{ pub.pdf }}" target="_blank">PDF</a>
 {% endif %}
-
 {% if pub.extra_links %}
 {% for extra in pub.extra_links %}
 {% if pub.pdf or forloop.index0 > 0 %} | {% endif %}
@@ -78,6 +71,43 @@ permalink: /publications/
 </div>
 
 </div>
+
+{% else %}
+<div class="publication-item" style="margin-bottom: 34px;">
+
+<p style="margin: 0;">
+<strong>{{ number }}.
+{% if pub.link %}
+<a href="{{ pub.link }}" target="_blank">{{ pub.title }}</a>
+{% else %}
+{{ pub.title }}
+{% endif %}
+</strong><br>
+{{ pub.authors }}<br>
+{% if pub.journal_name %}
+<strong><em>{{ pub.journal_name }}</em></strong>{% if pub.journal_info %} <em>{{ pub.journal_info }}</em>{% endif %}
+{% else %}
+<em>{{ pub.journal }}</em>
+{% endif %}
+{% if pub.note %}
+<br>{{ pub.note }}
+{% endif %}
+{% if pub.pdf or pub.extra_links %}
+<br>
+{% endif %}
+{% if pub.pdf %}
+<a href="{{ site.url }}{{ site.baseurl }}/{{ pub.pdf }}" target="_blank">PDF</a>
+{% endif %}
+{% if pub.extra_links %}
+{% for extra in pub.extra_links %}
+{% if pub.pdf or forloop.index0 > 0 %} | {% endif %}
+<a href="{{ extra.url }}" target="_blank">{{ extra.label }}</a>
+{% endfor %}
+{% endif %}
+</p>
+
+</div>
+{% endif %}
 
 {% endfor %}
 
