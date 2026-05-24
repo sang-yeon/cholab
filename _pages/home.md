@@ -14,12 +14,13 @@ Our current focus is on nanolasers, which hold transformative potential across d
 
 The Cho Lab is relocating from Massachusetts General Hospital and Harvard Medical School to Rice University Bioengineering.
 
+<div class="home-carousel-wrapper" markdown="0">
+
 <div id="carouselExample"
      class="carousel slide"
      data-ride="carousel"
      data-interval="3000"
-     data-pause="hover"
-     markdown="0">
+     data-pause="hover">
 
   <div class="carousel-inner">
 
@@ -40,19 +41,13 @@ The Cho Lab is relocating from Massachusetts General Hospital and Harvard Medica
     </div>
 
   </div>
-
-  <a class="left carousel-control" href="#carouselExample" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-
-  <a class="right carousel-control" href="#carouselExample" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
 </div>
 
 <p class="photo-credit">
   Photo credit: Sangyeon Cho
 </p>
+
+</div>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
