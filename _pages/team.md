@@ -5,14 +5,11 @@ excerpt: "Cho Lab: Team members"
 sitemap: false
 permalink: /team/
 ---
+
 <div style="font-size: 17px; line-height: 1.65; margin-bottom: 34px; max-width: 950px;">
 
 <p>
-We are a group of passionate researchers dedicated to developing creative tools that make a positive impact on the world. Our mission is driven by curiosity, collaboration, and a shared desire to help people through meaningful innovation.
-</p>
-
-<p>
-In our lab, we support each other, grow together, and celebrate the joy of research as a team. We believe that solving interesting and important problems is best done together—with openness, respect, and a spirit of discovery.
+We are a group of passionate researchers dedicated to developing creative tools that make a positive impact on the world. In our lab, we support each other, grow together, and celebrate the joy of research as a team. We believe that solving interesting and important problems is best done together—with openness, respect, and a spirit of discovery.
 </p>
 
 <p>
@@ -25,8 +22,10 @@ Your happiness and success as a scientist and engineer are our team’s priority
 
 </div>
 
+<h2 style="font-size: 34px; font-weight: 500; margin-top: 20px; margin-bottom: 28px;">Group Members</h2>
+
 {% assign number_printed = 0 %}
-{% for member in site.data.team %}
+{% for member in site.data.team_members %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -34,7 +33,7 @@ Your happiness and success as a scientist and engineer are our team’s priority
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6 clearfix" style="margin-bottom: 34px;">
+<div class="col-sm-6 clearfix" style="margin-bottom: 34px; min-height: 190px;">
 
   <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo }}"
        class="img-responsive"
