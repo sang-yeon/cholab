@@ -10,27 +10,12 @@ permalink: /
 
 **Creative Nanobiophotonics Laboratory**  
 
-We develop optical nanolaser technologies for single-cell tracking, biological sensing, and dynamic phenotyping.
+We are trailblazers on a mission to drive medicine and photonics forward in service of humanity.
 
-Our research brings together nanophotonics, bioengineering, optical microscopy, and semiconductor materials to create new tools for understanding complex biological systems. We are particularly interested in using nanolaser particles as optical barcodes and sensors for tracking cellular states, dynamics, and functions.
+Our current focus is on nanolasers, which hold transformative potential across diverse fields—from high-performance photonic devices to advanced medical discoveries—through their coherence, speed-of-light operation, and multiplexing capability.
 
-<div id="carouselExample" class="carousel slide" data-ride="carousel" markdown="0">
-  <div class="carousel-inner">
-    <div class="item active">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/nanolaser1.jpg" alt="Nanolaser image 1">
-    </div>
-    <div class="item">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/microscopy1.jpg" alt="Microscopy image">
-    </div>
-    <div class="item">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/lab1.jpg" alt="Lab image">
-    </div>
-  </div>
-  <a class="left carousel-control" href="#carouselExample" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#carouselExample" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
+<div class="home-main-image" style="margin: 28px 0 32px 0;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/nanolaser1.jpg"
+       alt="Cho Lab nanolaser research"
+       style="width: 100%; max-width: 900px; height: auto; border-radius: 6px; display: block;">
 </div>
-
