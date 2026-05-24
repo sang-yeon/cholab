@@ -15,7 +15,6 @@
   journal_info: "13, 2367–2374."
   link: "https://pubs.acs.org/doi/10.1021/acsphotonics.5c02285"
   pdf: "papers/cho_acsphotonics_2026.pdf"
-  note: "World's smallest laser"
   extra_links:
     - label: "Arxiv Preprint"
       url: "https://arxiv.org/abs/2507.08180"
@@ -31,6 +30,7 @@
   journal_info: "20, 404–410."
   link: "https://www.nature.com/articles/s41565-024-01843-7"
   pdf: "papers/cho_natnano_2025.pdf"
+  note: "World's smallest laser"
   extra_links:
     - label: "Arxiv Preprint"
       url: "https://arxiv.org/abs/2310.08742"
@@ -92,11 +92,12 @@
     - label: "Highlighted in MGH Snapshot of Science"
       url: "https://www.massgeneral.org/research/news/newsletters/snapshotscience/sept-2021"
   note: "Online banner paper"
-  image: "images/publications/Sci_Cover.jpg"
-  image_height: "200px"
-  image: "images/publications/mgh_snap.jpg"
-  image_height: "200px"
-
+  images:
+  - path: "images/publications/Sci_Cover.jpg"
+    height: "200px"
+  - path: "images/publications/mgh_snap.jpg"
+    height: "200px"
+    
 - year: "2021"
   title: "Poly(catecholamine) Coated CsPbBr3 Perovskite Microlasers: Lasing in Water and Biofunctionalization"
   authors: "<strong><em>S. Cho</em></strong>, S. H. Yun."
