@@ -47,6 +47,7 @@
 - date: "09.22.2025"
   headline: 'Professor Cho received the <a href="https://reporter.nih.gov/search/73sh_S5jvECDPVpo8TEW6Q/project-details/11112601" target="_blank">K25 Research Grant</a> from the National Cancer Institute.'
   image: "images/newspic/NCI.png"
+  width: "200px"
   link: "/news/"
 
 - date: "08.2025"
