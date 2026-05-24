@@ -1,12 +1,12 @@
 - name: Sangyeon (Fred) Cho, Ph.D.
-  photo: cho_headshot.jpg
+  photo: headshot_cho.jpg
   info: Principal Investigator
   email: scho1105 at rice.edu
   number_educ: 5
   education1: "Assistant Professor, Bioengineering, Rice University"
-  education2: "Assistant Professor, Mass. General Hospital and Harvard Medical School (2026)"
-  education3: "Postdoctoral Fellow, Mass. General Hospital and Harvard Medical School (2023)"
-  education4: "Ph.D. in Medical Engineering and Medical Physics, MIT (2019)"
+  education2: "Assistant Professor, Massachusetts General Hospital and Harvard Medical School (2026)"
+  education3: "Postdoctoral Fellow, Massachusetts General Hospital and Harvard Medical School (2023)"
+  education4: "Ph.D. in Medical Engineering and Medical Physics, Harvard-MIT Health Sciences and Technology (2019)"
   education5: "B.S. in Chemistry, KAIST (2014)"
 
 - name: Xiao Cheng, Ph.D.
@@ -22,28 +22,28 @@
   email:
   number_educ: 2
   education1: "M.S. in Biomedical Engineering, Brown University (2019)"
-  education1: "B.S. in Biomedical Engineering, Columbia University (2017)"
+  education2: "B.S. in Biomedical Engineering, Columbia University (2017)"
 
 - name: Toby Chen
   photo: toby_chen.jpg
   info: Undergraduate Researcher
   email:
   number_educ: 1
-  education1: "Biomedical Engineering, and Comparative Literature, Harvard University ’29"
+  education1: "Biomedical Engineering and Comparative Literature, Harvard University ’29"
 
 - name: Daniel Choi
   photo: daniel_choi.jpg
   info: Undergraduate Researcher
   email:
   number_educ: 1
-  education1: "Physics and Math, Harvard University’29"
+  education1: "Physics and Mathematics, Harvard University ’29"
 
 - name: Jada Kim
   photo: jada_kim.jpg
   info: Undergraduate Researcher
   email:
   number_educ: 1
-  education1: "Human Developmental, and Regenerative Biology & Applied Mathematics, Harvard University ’29"
+  education1: "Human Developmental and Regenerative Biology & Applied Mathematics, Harvard University ’29"
 
 - name: Mark Prainito
   photo: mark_prainito.jpg
