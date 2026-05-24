@@ -68,18 +68,18 @@ permalink: /publications/
 </p>
 
 {% if pub.images %}
-<div class="publication-images" style="margin-top: 12px; display: flex; gap: 14px; align-items: flex-start; flex-wrap: wrap;">
+<div class="publication-images" style="margin-top: 6px; display: flex; gap: 14px; align-items: flex-start; flex-wrap: wrap;">
 {% for img in pub.images %}
 <img src="{{ site.url }}{{ site.baseurl }}/{{ img.path }}"
      alt="Publication image"
-     style="height: {{ img.height | default: '160px' }}; width: auto; max-width: {{ img.width | default: '320px' }}; object-fit: contain; border-radius: 4px;">
+     style="height: {{ img.height | default: pub.image_height | default: '160px' }}; width: auto; max-width: {{ img.width | default: pub.image_width | default: '420px' }}; object-fit: contain; border-radius: 4px;">
 {% endfor %}
 </div>
 {% elsif pub.image %}
-<div class="publication-image" style="margin-top: 12px;">
+<div class="publication-image" style="margin-top: 6px;">
 <img src="{{ site.url }}{{ site.baseurl }}/{{ pub.image }}"
      alt="Publication image"
-     style="height: {{ pub.image_height | default: '160px' }}; width: auto; max-width: {{ pub.image_width | default: '320px' }}; object-fit: contain; border-radius: 4px;">
+     style="height: {{ pub.image_height | default: '160px' }}; width: auto; max-width: {{ pub.image_width | default: '420px' }}; object-fit: contain; border-radius: 4px;">
 </div>
 {% endif %}
 
