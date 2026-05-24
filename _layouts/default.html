@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   {% include head.html %}
 
@@ -7,13 +7,15 @@
 
     {% include header.html %}
 
-    <div class="container-fluid">
-      <div class="row">
-        {{ content }}
-      </div>
-    </div>
+    <main class="page-content" aria-label="Content">
+      {{ content }}
+    </main>
 
     {% include footer.html %}
+
+    <!-- JavaScript for mobile navigation -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
 
   </body>
 
