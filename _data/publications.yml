@@ -81,9 +81,15 @@
   authors: "S. Cho, Y. Yang, M. Soljačić, S. H. Yun."
   journal_name: "Science Advances"
   journal_info: "7, eabf3362."
-  link: "https://www.science.org/doi/10.1126/sciadv.abf3362"
+  link: "https://www.science.org/doi/full/10.1126/sciadv.abf3362"
   pdf: "papers/cho_sciadv_2021.pdf"
-
+  extra_links:
+    - label: "Arxiv Preprint"
+      url: "https://arxiv.org/abs/2007.09265?fbclid=IwAR0orE-kNQIHSzgQkfqOCWUHd8qAkdbCUzQoiFci6Yqq8pdtH3t4vIAUi4w"
+    - label: "Online banner paper"
+    - label: "Highlighted in MGH Snapshot of Science"
+      url: "https://www.massgeneral.org/research/news/newsletters/snapshotscience/sept-2021"
+  
 - year: "2021"
   title: "Poly(catecholamine) Coated CsPbBr3 Perovskite Microlasers: Lasing in Water and Biofunctionalization"
   authors: "S. Cho, S. H. Yun."
