@@ -28,9 +28,8 @@ permalink: /publications/
 
 {% assign number = total | minus: forloop.index0 %}
 
-<div class="publication-item" style="display: flex; gap: 22px; align-items: flex-start; justify-content: space-between; margin-bottom: 34px;">
+<div class="publication-item" style="margin-bottom: 36px;">
 
-<div class="publication-text" style="flex: 1; min-width: 0;">
 <p style="margin: 0;">
 <strong>{{ number }}.
 {% if pub.link %}
@@ -67,13 +66,12 @@ permalink: /publications/
 {% endfor %}
 {% endif %}
 </p>
-</div>
 
 {% if pub.image %}
-<div class="publication-image" style="flex: 0 0 auto; margin-left: 15px;">
+<div class="publication-image" style="margin-top: 12px;">
 <img src="{{ site.url }}{{ site.baseurl }}/{{ pub.image }}"
      alt="Publication image"
-     style="height: {{ pub.image_height | default: '150px' }}; width: auto; max-width: {{ pub.image_width | default: '180px' }}; object-fit: contain; border-radius: 4px;">
+     style="height: {{ pub.image_height | default: '160px' }}; width: auto; max-width: {{ pub.image_width | default: '280px' }}; object-fit: contain; border-radius: 4px;">
 </div>
 {% endif %}
 
