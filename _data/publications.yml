@@ -20,24 +20,34 @@
       url: "https://arxiv.org/abs/2507.08180"
     - label: "Journal Front Cover"
       url: "https://pubs.acs.org/toc/apchd5/13/9"
-
+      
 - year: "2025"
   title: "Half-Wave Nanolasers and Intracellular Plasmonic Lasing Particles"
   authors: "S. Cho, N. Martino, S. H. Yun."
   journal_name: "Nature Nanotechnology"
   journal_info: "20, 404–410."
-  link: "https://www.nature.com/articles/s41565-024-01837-3"
+  link: "https://www.nature.com/articles/s41565-024-01843-7"
   pdf: "papers/cho_natnano_2025.pdf"
   extra_links:
-    - label: "MGB Research Highlight"
-      url: "https://mgriblog.org/"
-
+    - label: "Arxiv Preprint"
+      url: "https://arxiv.org/abs/2310.08742"
+    - label: 'MGH Bench Press: "The Path To Creating the World’s Smallest Laser Light Show, and How Researchers Are Using It to Track Cancer Cells"'
+      url: "https://mgriblog.org/2025/05/02/worlds-smallest-laser/"
+    - label: "Highlighted in MGH Snapshot of Science"
+      url: "https://mgriblog.org/2025/02/05/snapshot-of-science-mass-generals-high-impact-research-publications-for-january-2025/"
+    - label: "BRIC Interview"
+      url: "https://www.ibric.org/bric/hanbitsa/han-interview.do?mode=view&id=95716&authorId=47545#!/list"
+      
 - year: "2025"
   title: "Wideband Tuning and Deep-Tissue Spectral Detection of Indium Phosphide Nano-Laser Particles"
   authors: "S. Cho<sup>*</sup>, W. Moon<sup>*</sup>, N. Martino, S. H. Yun."
   journal_name: "Advanced Materials"
   journal_info: "202418710."
+  link: "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202418710"
   pdf: "papers/cho_advmat_2025.pdf"
+  extra_links:
+    - label: "bioRxiv Preprint"
+      url: "https://www.biorxiv.org/content/10.1101/2024.11.29.626128v1"
 
 - year: "2025"
   title: "Noble Metal Coating on Perovskite Microcrystals for Robust and Plasmonic Lasing Applications"
