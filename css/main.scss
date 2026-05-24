@@ -414,3 +414,13 @@ firstp {
     text-align: left;
   }
 }
+/* Bootstrap mobile menu fallback */
+@media screen and (max-width: 767px) {
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+
+  .navbar-collapse.collapse.in {
+    display: block !important;
+  }
+}
