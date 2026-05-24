@@ -12,7 +12,7 @@ img {
 
 /* Body spacing below fixed navbar */
 body {
-  padding-top: 80px;
+  padding-top: 100px;
 }
 
 /* Figure captions */
@@ -24,15 +24,17 @@ figcaption {
 
 /* Top navigation bar */
 .navbar {
-  min-height: 60px;
+  min-height: 80px;
   background-color: #ffffff;
   border: none;
   border-bottom: 1px solid #e5e5e5;
   box-shadow: none;
 }
 
-/* Navbar width aligned with page content */
-.navbar-container {
+/* Main / navbar / footer shared width */
+.navbar-container,
+.container-fluid,
+.footer-container {
   max-width: 1280px;
   width: calc(100% - 80px);
   margin-left: auto;
@@ -41,23 +43,23 @@ figcaption {
 
 /* Header height */
 .navbar-header {
-  height: 60px;
+  height: 80px;
 }
 
 /* Logo container */
 .logo-brand {
-  height: 60px !important;
-  padding: 8px 0 !important;
+  height: 80px !important;
+  padding: 0 !important;
   display: flex !important;
   align-items: center !important;
 }
 
-/* Logo automatically fits header height */
+/* Logo size */
 .logo-brand .navbar-logo {
-  height: 100% !important;
-  max-height: 44px !important;
+  height: 64px !important;
   width: auto !important;
-  max-width: 220px !important;
+  max-height: none !important;
+  max-width: none !important;
   object-fit: contain !important;
 
   margin: 0 !important;
@@ -69,8 +71,8 @@ figcaption {
 
 /* Navbar menu vertical alignment */
 .navbar-nav > li > a {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* Text utilities */
@@ -87,14 +89,6 @@ pubtit {
 }
 
 firstp {
-}
-
-/* Main page width aligned with navbar */
-.container-fluid {
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 1280px;
-  width: calc(100% - 80px);
 }
 
 /* Home, News */
@@ -119,9 +113,9 @@ firstp {
 }
 
 #homeid img {
-  margin: 0 0 0 0;
+  margin: 0;
   border-radius: 5%;
-  box-shadow: 0px 0px 0px #888888;
+  box-shadow: none;
 }
 
 #picid img {
@@ -155,82 +149,65 @@ firstp {
   padding-right: 26px;
 }
 
-/* Carousel */
-.carousel {
-  border-radius: 3px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  margin-left: 30px;
-  margin-right: 30px;
+/* Home carousel size override */
+#homeid #carouselExample {
+  width: 100% !important;
+  max-width: 650px !important;
+  margin: 24px auto 8px auto !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
 }
 
-/* Mobile */
-@media (max-width: 768px) {
-  body {
-    padding-top: 70px;
-  }
-
-  .navbar-container,
-  .container-fluid {
-    width: calc(100% - 30px);
-  }
-
-  .navbar-header {
-    height: 60px;
-  }
-
-  .logo-brand {
-    height: 60px !important;
-    padding: 10px 0 !important;
-  }
-
-  .logo-brand .navbar-logo {
-    max-height: 80px !important;
-    max-width: 300px !important;
-  }
-
-  .navbar-nav > li > a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
+#homeid #carouselExample .carousel-inner {
+  width: 100% !important;
 }
 
-/* Main / navbar / footer shared width */
-.navbar-container,
-.container-fluid,
-.footer-container {
-  max-width: 1280px;
-  width: calc(100% - 80px);
-  margin-left: auto;
-  margin-right: auto;
+#homeid #carouselExample .carousel-inner > .item > img {
+  width: 100% !important;
+  max-width: 650px !important;
+  height: 360px !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  margin: 0 auto !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+  display: block !important;
 }
 
-/* Home carousel image size */
-#homeid .carousel {
-  max-width: 400px;
-  margin: 20px auto 8px auto;
+/* Carousel controls */
+#homeid #carouselExample .carousel-control {
   border-radius: 8px;
-  overflow: hidden;
-}
-
-#homeid .carousel-inner img {
-  width: 100%;
-  height: auto;
-  max-height: 430px;
-  object-fit: cover;
-  object-position: center;
-  margin: 0;
-  border-radius: 8px;
-  box-shadow: none;
 }
 
 /* Photo credit under carousel */
 .photo-credit {
-  max-width: 900px;
-  margin: 4px auto 34px auto;
-  font-size: 12px;
-  color: #777;
-  text-align: right;
+  max-width: 650px !important;
+  margin: 4px auto 34px auto !important;
+  font-size: 12px !important;
+  color: #777 !important;
+  text-align: right !important;
+}
+
+/* Publications page */
+.publications-page h2 {
+  font-size: 30px !important;
+  margin-top: 24px !important;
+  margin-bottom: 16px !important;
+}
+
+.publications-page h2.patent-heading {
+  font-size: 30px !important;
+  margin-top: 34px !important;
+  margin-bottom: 16px !important;
+}
+
+.publication-item {
+  margin-bottom: 22px !important;
+}
+
+.publication-item p {
+  line-height: 1.32 !important;
+  margin-bottom: 0 !important;
 }
 
 /* Footer alignment */
@@ -261,22 +238,51 @@ firstp {
 
 /* Mobile */
 @media (max-width: 768px) {
+  body {
+    padding-top: 80px;
+  }
+
   .navbar-container,
   .container-fluid,
   .footer-container {
     width: calc(100% - 30px);
   }
 
-  #homeid .carousel {
-    max-width: 100%;
+  .navbar {
+    min-height: 60px;
   }
 
-  #homeid .carousel-inner img {
-    max-height: 260px;
+  .navbar-header {
+    height: 60px;
+  }
+
+  .logo-brand {
+    height: 60px !important;
+    padding: 0 !important;
+  }
+
+  .logo-brand .navbar-logo {
+    height: 42px !important;
+    max-height: none !important;
+    max-width: none !important;
+  }
+
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #homeid #carouselExample {
+    max-width: 100% !important;
+  }
+
+  #homeid #carouselExample .carousel-inner > .item > img {
+    max-width: 100% !important;
+    height: 260px !important;
   }
 
   .photo-credit {
-    max-width: 100%;
+    max-width: 100% !important;
   }
 
   .footer-container {
