@@ -10,10 +10,12 @@ permalink: /publications/
 
 [Google Scholar Citations](https://scholar.google.com/citations?hl=en&user=8RNAdMYAAAAJ)
 
-{% assign total = site.data.publist | size %}
+{% if site.data.publications and site.data.publications.size > 0 %}
+
+{% assign total = site.data.publications | size %}
 {% assign current_year = "" %}
 
-{% for pub in site.data.publist %}
+{% for pub in site.data.publications %}
 
 {% if pub.year != current_year %}
 {% assign current_year = pub.year %}
@@ -29,7 +31,7 @@ permalink: /publications/
 <div class="publication-item" style="margin-bottom: 24px;">
 
 <p>
-<strong>{{ number }}. 
+<strong>{{ number }}.
 {% if pub.link %}
 <a href="{{ pub.link }}" target="_blank">{{ pub.title }}</a>
 {% else %}
@@ -39,13 +41,23 @@ permalink: /publications/
 
 {{ pub.authors }}<br>
 
+{% if pub.journal_name %}
+<strong><em>{{ pub.journal_name }}</em></strong>{% if pub.journal_info %} <em>{{ pub.journal_info }}</em>{% endif %}
+{% else %}
 <em>{{ pub.journal }}</em>
+{% endif %}
 
 {% if pub.note %}
 <br>{{ pub.note }}
 {% endif %}
 
+{% if pub.impact_factor %}
+<br>Impact Factor: {{ pub.impact_factor }}
+{% endif %}
+
+{% if pub.pdf or pub.extra_links %}
 <br>
+{% endif %}
 
 {% if pub.pdf %}
 <a href="{{ site.url }}{{ site.baseurl }}/{{ pub.pdf }}" target="_blank">PDF</a>
@@ -53,7 +65,7 @@ permalink: /publications/
 
 {% if pub.extra_links %}
 {% for extra in pub.extra_links %}
-{% if pub.pdf %} | {% endif %}
+{% if pub.pdf or forloop.index0 > 0 %} | {% endif %}
 <a href="{{ extra.url }}" target="_blank">{{ extra.label }}</a>
 {% endfor %}
 {% endif %}
@@ -63,14 +75,23 @@ permalink: /publications/
 
 {% endfor %}
 
+{% else %}
+
+<p><strong>No publication data found.</strong></p>
+<p>Please check that the file exists at <code>_data/publications.yml</code>.</p>
+
+{% endif %}
+
 ---
 
 # US & International Patents
 
-**2. Systems and Methods for Plasmonic Lasers** S. H. Yun, S. Cho.  
+**2. Systems and Methods for Plasmonic Lasers**  
+S. H. Yun, S. Cho.  
 2024.
 
 <br>
 
-**1. Perovskite-Based Core-Shell Light-Emitting Structures and Materials, and Methods of Fabrication Thereof** S. H. Yun, S. Cho.  
+**1. Perovskite-Based Core-Shell Light-Emitting Structures and Materials, and Methods of Fabrication Thereof**  
+S. H. Yun, S. Cho.  
 2019.
