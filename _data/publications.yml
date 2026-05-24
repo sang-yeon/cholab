@@ -21,7 +21,7 @@
     - label: "Journal Front Cover"
       url: "https://pubs.acs.org/toc/apchd5/13/9"
   image: "images/publications/ACS_Photonics_Cover.jpeg"
-  image_height: "140px"
+  image_height: "200px"
   
 - year: "2025"
   title: "Half-Wave Nanolasers and Intracellular Plasmonic Lasing Particles"
@@ -91,6 +91,10 @@
     - label: "Highlighted in MGH Snapshot of Science"
       url: "https://www.massgeneral.org/research/news/newsletters/snapshotscience/sept-2021"
   note: "Online banner paper"
+  image: "images/publications/Sci_Cover.jpg"
+  image_height: "200px"
+  image: "images/publications/mgh_snap.jpg"
+  image_height: "200px"
 
 - year: "2021"
   title: "Poly(catecholamine) Coated CsPbBr3 Perovskite Microlasers: Lasing in Water and Biofunctionalization"
@@ -132,6 +136,8 @@
     - label: "Behind Story in Nature Chemistry Research Community"
       url: "https://communities.springernature.com/posts/ultrasonic-magic"
   note: "Online banner paper"
+  image: "images/publications/comm_cover.png"
+  image_height: "200px"
 
 - year: "2017"
   title: "Toward Biomaterial-Based Implantable Photonic Devices"
@@ -155,6 +161,10 @@
     - label: "Featured in APS Physics"
       url: "https://physics.aps.org/articles/v9/128"
   note: "PRL Editors' Suggestion."
+  image: "images/publications/nature_mention.png"
+  image_height: "200px"
+  image: "images/publications/HST_mention.png"
+  image_height: "200px"
 
 - year: "2013"
   title: "Simple Super-resolution Live-Cell Imaging Based on Diffusion-Assisted Förster Resonance Energy Transfer"
@@ -177,6 +187,8 @@
   extra_links:
     - label: "KAIST’s Chemistry Undergraduate Lands Cover Article in Leading International Journal"
       url: "https://news.kaist.ac.kr/news/html/news/?mode=V&mng_no=2793"
+  image: "images/publications/trend_cover.jpg"
+  image_height: "200px"
 
 - year: "2012"
   title: "Accurate Ab Initio-Based Force Field for Predictive CO2 Uptake Simulations in MOFs and ZIFs: Development and Applications for MTV-MOFs"
