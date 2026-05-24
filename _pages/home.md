@@ -18,19 +18,19 @@ Our current focus is on nanolasers, which hold transformative potential across d
   <div class="carousel-inner">
 
     <div class="item active">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/rice1.jpeg" alt="Rice image 1">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/main/rice1.jpeg" alt="Rice image 1">
     </div>
 
     <div class="item">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/rice2.jpeg" alt="Rice image 2">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/main/rice2.jpeg" alt="Rice image 2">
     </div>
 
     <div class="item">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/rice3.jpeg" alt="Rice image 3">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/main/rice3.jpeg" alt="Rice image 3">
     </div>
 
     <div class="item">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/rice4.jpeg" alt="Rice image 4">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/main/rice4.jpeg" alt="Rice image 4">
     </div>
 
   </div>
@@ -76,20 +76,4 @@ document.addEventListener("DOMContentLoaded", function() {
 
 The Cho Lab is relocating from Massachusetts General Hospital and Harvard Medical School to Rice University Bioengineering.
 
-We are looking for passionate postdoctoral fellows, graduate students, undergraduate students, and visiting researchers to join the team. Please see [Openings / Contact]({{ site.url }}{{ site.baseurl }}/openings/) for more information.
-
 <br>
-
-## News
-
-<div class="news-preview" markdown="0">
-{% for article in site.data.news limit:5 %}
-  <p style="margin-bottom: 10px;">
-    <strong>{{ article.date }}</strong> &nbsp; {{ article.headline }}
-  </p>
-{% endfor %}
-</div>
-
-<p style="text-align: right; margin-top: 15px;">
-  <a href="{{ site.url }}{{ site.baseurl }}/news/">See all news →</a>
-</p>
