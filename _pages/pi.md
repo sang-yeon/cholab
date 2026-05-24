@@ -6,25 +6,29 @@ sitemap: false
 permalink: /pi/
 ---
 
-<h1 style="font-size: 28px; font-weight: 500; margin-bottom: 28px;">Principal Investigator</h1>
+<h1 style="font-size: 42px; font-weight: 500; margin-bottom: 28px;">Principal Investigator</h1>
 
-<div style="display: flex; gap: 28px; align-items: flex-start; flex-wrap: wrap; margin-top: 20px;">
+<div style="display: flex; gap: 36px; align-items: flex-start; flex-wrap: wrap; margin-top: 20px;">
 
 {% if site.data.pi.photo %}
 <div style="flex: 0 0 auto;">
 <img src="{{ site.url }}{{ site.baseurl }}/{{ site.data.pi.photo }}"
      alt="{{ site.data.pi.name }}"
-     style="width: {{ site.data.pi.photo_width | default: '260px' }}; height: auto; border-radius: 6px;">
+     style="width: {{ site.data.pi.photo_width | default: '260px' }}; height: auto; border-radius: 6px; display: block;">
 </div>
 {% endif %}
 
-<div style="flex: 1; min-width: 280px;">
+<div style="flex: 1; min-width: 280px; padding-top: 0;">
 
-<h2 style="font-size: 28px; font-weight: 500; margin-top: 0;">{{ site.data.pi.name }}</h2>
+<h2 style="font-size: 42px; font-weight: 500; margin-top: -8px; margin-bottom: 18px;">
+{{ site.data.pi.name }}
+</h2>
 
 **{{ site.data.pi.title }}**  
 {{ site.data.pi.department }}  
 {{ site.data.pi.institution }}
+
+<br>
 
 Email: {{ site.data.pi.email }}  
 Office: {{ site.data.pi.office }}
@@ -42,10 +46,21 @@ Office: {{ site.data.pi.office }}
 
 ---
 
-<h2 style="font-size: 28px; font-weight: 500;">Previous Employment and Education</h2>
+<h2 style="font-size: 34px; font-weight: 500;">Biography</h2>
+
+{{ site.data.pi.bio | markdownify }}
+
+---
+
+<h2 style="font-size: 34px; font-weight: 500;">Previous Employment and Education</h2>
 
 {% for item in site.data.pi.previous_positions %}
 **{{ item.year }}** &nbsp;&nbsp; {{ item.text }}  
+{% if item.note %}
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ item.note }}
+{% endif %}
+<br>
 {% endfor %}
 
 {% if site.data.pi.thesis_committee %}
@@ -59,7 +74,7 @@ Office: {{ site.data.pi.office }}
 
 ---
 
-<h2 style="font-size: 28px; font-weight: 500;">Selected Awards and Honors</h2>
+<h2 style="font-size: 34px; font-weight: 500;">Selected Awards and Honors</h2>
 
 {% for award in site.data.pi.awards %}
 **{{ award.year }}** &nbsp;&nbsp; {{ award.text }}  
