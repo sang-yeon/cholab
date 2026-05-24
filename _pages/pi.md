@@ -6,7 +6,7 @@ sitemap: false
 permalink: /pi/
 ---
 
-# Principal Investigator
+<h1 style="font-size: 42px; font-weight: 500; margin-bottom: 28px;">Principal Investigator</h1>
 
 <div style="display: flex; gap: 28px; align-items: flex-start; flex-wrap: wrap; margin-top: 20px;">
 
@@ -20,7 +20,7 @@ permalink: /pi/
 
 <div style="flex: 1; min-width: 280px;">
 
-## {{ site.data.pi.name }}
+<h2 style="font-size: 34px; font-weight: 500; margin-top: 0;">{{ site.data.pi.name }}</h2>
 
 **{{ site.data.pi.title }}**  
 {{ site.data.pi.department }}  
@@ -42,13 +42,13 @@ Office: {{ site.data.pi.office }}
 
 ---
 
-## Biography
+<h2 style="font-size: 34px; font-weight: 500;">Biography</h2>
 
 {{ site.data.pi.bio | markdownify }}
 
 ---
 
-## Previous Employment and Education
+<h2 style="font-size: 34px; font-weight: 500;">Previous Employment and Education</h2>
 
 {% for item in site.data.pi.previous_positions %}
 **{{ item.year }}** &nbsp;&nbsp; {{ item.text }}  
@@ -65,7 +65,7 @@ Office: {{ site.data.pi.office }}
 
 ---
 
-## Selected Awards and Honors
+<h2 style="font-size: 34px; font-weight: 500;">Selected Awards and Honors</h2>
 
 {% for award in site.data.pi.awards %}
 **{{ award.year }}** &nbsp;&nbsp; {{ award.text }}  
