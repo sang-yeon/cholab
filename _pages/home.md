@@ -34,23 +34,3 @@ Our research brings together nanophotonics, bioengineering, optical microscopy, 
   </a>
 </div>
 
-<br>
-
-The Cho Lab is relocating from Massachusetts General Hospital and Harvard Medical School to Rice University Bioengineering. 
-We are looking for passionate postdoctoral fellows, graduate students, undergraduate students, and visiting researchers to join the team. Please see [Openings / Contact]({{ site.url }}{{ site.baseurl }}/openings/) for more information.
-
-<br>
-
-## News
-
-<div class="news-preview" markdown="0">
-{% for article in site.data.news limit:5 %}
-  <p style="margin-bottom: 10px;">
-    <strong>{{ article.date }}</strong> &nbsp; {{ article.headline }}
-  </p>
-{% endfor %}
-</div>
-
-<p style="text-align: right; margin-top: 15px;">
-  <a href="{{ site.url }}{{ site.baseurl }}/news/">See all news →</a>
-</p>
