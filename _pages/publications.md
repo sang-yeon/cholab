@@ -78,7 +78,7 @@ permalink: /publications/
 {% else %}
 
 <p><strong>No publication data found.</strong></p>
-<p>Please check that the file exists at <code>_data/publication.yml</code>.</p>
+<p>Please check that the file exists at <code>_data/publications.yml</code>.</p>
 
 {% endif %}
 
