@@ -1,11 +1,12 @@
-
 <div class="well">
-<h4>News</h4>
+  <h4>Latest Updates</h4>
 
-{% for article in site.data.news limit:9 %}
-<p>{{ article.date }}<br>{{ article.headline | markdownify}}</p>
-{% endfor %}
+  <a class="twitter-timeline"
+     data-height="650"
+     data-theme="light"
+     href="https://twitter.com/Cholab_Rice">
+     Posts by @Cholab_Rice
+  </a>
 
-<h4><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all News</a></h4>
-
-    </div>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
