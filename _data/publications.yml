@@ -95,7 +95,7 @@
   images:
   - path: "images/publications/Sci_Cover.jpg"
     height: "200px"
-  - path: "images/publications/mgh_snap.jpg"
+  - path: "images/publications/mgh_snap.png"
     height: "200px"
     
 - year: "2021"
