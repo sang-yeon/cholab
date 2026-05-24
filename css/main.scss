@@ -75,6 +75,14 @@ figcaption {
   padding-bottom: 30px;
 }
 
+/* Home title */
+#homeid h1 {
+  font-size: 38px !important;
+  line-height: 1.15 !important;
+  margin-top: 20px !important;
+  margin-bottom: 22px !important;
+}
+
 /* Text utilities */
 p.byline {
   text-align: center;
@@ -149,48 +157,62 @@ firstp {
   padding-right: 26px;
 }
 
+/* Home carousel wrapper */
+#homeid .home-carousel-wrapper {
+  width: 100% !important;
+  max-width: 720px !important;
+  margin: 28px auto 34px auto !important;
+}
+
 /* Home carousel */
 #homeid #carouselExample {
   width: 100% !important;
-  max-width: 760px !important;
-  margin: 24px auto 4px auto !important;
-  border-radius: 8px !important;
+  max-width: 720px !important;
+  height: 390px !important;
+  margin: 0 auto !important;
+  border-radius: 16px !important;
   overflow: hidden !important;
   background: #ffffff !important;
 }
 
-#homeid #carouselExample .carousel-inner {
-  width: 100% !important;
+/* Hide carousel arrows */
+#homeid #carouselExample .carousel-control {
+  display: none !important;
 }
 
+/* Carousel inner */
+#homeid #carouselExample .carousel-inner {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Carousel item */
 #homeid #carouselExample .carousel-inner > .item {
   width: 100% !important;
+  height: 100% !important;
   text-align: center !important;
   background: #ffffff !important;
 }
 
+/* Carousel images: horizontal crop */
 #homeid #carouselExample .carousel-inner > .item > img {
   width: 100% !important;
-  max-width: 760px !important;
-  height: auto !important;
-  max-height: 520px !important;
-  object-fit: contain !important;
+  height: 100% !important;
+  max-width: none !important;
+  max-height: none !important;
+  object-fit: cover !important;
   object-position: center !important;
   margin: 0 auto !important;
-  border-radius: 8px !important;
+  border-radius: 16px !important;
   box-shadow: none !important;
   display: block !important;
 }
 
-/* Carousel controls */
-#homeid #carouselExample .carousel-control {
-  border-radius: 8px;
-}
-
-/* Photo credit under carousel */
-.photo-credit {
-  max-width: 760px !important;
-  margin: 6px auto 34px auto !important;
+/* Photo credit directly under carousel */
+#homeid .photo-credit {
+  width: 100% !important;
+  max-width: 720px !important;
+  margin: 6px auto 0 auto !important;
   font-size: 12px !important;
   color: #777 !important;
   text-align: right !important;
@@ -282,22 +304,29 @@ firstp {
     padding-bottom: 10px;
   }
 
+  #homeid h1 {
+    font-size: 30px !important;
+    line-height: 1.18 !important;
+  }
+
+  #homeid .home-carousel-wrapper {
+    max-width: 100% !important;
+    margin: 22px auto 30px auto !important;
+  }
+
   #homeid #carouselExample {
     max-width: 100% !important;
-    margin: 18px auto 4px auto !important;
+    height: 260px !important;
+    border-radius: 12px !important;
   }
 
   #homeid #carouselExample .carousel-inner > .item > img {
-    width: 100% !important;
-    max-width: 100% !important;
-    height: auto !important;
-    max-height: 360px !important;
-    object-fit: contain !important;
+    border-radius: 12px !important;
   }
 
-  .photo-credit {
+  #homeid .photo-credit {
     max-width: 100% !important;
-    margin: 6px auto 28px auto !important;
+    margin: 6px auto 0 auto !important;
   }
 
   .footer-container {
@@ -305,11 +334,4 @@ firstp {
     align-items: flex-start;
     gap: 12px;
   }
-}
-
-/* Home title size */
-#homeid h1 {
-  font-size: 36px !important;
-  line-height: 1.18 !important;
-  margin-bottom: 22px !important;
 }
