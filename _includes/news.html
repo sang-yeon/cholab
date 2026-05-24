@@ -1,15 +1,39 @@
 <div class="well">
   <h4>Latest Updates</h4>
 
-  <ul style="padding-left: 1.2em; margin-bottom: 1em; font-size: 0.95em;">
-    <li><strong>May 2026:</strong> Cho Lab website launched</li>
-    <li><strong>Jul 2026:</strong> Lab opens at Rice Bioengineering</li>
-    <li><strong>Now recruiting:</strong> postdocs, grad students, undergrads</li>
-  </ul>
-
-  <p style="margin-top: 1em;">
-    <a href="https://twitter.com/Cholab_Rice" target="_blank" rel="noopener">
-      Follow <strong>@Cholab_Rice</strong> on X →
-    </a>
+  <p style="margin-bottom: 18px;">
+    <strong>Now recruiting:</strong>
+    postdocs, graduate students, and undergraduates.
+    <br>
+    <a href="{{ site.url }}{{ site.baseurl }}/openings/">Openings / Contact →</a>
   </p>
+
+  <hr style="margin: 18px 0;">
+
+  <h4>News</h4>
+
+  {% for article in site.data.news limit:2 %}
+  <p style="margin-bottom: 14px;">
+    <strong>{{ article.date }}</strong><br>
+    {{ article.headline | markdownify }}
+  </p>
+  {% endfor %}
+
+  <p style="margin-top: 8px; margin-bottom: 20px;">
+    <a href="{{ site.url }}{{ site.baseurl }}/news/">See more news →</a>
+  </p>
+
+  <hr style="margin: 20px 0;">
+
+  <h4>Follow on X</h4>
+
+  <a class="twitter-timeline"
+     href="https://twitter.com/Cholab_Rice?ref_src=twsrc%5Etfw"
+     data-height="500"
+     data-theme="light"
+     data-chrome="nofooter noborders">
+     Tweets by Cholab_Rice
+  </a>
+
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
