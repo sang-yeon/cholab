@@ -163,10 +163,11 @@
     - label: "Featured in APS Physics"
       url: "https://physics.aps.org/articles/v9/128"
   note: "PRL Editors' Suggestion."
-  image: "images/publications/nature_mention.png"
-  image_height: "200px"
-  image: "images/publications/HST_mention.png"
-  image_height: "200px"
+  images:
+  - path: "images/publications/nature_mention.png"
+    height: "200px"
+  - path: "mages/publications/HST_mention.png"
+    height: "200px"
 
 - year: "2013"
   title: "Simple Super-resolution Live-Cell Imaging Based on Diffusion-Assisted Förster Resonance Energy Transfer"
