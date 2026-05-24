@@ -153,3 +153,33 @@ body {
     padding-bottom: 10px;
   }
 }
+
+/* Body spacing under fixed navbar */
+body {
+  padding-top: 90px;
+}
+
+/* Main content width aligned with navbar */
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1280px;
+  width: calc(100% - 80px);
+}
+
+@media (max-width: 768px) {
+  .navbar-container,
+  .container-fluid {
+    width: calc(100% - 30px);
+  }
+
+  .logo-brand .navbar-logo {
+    height: 34px !important;
+    max-width: 140px !important;
+  }
+
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
