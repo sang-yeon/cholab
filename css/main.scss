@@ -272,18 +272,18 @@ firstp {
     padding-bottom: 10px;
   }
 
-  #homeid #carouselExample {
-    max-width: 100% !important;
-  }
+#homeid #carouselExample {
+  max-width: 450px !important;
+}
 
-  #homeid #carouselExample .carousel-inner > .item > img {
-    max-width: 100% !important;
-    height: 260px !important;
-  }
+#homeid #carouselExample .carousel-inner > .item > img {
+  max-width: 450px !important;
+  height: 300px !important;
+}
 
-  .photo-credit {
-    max-width: 100% !important;
-  }
+.photo-credit {
+  max-width: 450px !important;
+}
 
   .footer-container {
     flex-direction: column;
