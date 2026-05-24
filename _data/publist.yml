@@ -12,11 +12,14 @@
   title: "Air-Stable Room-Temperature Quasi-2D Tin Iodide Perovskite Microlasers"
   authors: "S. Cho*, W. Shao*, J. Kim, L. Dou+, S. H. Yun+."
   journal: "ACS Photonics 13, 2367–2374."
-  link: "https://pubs.acs.org/doi/10.1021/acsphotonics.6c00788"
+  link: "https://pubs.acs.org/doi/10.1021/acsphotonics.5c02285"
   pdf: "papers/cho_acsphotonics_2026.pdf"
   extra_links:
     - label: "Journal Front Cover"
       url: "https://pubs.acs.org/toc/apchd5/13/9"
+  extra_links:
+    - label: "Arxiv Preprint"
+      url: "https://arxiv.org/abs/2507.08180"
 
 - year: "2025"
   title: "Half-Wave Nanolasers and Intracellular Plasmonic Lasing Particles"
