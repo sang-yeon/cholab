@@ -9,15 +9,7 @@ permalink: /team/
 <div style="font-size: 17px; line-height: 1.65; margin-bottom: 34px; max-width: 950px;">
 
 <p>
-We are a group of passionate researchers dedicated to developing creative tools that make a positive impact on the world. In our lab, we support each other, grow together, and celebrate the joy of research as a team. We believe that solving interesting and important problems is best done together—with openness, respect, and a spirit of discovery.
-</p>
-
-<p>
-Your happiness and success as a scientist and engineer are our team’s priority. We are committed to creating an environment where you can thrive, both personally and professionally.
-</p>
-
-<p>
-<strong>We are looking for motivated PhD students, postdocs, master’s students, and undergraduate researchers to join the team</strong> <a href="{{ site.url }}{{ site.baseurl }}/openings/">see openings</a><strong>!</strong>
+The Cho Lab is a collaborative team dedicated to developing creative tools that advance science and benefit society. We value openness, respect, curiosity, and the joy of discovery. Our priority is to help every lab member grow, succeed, and thrive as a scientist, engineer, and person.
 </p>
 
 </div>
