@@ -6,9 +6,7 @@ sitemap: false
 permalink: /research/
 ---
 
-# Research
-
-<div style="text-align: center; margin-bottom: 30px;">
+<div style="text-align: center; margin-top: 10px; margin-bottom: 30px;">
 <h1 style="font-weight: 700;">{{ site.data.research.title }}</h1>
 </div>
 
