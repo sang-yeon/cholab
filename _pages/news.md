@@ -6,8 +6,6 @@ sitemap: false
 permalink: /news/
 ---
 
-# News
-
 <div class="news-list">
 {% for article in site.data.news %}
 <div class="news-item" style="margin-bottom: 35px;">
