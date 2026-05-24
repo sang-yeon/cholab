@@ -6,11 +6,9 @@ sitemap: false
 permalink: /
 ---
 
-# Welcome to the Cho Lab
+# Welcome to the Creative Nanobiophotonics Laboratory
 
-**Creative Nanobiophotonics Laboratory**  
-
-We are trailblazers on a mission to drive medicine and photonics forward in service of humanity.
+We are trailblazers on a mission to drive medicine and photonics forward in the service of humanity.
 
 Our current focus is on nanolasers, which hold transformative potential across diverse fields—from high-performance photonic devices to advanced medical discoveries—through their coherence, speed-of-light operation, and multiplexing capability.
 
