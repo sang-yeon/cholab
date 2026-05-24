@@ -1,25 +1,35 @@
-<header class="site-header">
-  <div class="site-header-inner">
-    <a class="site-title" href="{{ '/' | relative_url }}">The Cho Lab</a>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid navbar-container">
 
-    <button class="nav-toggle"
-            type="button"
-            aria-label="Toggle navigation"
-            aria-expanded="false"
-            aria-controls="site-nav-menu">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
+    <div class="navbar-header">
+      <button type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
 
-    <nav class="site-nav" id="site-nav-menu">
-      <a href="{{ '/' | relative_url }}">Home</a>
-      <a href="{{ '/research/' | relative_url }}">Research</a>
-      <a href="{{ '/pi/' | relative_url }}">PI</a>
-      <a href="{{ '/team/' | relative_url }}">Team</a>
-      <a href="{{ '/publications/' | relative_url }}">Publications</a>
-      <a href="{{ '/news/' | relative_url }}">News</a>
-      <a href="{{ '/openings/' | relative_url }}">Openings / Contact</a>
-    </nav>
+      <a class="navbar-brand logo-brand" href="{{ site.url }}{{ site.baseurl }}/">
+        <img class="navbar-logo"
+             src="{{ site.url }}{{ site.baseurl }}/images/logo/cholab_logo_tran_cropped.png"
+             alt="Cho Lab">
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="{{ site.url }}{{ site.baseurl }}/">Home</a></li>
+        <li><a href="{{ site.url }}{{ site.baseurl }}/research/">Research</a></li>
+        <li><a href="{{ site.url }}{{ site.baseurl }}/pi/">PI</a></li>
+        <li><a href="{{ site.url }}{{ site.baseurl }}/team/">Team</a></li>
+        <li><a href="{{ site.url }}{{ site.baseurl }}/publications/">Publications</a></li>
+        <li><a href="{{ site.url }}{{ site.baseurl }}/news/">News</a></li>
+        <li><a href="{{ site.url }}{{ site.baseurl }}/openings/">Openings / Contact</a></li>
+      </ul>
+    </div>
+
   </div>
-</header>
+</nav>
