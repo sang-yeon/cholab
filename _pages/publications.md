@@ -29,60 +29,43 @@ permalink: /publications/
 {% assign number = total | minus: forloop.index0 %}
 
 <div class="publication-item" style="display: flex; gap: 18px; align-items: flex-start; margin-bottom: 30px;">
-
-  {% if pub.image %}
-  <div class="publication-image" style="flex: 0 0 auto;">
-    <img src="{{ site.url }}{{ site.baseurl }}/{{ pub.image }}"
-         alt="Publication image"
-         style="width: {{ pub.image_width | default: '150px' }}; max-width: 100%; height: auto; border-radius: 4px;">
-  </div>
-  {% endif %}
-
-  <div class="publication-text" style="flex: 1; min-width: 0;">
-
-    <p style="margin: 0;">
-      <strong>{{ number }}.
-      {% if pub.link %}
-      <a href="{{ pub.link }}" target="_blank">{{ pub.title }}</a>
-      {% else %}
-      {{ pub.title }}
-      {% endif %}
-      </strong><br>
-
-      {{ pub.authors }}<br>
-
-      {% if pub.journal_name %}
-      <strong><em>{{ pub.journal_name }}</em></strong>{% if pub.journal_info %} <em>{{ pub.journal_info }}</em>{% endif %}
-      {% else %}
-      <em>{{ pub.journal }}</em>
-      {% endif %}
-
-      {% if pub.note %}
-      <br>{{ pub.note }}
-      {% endif %}
-
-      {% if pub.impact_factor %}
-      <br><span style="font-size: 0.9em;">{{ pub.impact_factor }}</span>
-      {% endif %}
-
-      {% if pub.pdf or pub.extra_links %}
-      <br>
-      {% endif %}
-
-      {% if pub.pdf %}
-      <a href="{{ site.url }}{{ site.baseurl }}/{{ pub.pdf }}" target="_blank">PDF</a>
-      {% endif %}
-
-      {% if pub.extra_links %}
-      {% for extra in pub.extra_links %}
-      {% if pub.pdf or forloop.index0 > 0 %} | {% endif %}
-      <a href="{{ extra.url }}" target="_blank">{{ extra.label }}</a>
-      {% endfor %}
-      {% endif %}
-    </p>
-
-  </div>
-
+{% if pub.image %}
+<div class="publication-image" style="flex: 0 0 auto;">
+<img src="{{ site.url }}{{ site.baseurl }}/{{ pub.image }}" alt="Publication image" style="height: {{ pub.image_height | default: '120px' }}; width: auto; max-width: {{ pub.image_width | default: '180px' }}; object-fit: contain; border-radius: 4px;">
+</div>
+{% endif %}
+<div class="publication-text" style="flex: 1; min-width: 0;">
+<p style="margin: 0;">
+<strong>{{ number }}.
+{% if pub.link %}
+<a href="{{ pub.link }}" target="_blank">{{ pub.title }}</a>
+{% else %}
+{{ pub.title }}
+{% endif %}
+</strong><br>
+{{ pub.authors }}<br>
+{% if pub.journal_name %}
+<strong><em>{{ pub.journal_name }}</em></strong>{% if pub.journal_info %} <em>{{ pub.journal_info }}</em>{% endif %}
+{% else %}
+<em>{{ pub.journal }}</em>
+{% endif %}
+{% if pub.note %}
+<br>{{ pub.note }}
+{% endif %}
+{% if pub.pdf or pub.extra_links %}
+<br>
+{% endif %}
+{% if pub.pdf %}
+<a href="{{ site.url }}{{ site.baseurl }}/{{ pub.pdf }}" target="_blank">PDF</a>
+{% endif %}
+{% if pub.extra_links %}
+{% for extra in pub.extra_links %}
+{% if pub.pdf or forloop.index0 > 0 %} | {% endif %}
+<a href="{{ extra.url }}" target="_blank">{{ extra.label }}</a>
+{% endfor %}
+{% endif %}
+</p>
+</div>
 </div>
 
 {% endfor %}
