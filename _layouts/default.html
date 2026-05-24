@@ -17,16 +17,32 @@
 
     <script>
       document.addEventListener("DOMContentLoaded", function () {
-        var nav = document.querySelector(".site-nav");
-        var trigger = document.querySelector(".site-nav .trigger");
-        var menuIcon = document.querySelector(".site-nav .menu-icon");
+        var button = document.querySelector(".navbar-toggle");
 
-        if (nav && trigger && menuIcon) {
-          menuIcon.addEventListener("click", function (e) {
-            e.preventDefault();
-            nav.classList.toggle("nav-open");
-          });
-        }
+        if (!button) return;
+
+        button.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          var targetSelector = button.getAttribute("data-target");
+          var target = null;
+
+          if (targetSelector) {
+            target = document.querySelector(targetSelector);
+          }
+
+          if (!target) {
+            target = document.querySelector(".navbar-collapse");
+          }
+
+          if (!target) return;
+
+          target.classList.toggle("in");
+          button.classList.toggle("collapsed");
+
+          var expanded = button.getAttribute("aria-expanded") === "true";
+          button.setAttribute("aria-expanded", expanded ? "false" : "true");
+        });
       });
     </script>
 
