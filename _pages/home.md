@@ -12,7 +12,13 @@ We are trailblazers on a mission to drive medicine and photonics forward in the 
 
 Our current focus is on nanolasers, which hold transformative potential across diverse fields—from high-performance photonic devices to advanced medical discoveries—through their coherence, speed-of-light operation, and multiplexing capability.
 
-<div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="hover" markdown="0">
+<div id="carouselExample"
+     class="carousel slide"
+     data-ride="carousel"
+     data-interval="3000"
+     data-pause="hover"
+     markdown="0">
+
   <div class="carousel-inner">
 
     <div class="item active">
@@ -42,7 +48,7 @@ Our current focus is on nanolasers, which hold transformative potential across d
   </a>
 </div>
 
-<p style="font-size: 12px; color: #777; text-align: right; margin-top: -12px; margin-bottom: 24px;">
+<p class="photo-credit">
   Photo credit: Sangyeon Cho
 </p>
 
