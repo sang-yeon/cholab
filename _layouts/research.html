@@ -1,6 +1,31 @@
 ---
-layout: default
+title: "Cho Lab - Research"
+layout: textlay
+excerpt: "Cho Lab -- Research"
+sitemap: false
+permalink: /research/
 ---
-<div id="research" class="col-sm-12">
-  {{ content }}
+
+# Research
+
+## {{ site.data.research.intro.title }}
+
+{{ site.data.research.intro.text }}
+
+{% for section in site.data.research.sections %}
+
+---
+
+## {{ section.title }}
+
+{% if section.image %}
+<div style="margin: 18px 0;">
+<img src="{{ site.url }}{{ site.baseurl }}/{{ section.image }}"
+     alt="{{ section.title }}"
+     style="max-width: 720px; width: 100%; height: auto; border-radius: 4px;">
 </div>
+{% endif %}
+
+{{ section.text | markdownify }}
+
+{% endfor %}
