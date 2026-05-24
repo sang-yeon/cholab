@@ -5,7 +5,7 @@
 
 - year: "2026"
   title: "Stable and Chaotic Multimode Lasing in Disordered Plasmonic–Perovskite Nanolaser Particles"
-  authors: "S. Cho, S. H. Yun."
+  authors: "S. Cho<sup>+</sup>, S. H. Yun<sup>+</sup>."
   journal: "Manuscript in editing."
 
 - year: "2026"
@@ -42,7 +42,7 @@
   title: "Wideband Tuning and Deep-Tissue Spectral Detection of Indium Phosphide Nano-Laser Particles"
   authors: "S. Cho<sup>*</sup>, W. Moon<sup>*</sup>, N. Martino, S. H. Yun."
   journal_name: "Advanced Materials"
-  journal_info: "202418710."
+  journal_info: "37(49), 2418710."
   link: "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202418710"
   pdf: "papers/cho_advmat_2025.pdf"
   extra_links:
@@ -53,7 +53,8 @@
   title: "Noble Metal Coating on Perovskite Microcrystals for Robust and Plasmonic Lasing Applications"
   authors: "S. Cho, H. Yan, S. H. Yun."
   journal_name: "Advanced Optical Materials"
-  journal_info: "2403316."
+  journal_info: "13(13), 2403316."
+  link: "https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adom.202403316?casa_token=epWZunbmG8sAAAAA%3A4r0BNs00V01Zpx53nzfv7A9e45oGn8e2ltAdQ7bW1zSWmtMPnyNYSnBI54yroX069JpAtBhmaoKStvcg"
   pdf: "papers/cho_advoptmat_2025.pdf"
 
 - year: "2024"
@@ -61,13 +62,18 @@
   authors: "S. Cho, Y. Yang, M. Soljačić, S. H. Yun."
   journal_name: "Nano Letters"
   journal_info: "24, 13647–13652."
+  link: "https://pubs.acs.org/doi/10.1021/acs.nanolett.4c03485"
   pdf: "papers/cho_nanolett_2024.pdf"
+  extra_links:
+    - label: "Arxiv Preprint"
+      url: "https://arxiv.org/abs/2212.13301"
 
 - year: "2023"
   title: "Ultrasmall InGa(As)P Dielectric and Plasmonic Nanolasers"
   authors: "D. Sarkar<sup>*</sup>, S. Cho<sup>*</sup>, H. Yan, N. Martino, P. Dannenberg, S. H. Yun."
   journal_name: "ACS Nano"
   journal_info: "17, 16048–16055."
+  link: "https://pubs.acs.org/doi/10.1021/acsnano.3c04721"
   pdf: "papers/sarkar_acsnano_2023.pdf"
 
 - year: "2021"
