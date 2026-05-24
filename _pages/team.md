@@ -5,12 +5,25 @@ excerpt: "Cho Lab: Team members"
 sitemap: false
 permalink: /team/
 ---
+<div style="font-size: 17px; line-height: 1.65; margin-bottom: 34px; max-width: 950px;">
 
-# Group Members
+<p>
+We are a group of passionate researchers dedicated to developing creative tools that make a positive impact on the world. Our mission is driven by curiosity, collaboration, and a shared desire to help people through meaningful innovation.
+</p>
 
-**We are looking for motivated PhD students, postdocs, master’s students, and undergraduate researchers to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/openings/) **!**
+<p>
+In our lab, we support each other, grow together, and celebrate the joy of research as a team. We believe that solving interesting and important problems is best done together—with openness, respect, and a spirit of discovery.
+</p>
 
-<br>
+<p>
+Your happiness and success as a scientist and engineer are our team’s priority. We are committed to creating an environment where you can thrive, both personally and professionally.
+</p>
+
+<p>
+<strong>We are looking for motivated PhD students, postdocs, master’s students, and undergraduate researchers to join the team</strong> <a href="{{ site.url }}{{ site.baseurl }}/openings/">see openings</a><strong>!</strong>
+</p>
+
+</div>
 
 {% assign number_printed = 0 %}
 {% for member in site.data.team %}
