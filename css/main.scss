@@ -149,24 +149,32 @@ firstp {
   padding-right: 26px;
 }
 
-/* Home carousel size override */
+/* Home carousel */
 #homeid #carouselExample {
   width: 100% !important;
-  max-width: 650px !important;
-  margin: 24px auto 8px auto !important;
+  max-width: 760px !important;
+  margin: 24px auto 4px auto !important;
   border-radius: 8px !important;
   overflow: hidden !important;
+  background: #ffffff !important;
 }
 
 #homeid #carouselExample .carousel-inner {
   width: 100% !important;
 }
 
+#homeid #carouselExample .carousel-inner > .item {
+  width: 100% !important;
+  text-align: center !important;
+  background: #ffffff !important;
+}
+
 #homeid #carouselExample .carousel-inner > .item > img {
   width: 100% !important;
-  max-width: 650px !important;
-  height: 360px !important;
-  object-fit: cover !important;
+  max-width: 760px !important;
+  height: auto !important;
+  max-height: 520px !important;
+  object-fit: contain !important;
   object-position: center !important;
   margin: 0 auto !important;
   border-radius: 8px !important;
@@ -181,11 +189,13 @@ firstp {
 
 /* Photo credit under carousel */
 .photo-credit {
-  max-width: 650px !important;
-  margin: 4px auto 34px auto !important;
+  max-width: 760px !important;
+  margin: 6px auto 34px auto !important;
   font-size: 12px !important;
   color: #777 !important;
   text-align: right !important;
+  display: block !important;
+  clear: both !important;
 }
 
 /* Publications page */
@@ -272,18 +282,23 @@ firstp {
     padding-bottom: 10px;
   }
 
-#homeid #carouselExample {
-  max-width: 450px !important;
-}
+  #homeid #carouselExample {
+    max-width: 100% !important;
+    margin: 18px auto 4px auto !important;
+  }
 
-#homeid #carouselExample .carousel-inner > .item > img {
-  max-width: 450px !important;
-  height: 300px !important;
-}
+  #homeid #carouselExample .carousel-inner > .item > img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    max-height: 360px !important;
+    object-fit: contain !important;
+  }
 
-.photo-credit {
-  max-width: 450px !important;
-}
+  .photo-credit {
+    max-width: 100% !important;
+    margin: 6px auto 28px auto !important;
+  }
 
   .footer-container {
     flex-direction: column;
