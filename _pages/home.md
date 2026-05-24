@@ -14,8 +14,82 @@ We are trailblazers on a mission to drive medicine and photonics forward in serv
 
 Our current focus is on nanolasers, which hold transformative potential across diverse fields—from high-performance photonic devices to advanced medical discoveries—through their coherence, speed-of-light operation, and multiplexing capability.
 
-<div class="home-main-image" style="margin: 28px 0 32px 0;">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/nanolaser1.jpg"
-       alt="Cho Lab nanolaser research"
-       style="width: 100%; max-width: 900px; height: auto; border-radius: 6px; display: block;">
+<div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="hover" markdown="0">
+  <div class="carousel-inner">
+
+    <div class="item active">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/rice1.jpeg" alt="Rice image 1">
+    </div>
+
+    <div class="item">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/rice2.jpeg" alt="Rice image 2">
+    </div>
+
+    <div class="item">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/rice3.jpeg" alt="Rice image 3">
+    </div>
+
+    <div class="item">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/rice4.jpeg" alt="Rice image 4">
+    </div>
+
+  </div>
+
+  <a class="left carousel-control" href="#carouselExample" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+
+  <a class="right carousel-control" href="#carouselExample" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
 </div>
+
+<p style="font-size: 12px; color: #777; text-align: right; margin-top: -12px; margin-bottom: 24px;">
+  Photo credit: Sangyeon Cho
+</p>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var carousel = document.querySelector("#carouselExample");
+  if (!carousel) return;
+
+  var items = carousel.querySelectorAll(".item");
+  if (items.length === 0) return;
+
+  for (var i = 0; i < items.length; i++) {
+    items[i].classList.remove("active");
+  }
+
+  var randomIndex = Math.floor(Math.random() * items.length);
+  items[randomIndex].classList.add("active");
+
+  if (typeof jQuery !== "undefined" && typeof jQuery.fn.carousel !== "undefined") {
+    jQuery("#carouselExample").carousel({
+      interval: 3000,
+      pause: "hover"
+    });
+  }
+});
+</script>
+
+<br>
+
+The Cho Lab is relocating from Massachusetts General Hospital and Harvard Medical School to Rice University Bioengineering.
+
+We are looking for passionate postdoctoral fellows, graduate students, undergraduate students, and visiting researchers to join the team. Please see [Openings / Contact]({{ site.url }}{{ site.baseurl }}/openings/) for more information.
+
+<br>
+
+## News
+
+<div class="news-preview" markdown="0">
+{% for article in site.data.news limit:5 %}
+  <p style="margin-bottom: 10px;">
+    <strong>{{ article.date }}</strong> &nbsp; {{ article.headline }}
+  </p>
+{% endfor %}
+</div>
+
+<p style="text-align: right; margin-top: 15px;">
+  <a href="{{ site.url }}{{ site.baseurl }}/news/">See all news →</a>
+</p>
