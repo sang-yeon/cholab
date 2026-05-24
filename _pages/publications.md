@@ -6,9 +6,11 @@ sitemap: false
 permalink: /publications/
 ---
 
-# Publications
+<div class="publications-page" markdown="1">
 
-[Google Scholar Citations](https://scholar.google.com/citations?hl=en&user=8RNAdMYAAAAJ)
+<p style="margin-top: 5px; margin-bottom: 28px;">
+  <a href="https://scholar.google.com/citations?hl=en&user=8RNAdMYAAAAJ" target="_blank">Google Scholar Citations</a>
+</p>
 
 {% if site.data.publications and site.data.publications.size > 0 %}
 
@@ -20,17 +22,17 @@ permalink: /publications/
 {% if pub.year != current_year %}
 {% assign current_year = pub.year %}
 
----
+<hr style="margin: 28px 0 24px 0;">
 
-## {{ current_year }}
+<h2 style="font-size: 32px; margin-top: 0; margin-bottom: 22px;">{{ current_year }}</h2>
 
 {% endif %}
 
 {% assign number = total | minus: forloop.index0 %}
 
-<div class="publication-item" style="margin-bottom: 36px;">
+<div class="publication-item" style="margin-bottom: 24px;">
 
-<p style="margin: 0;">
+<p style="margin: 0; line-height: 1.35;">
 <strong>{{ number }}.
 {% if pub.link %}
 <a href="{{ pub.link }}" target="_blank">{{ pub.title }}</a>
@@ -68,18 +70,18 @@ permalink: /publications/
 </p>
 
 {% if pub.images %}
-<div class="publication-images" style="margin-top: 6px; display: flex; gap: 14px; align-items: flex-start; flex-wrap: wrap;">
+<div class="publication-images" style="margin-top: 8px; margin-bottom: 4px; display: flex; gap: 12px; align-items: flex-start; flex-wrap: wrap;">
 {% for img in pub.images %}
 <img src="{{ site.url }}{{ site.baseurl }}/{{ img.path }}"
      alt="Publication image"
-     style="height: {{ img.height | default: pub.image_height | default: '160px' }}; width: auto; max-width: {{ img.width | default: pub.image_width | default: '420px' }}; object-fit: contain; border-radius: 4px;">
+     style="height: {{ img.height | default: pub.image_height | default: '150px' }}; width: auto; max-width: {{ img.width | default: pub.image_width | default: '420px' }}; object-fit: contain; border-radius: 4px; margin-top: 0; margin-bottom: 0;">
 {% endfor %}
 </div>
 {% elsif pub.image %}
-<div class="publication-image" style="margin-top: 6px;">
+<div class="publication-image" style="margin-top: 8px; margin-bottom: 4px;">
 <img src="{{ site.url }}{{ site.baseurl }}/{{ pub.image }}"
      alt="Publication image"
-     style="height: {{ pub.image_height | default: '160px' }}; width: auto; max-width: {{ pub.image_width | default: '420px' }}; object-fit: contain; border-radius: 4px;">
+     style="height: {{ pub.image_height | default: '150px' }}; width: auto; max-width: {{ pub.image_width | default: '420px' }}; object-fit: contain; border-radius: 4px; margin-top: 0; margin-bottom: 0;">
 </div>
 {% endif %}
 
@@ -94,16 +96,24 @@ permalink: /publications/
 
 {% endif %}
 
----
+<hr style="margin: 34px 0 24px 0;">
 
-# US & International Patents
+<h2 style="font-size: 32px; margin-top: 0; margin-bottom: 22px;">US & International Patents</h2>
 
-**2. Systems and Methods for Plasmonic Lasers**  
-S. H. Yun, S. Cho.  
+<div class="publication-item" style="margin-bottom: 24px;">
+<p style="margin: 0; line-height: 1.35;">
+<strong>2. Systems and Methods for Plasmonic Lasers</strong><br>
+S. H. Yun, S. Cho.<br>
 2024.
+</p>
+</div>
 
-<br>
-
-**1. Perovskite-Based Core-Shell Light-Emitting Structures and Materials, and Methods of Fabrication Thereof**  
-S. H. Yun, S. Cho.  
+<div class="publication-item" style="margin-bottom: 24px;">
+<p style="margin: 0; line-height: 1.35;">
+<strong>1. Perovskite-Based Core-Shell Light-Emitting Structures and Materials, and Methods of Fabrication Thereof</strong><br>
+S. H. Yun, S. Cho.<br>
 2019.
+</p>
+</div>
+
+</div>
