@@ -10,10 +10,10 @@ permalink: /publications/
 
 [Google Scholar Citations](https://scholar.google.com/citations?hl=en&user=8RNAdMYAAAAJ)
 
-{% assign total = site.data.publications | size %}
+{% assign total = site.data.publist | size %}
 {% assign current_year = "" %}
 
-{% for pub in site.data.publications %}
+{% for pub in site.data.publist %}
 
 {% if pub.year != current_year %}
 {% assign current_year = pub.year %}
