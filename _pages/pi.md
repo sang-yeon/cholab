@@ -6,9 +6,9 @@ sitemap: false
 permalink: /pi/
 ---
 
-<h1 style="font-size: 36px; font-weight: 500; margin-bottom: 28px;">Principal Investigator</h1>
+<h1 style="font-size: 28px; font-weight: 500; margin-bottom: 28px;">Principal Investigator</h1>
 
-<div style="display: flex; gap: 36px; align-items: flex-start; flex-wrap: wrap; margin-top: 20px; margin-bottom: 44px;">
+<div style="display: flex; gap: 28px; align-items: flex-start; flex-wrap: wrap; margin-top: 20px; margin-bottom: 44px;">
 
 {% if site.data.pi.photo %}
 <div style="flex: 0 0 auto;">
@@ -20,7 +20,7 @@ permalink: /pi/
 
 <div style="flex: 1; min-width: 280px; padding-top: 0;">
 
-<h2 style="font-size: 36px; font-weight: 500; margin-top: -6px; margin-bottom: 16px;">
+<h2 style="font-size: 28px; font-weight: 500; margin-top: -6px; margin-bottom: 16px;">
 {{ site.data.pi.name }}
 </h2>
 
@@ -46,7 +46,7 @@ Office: {{ site.data.pi.office }}
 
 ---
 
-<h2 style="font-size: 36px; font-weight: 500; margin-top: 28px; margin-bottom: 22px;">Previous Employment and Education</h2>
+<h2 style="font-size: 28px; font-weight: 500; margin-top: 28px; margin-bottom: 22px;">Previous Employment and Education</h2>
 
 <div style="line-height: 1.35;">
 
@@ -73,7 +73,7 @@ Office: {{ site.data.pi.office }}
 
 ---
 
-<h2 style="font-size: 36px; font-weight: 500; margin-top: 28px; margin-bottom: 22px;">Selected Awards and Honors</h2>
+<h2 style="font-size: 28px; font-weight: 500; margin-top: 28px; margin-bottom: 22px;">Selected Awards and Honors</h2>
 
 <div style="line-height: 1.35;">
 
