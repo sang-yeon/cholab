@@ -1,0 +1,57 @@
+name: "Sangyeon (Fred) Cho, 조상연"
+title: "Incoming Assistant Professor, CPRIT Rising Stars Scholar"
+department: "Department of Bioengineering"
+institution: "Rice University"
+email: "scho1105 at rice.edu"
+office: "BioScience Research Collaborative, Rice University, Houston, TX"
+
+photo: "images/pi/fred_cho.jpg"
+photo_width: "260px"
+
+bio: |
+  Professor Cho develops creative nanobiophotonic tools that harness the multiplexing power of light to study dynamic biological systems and advance biomedical and semiconductor photonic technologies.
+
+  His research focuses on nanolaser particles, optical barcoding, single-cell tracking, and translational photonic technologies for understanding complex biological systems.
+
+previous_positions:
+  - year: "07.01.2026–"
+    text: "Assistant Professor, Department of Bioengineering, Rice University"
+
+  - year: "06.01.2025–06.30.2026"
+    text: "Assistant Professor, Wellman Center for Photomedicine, Massachusetts General Hospital and Harvard Medical School"
+
+  - year: "10.31.2023–05.31.2025"
+    text: "Instructor, Wellman Center for Photomedicine, Massachusetts General Hospital and Harvard Medical School"
+
+  - year: "08.01.2019–10.31.2023"
+    text: "Postdoctoral Fellow, Wellman Center for Photomedicine, Massachusetts General Hospital and Harvard Medical School"
+
+  - year: "09.01.2014–06.05.2019"
+    text: "Ph.D. in Medical Engineering and Medical Physics (MEMP), Harvard-MIT Health Sciences and Technology (HST), with Prof. Seok-Hyun (Andy) Yun"
+
+  - year: "02.01.2008–06.01.2014"
+    text: "B.S. in Chemistry, Korea Advanced Institute of Science & Technology (KAIST), with Profs. Yongkeun (Paul) Park and Hyotcherl Ihee"
+
+thesis_committee:
+  - "Moungi Bawendi, MIT Chemistry, Nobel Laureate 2023"
+  - "Marin Soljačić, MIT Physics"
+  - "Hakho Lee, Massachusetts General Hospital"
+
+awards:
+  - year: "2026"
+    text: "Cancer Prevention and Research Institute of Texas (CPRIT) Rising Stars Award"
+
+  - year: "2025"
+    text: "NIH/NCI K25 Research Grant"
+
+  - year: "2022"
+    text: "Ambassador, Optica"
+
+  - year: "2019"
+    text: "The Face of the Year (Best Scholar), Samsung Scholarship"
+
+  - year: "2017"
+    text: "Martha L. Gray Prize for Excellence in Research, Harvard-MIT HST"
+
+  - year: "2010"
+    text: "Grand Prix, KAIST Undergraduate Research Program"
