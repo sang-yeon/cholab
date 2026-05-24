@@ -14,28 +14,28 @@ bio: |
   His research focuses on nanolaser particles, optical barcoding, single-cell tracking, and translational photonic technologies for understanding complex biological systems.
 
 previous_positions:
-  - year: "07.01.2026–"
+  - year: "07.2026–"
     text: "Assistant Professor, Department of Bioengineering, Rice University"
 
-  - year: "06.01.2025–06.30.2026"
+  - year: "06.2025–06.2026"
     text: "Assistant Professor, Wellman Center for Photomedicine, Massachusetts General Hospital and Harvard Medical School"
 
-  - year: "10.31.2023–05.31.2025"
+  - year: "10.2023–05.2025"
     text: "Instructor, Wellman Center for Photomedicine, Massachusetts General Hospital and Harvard Medical School"
 
-  - year: "08.01.2019–10.31.2023"
-    text: "Postdoctoral Fellow, Wellman Center for Photomedicine, Massachusetts General Hospital and Harvard Medical School"
+  - year: "08.2019–10.2023"
+    text: "Postdoctoral Fellow, Wellman Center for Photomedicine, Massachusetts General Hospital and Harvard Medical School, with Prof. Seok-Hyun (Andy) Yun"
 
-  - year: "09.01.2014–06.05.2019"
+  - year: "09.2014–06.2019"
     text: "Ph.D. in Medical Engineering and Medical Physics (MEMP), Harvard-MIT Health Sciences and Technology (HST), with Prof. Seok-Hyun (Andy) Yun"
+    thesis_committee:
+    - "Moungi Bawendi, MIT Chemistry, Nobel Laureate 2023"
+    - "Marin Soljačić, MIT Physics"
+    - "Hakho Lee, Massachusetts General Hospital"
 
-  - year: "02.01.2008–06.01.2014"
+  - year: "02.2008–06.2014"
     text: "B.S. in Chemistry, Korea Advanced Institute of Science & Technology (KAIST), with Profs. Yongkeun (Paul) Park and Hyotcherl Ihee"
 
-thesis_committee:
-  - "Moungi Bawendi, MIT Chemistry, Nobel Laureate 2023"
-  - "Marin Soljačić, MIT Physics"
-  - "Hakho Lee, Massachusetts General Hospital"
 
 awards:
   - year: "2026"
