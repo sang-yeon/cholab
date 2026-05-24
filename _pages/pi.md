@@ -6,9 +6,9 @@ sitemap: false
 permalink: /pi/
 ---
 
-<h1 style="font-size: 42px; font-weight: 500; margin-bottom: 28px;">Principal Investigator</h1>
+<h1 style="font-size: 36px; font-weight: 500; margin-bottom: 28px;">Principal Investigator</h1>
 
-<div style="display: flex; gap: 36px; align-items: flex-start; flex-wrap: wrap; margin-top: 20px;">
+<div style="display: flex; gap: 36px; align-items: flex-start; flex-wrap: wrap; margin-top: 20px; margin-bottom: 44px;">
 
 {% if site.data.pi.photo %}
 <div style="flex: 0 0 auto;">
@@ -20,7 +20,7 @@ permalink: /pi/
 
 <div style="flex: 1; min-width: 280px; padding-top: 0;">
 
-<h2 style="font-size: 42px; font-weight: 500; margin-top: -8px; margin-bottom: 18px;">
+<h2 style="font-size: 36px; font-weight: 500; margin-top: -6px; margin-bottom: 16px;">
 {{ site.data.pi.name }}
 </h2>
 
@@ -46,22 +46,21 @@ Office: {{ site.data.pi.office }}
 
 ---
 
-<h2 style="font-size: 34px; font-weight: 500;">Biography</h2>
+<h2 style="font-size: 36px; font-weight: 500; margin-top: 28px; margin-bottom: 22px;">Previous Employment and Education</h2>
 
-{{ site.data.pi.bio | markdownify }}
-
----
-
-<h2 style="font-size: 34px; font-weight: 500;">Previous Employment and Education</h2>
+<div style="line-height: 1.35;">
 
 {% for item in site.data.pi.previous_positions %}
-**{{ item.year }}** &nbsp;&nbsp; {{ item.text }}  
+<p style="margin-top: 0; margin-bottom: 16px;">
+<strong>{{ item.year }}</strong> &nbsp;&nbsp; {{ item.text }}
 {% if item.note %}
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ item.note }}
+<span style="display: inline-block; margin-left: 46px; margin-top: 6px;">{{ item.note }}</span>
 {% endif %}
-<br>
+</p>
 {% endfor %}
+
+</div>
 
 {% if site.data.pi.thesis_committee %}
 <br>
@@ -74,8 +73,14 @@ Office: {{ site.data.pi.office }}
 
 ---
 
-<h2 style="font-size: 34px; font-weight: 500;">Selected Awards and Honors</h2>
+<h2 style="font-size: 36px; font-weight: 500; margin-top: 28px; margin-bottom: 22px;">Selected Awards and Honors</h2>
+
+<div style="line-height: 1.35;">
 
 {% for award in site.data.pi.awards %}
-**{{ award.year }}** &nbsp;&nbsp; {{ award.text }}  
+<p style="margin-top: 0; margin-bottom: 16px;">
+<strong>{{ award.year }}</strong> &nbsp;&nbsp; {{ award.text }}
+</p>
 {% endfor %}
+
+</div>
