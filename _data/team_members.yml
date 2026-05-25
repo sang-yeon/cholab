@@ -1,6 +1,7 @@
 - name: Sangyeon (Fred) Cho, Ph.D.
   photo: headshot_cho.jpg
   hover_photo: cho_fun.png
+  photo_position: center 10%
   info: Principal Investigator
   email: scho1105 at rice.edu
   number_educ: 5
@@ -11,7 +12,7 @@
   education5: "B.S. in Chemistry, KAIST (2014)"
 
 - name: Xiao Cheng, Ph.D.
-  photo: xiao_cheng.HEIC
+  photo: xiao_cheng.jpg
   hover_photo: xiao_cheng_fun.jpg
   info: Postdoctoral Fellow
   email:
