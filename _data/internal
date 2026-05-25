@@ -15,3 +15,6 @@ resources:
 
   - title: "(In preparation) Equipment Reservation"
     description: "Shared equipment schedules, microscope reservation, optics table use, and facility coordination."
+
+  - title: "(In preparation) Lab Calendar"
+    description: "Shared calendar for lab meetings, group events, deadlines, equipment schedules, and other important lab activities."
