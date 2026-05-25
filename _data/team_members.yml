@@ -1,5 +1,5 @@
 - name: Sangyeon (Fred) Cho, Ph.D.
-  photo: cho_headshot.jpg
+  photo: headshot_cho.jpg
   hover_photo: cho_fun.png
   info: Principal Investigator
   email: scho1105 at rice.edu
@@ -36,7 +36,7 @@
   education1: "Biomedical Engineering and Comparative Literature, Harvard University ’29"
 
 - name: Daniel Choi
-  photo: daniel_choi.jpg
+  photo: daniel_choi.png
   hover_photo: daniel_choi_fun.jpg
   info: Undergraduate Researcher
   email:
