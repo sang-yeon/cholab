@@ -12,14 +12,7 @@ permalink: /openings/
 {{ site.data.openings.page_title }}
 </h1>
 
-{% if site.data.openings.hero_image %}
-<div class="openings-hero">
-<img src="{{ site.url }}{{ site.baseurl }}/images/openings/{{ site.data.openings.hero_image.file }}"
-     alt="{{ site.data.openings.hero_image.alt }}">
-</div>
-{% endif %}
-
-<div class="openings-contact-layout">
+<div class="openings-top-layout">
 
 <div class="openings-section">
 
@@ -54,7 +47,20 @@ permalink: /openings/
 
 </div>
 
-<div class="contact-section">
+<div class="openings-side-panel">
+
+{% if site.data.openings.hero_image %}
+<div class="openings-hero-square">
+<img src="{{ site.url }}{{ site.baseurl }}/images/openings/{{ site.data.openings.hero_image.file }}"
+     alt="{{ site.data.openings.hero_image.alt }}">
+</div>
+{% endif %}
+
+</div>
+
+</div>
+
+<div class="contact-block">
 
 <h2>Contact</h2>
 
@@ -81,8 +87,6 @@ Office: {{ site.data.openings.contact.office }}<br>
   loading="lazy"
   referrerpolicy="no-referrer-when-downgrade">
 </iframe>
-</div>
-
 </div>
 
 </div>
