@@ -674,3 +674,22 @@ firstp {
     height: 280px;
   }
 }
+
+/* Team alternate portrait button */
+.team-photo-toggle {
+  display: block;
+  margin: 8px auto 0 auto;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: #888888;
+  font-size: 12px;
+  line-height: 1.2;
+  cursor: pointer;
+  text-align: center;
+}
+
+.team-photo-toggle:hover {
+  color: #333333;
+  text-decoration: underline;
+}
