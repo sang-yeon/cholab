@@ -10,11 +10,11 @@ main_folder:
   url: "https://drive.google.com/drive/folders/1AdM7Jx7dh-KOR2NYrwNOc_8_qjIl2Q4z?usp=sharing"
 
 resources:
-  - title: "(In preparation) Ordering System"
+  - title: "Ordering System"
     description: "Request supplies, reagents, equipment, and other lab-related purchases."
 
-  - title: "(In preparation) Equipment Reservation"
+  - title: "Equipment Reservation"
     description: "Shared equipment schedules, microscope reservation, optics table use, and facility coordination."
 
-  - title: "(In preparation) Lab Calendar"
+  - title: "Lab Calendar"
     description: "Shared calendar for lab meetings, group events, deadlines, equipment schedules, and other important lab activities."
