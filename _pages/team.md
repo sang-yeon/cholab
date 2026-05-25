@@ -37,7 +37,7 @@ alt="{{ member.name }}"
 style="object-position: {{ member.photo_position | default: 'center center' }} !important;" />
 
 <button type="button" class="team-photo-toggle">
-Alternate portrait
+Alt
 </button>
 {% else %}
 <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo }}"
@@ -141,11 +141,11 @@ document.addEventListener("DOMContentLoaded", function () {
       if (isLocked) {
         photo.src = photo.getAttribute("data-original");
         photo.setAttribute("data-locked", "false");
-        button.textContent = "Alternate portrait";
+        button.textContent = "Alt";
       } else {
         photo.src = photo.getAttribute("data-hover");
         photo.setAttribute("data-locked", "true");
-        button.textContent = "Original portrait";
+        button.textContent = "Original";
       }
     });
   });
