@@ -36,7 +36,7 @@ The Cho Lab is a collaborative team dedicated to developing creative tools that 
      alt="{{ member.name }}"
      style="object-position: {{ member.photo_position | default: 'center center' }} !important; transform: scale({{ member.photo_zoom | default: '1' }});" />
 
-<button type="button" class="team-photo-toggle">Alt</button>
+<button type="button" class="team-photo-toggle">Jedi Mode</button>
 
 {% else %}
 <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo }}"
