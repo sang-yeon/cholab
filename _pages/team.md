@@ -230,22 +230,6 @@ Email: {{ member.email }}
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  var photos = document.querySelectorAll(".team-photo-img[data-hover]");
-
-  photos.forEach(function (photo) {
-    photo.addEventListener("mouseenter", function () {
-      if (photo.getAttribute("data-locked") !== "true") {
-        photo.src = photo.getAttribute("data-hover");
-      }
-    });
-
-    photo.addEventListener("mouseleave", function () {
-      if (photo.getAttribute("data-locked") !== "true") {
-        photo.src = photo.getAttribute("data-original");
-      }
-    });
-  });
-
   var buttons = document.querySelectorAll(".team-photo-toggle");
 
   buttons.forEach(function (button) {
@@ -255,9 +239,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
       if (!photo) return;
 
-      var isLocked = photo.getAttribute("data-locked") === "true";
+      var isJediMode = photo.getAttribute("data-locked") === "true";
 
-      if (isLocked) {
+      if (isJediMode) {
         photo.src = photo.getAttribute("data-original");
         photo.setAttribute("data-locked", "false");
         button.textContent = "Jedi Mode";
