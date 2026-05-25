@@ -425,6 +425,7 @@ firstp {
     display: block !important;
   }
 }
+
 /* Team page layout */
 .team-intro {
   font-size: 17px;
@@ -511,7 +512,6 @@ firstp {
   margin-bottom: 4px;
 }
 
-/* Mobile team layout */
 @media screen and (max-width: 768px) {
   .team-intro {
     font-size: 16px;
