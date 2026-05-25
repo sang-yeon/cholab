@@ -5,8 +5,8 @@ excerpt: "Cho Lab: Team members"
 sitemap: false
 permalink: /team/
 ---
+
 <div class="team-intro" style="padding-top: 20px;">
-<div class="team-intro">
 <p>
 The Cho Lab is a collaborative team dedicated to developing creative tools that advance science and benefit society. We value openness, respect, curiosity, and the joy of discovery. Our priority is to help every lab member grow, succeed, and thrive as a scientist, engineer, and person.
 </p>
@@ -34,7 +34,7 @@ The Cho Lab is a collaborative team dedicated to developing creative tools that 
      data-locked="false"
      class="img-responsive team-photo-img"
      alt="{{ member.name }}"
-     style="object-position: {{ member.photo_position | default: 'center center' }} !important;" />
+     style="object-position: {{ member.photo_position | default: 'center center' }} !important; transform: scale({{ member.photo_zoom | default: '1' }});" />
 
 <button type="button" class="team-photo-toggle">Alt</button>
 
@@ -42,7 +42,7 @@ The Cho Lab is a collaborative team dedicated to developing creative tools that 
 <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo }}"
      class="img-responsive team-photo-img"
      alt="{{ member.name }}"
-     style="object-position: {{ member.photo_position | default: 'center center' }} !important;" />
+     style="object-position: {{ member.photo_position | default: 'center center' }} !important; transform: scale({{ member.photo_zoom | default: '1' }});" />
 {% endif %}
 </div>
 
@@ -135,7 +135,7 @@ Email: {{ member.email }}
      data-locked="false"
      class="img-responsive team-photo-img"
      alt="{{ member.name }}"
-     style="object-position: {{ member.photo_position | default: 'center center' }} !important;" />
+     style="object-position: {{ member.photo_position | default: 'center center' }} !important; transform: scale({{ member.photo_zoom | default: '1' }});" />
 
 <button type="button" class="team-photo-toggle">Alt</button>
 
@@ -143,7 +143,7 @@ Email: {{ member.email }}
 <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo }}"
      class="img-responsive team-photo-img"
      alt="{{ member.name }}"
-     style="object-position: {{ member.photo_position | default: 'center center' }} !important;" />
+     style="object-position: {{ member.photo_position | default: 'center center' }} !important; transform: scale({{ member.photo_zoom | default: '1' }});" />
 {% endif %}
 </div>
 
