@@ -23,15 +23,11 @@ previous_positions:
 
   - year: "2014–2019"
     text: "Ph.D. in Medical Engineering and Medical Physics (MEMP), Harvard-MIT Health Sciences and Technology (HST), with Prof. Seok-Hyun (Andy) Yun"
-
+    note: "Thesis Committee, Moungi Bawendi (MIT Chemistry, Nobel Laureate 2023), Marin Soljačić (MIT Physics), Hakho Lee (MGH Systems Biology):
+    
   - year: "2008–2014"
     text: "B.S. in Chemistry, Korea Advanced Institute of Science and Technology (KAIST), with Profs. Yongkeun (Paul) Park and Hyotcherl Ihee"
     note: "Included a 23-month pause for mandatory military service as a firefighter."
-
-thesis_committee:
-  - "Moungi Bawendi, MIT Chemistry, Nobel Laureate 2023"
-  - "Marin Soljačić, MIT Physics"
-  - "Hakho Lee, Massachusetts General Hospital"
 
 awards:
   - year: "2026"
@@ -53,12 +49,13 @@ awards:
     text: "Grand Prix, KAIST Undergraduate Research Program"
 
 marathon:
-  photo: "images/pi/marathon.jpeg"
-  photo_width: "260px"
+  photo: "images/pi/marathon.jpg"
+  photo_width: "520px"
   quote: "Pain is inevitable. Suffering is optional."
   quote_author: "Haruki Murakami"
   quote_book: "What I Talk About When I Talk About Running"
   text:
     - "Professor Cho is also a marathon runner. Over the past 12 years, he has run a cumulative distance of approximately 4,500 km."
-    - "He has completed both the Los Angeles Full Marathon and the Hawaii Full Marathon."
-    - "He believes that research and marathon running are deeply alike: both begin with curiosity and ambition, but ultimately depend on patience, persistence, endurance, and the quiet discipline to keep moving forward."
+    - "He has completed both the Los Angeles Full Marathon and the Honolulu Marathon."
+    - "He believes that research and marathon running are alike: both require patience, persistence, endurance, and the discipline to keep moving forward."
+  caption: "Climbing Diamond Head around the final 38 km mark during the 2024 Honolulu Marathon."
