@@ -1,1 +1,39 @@
+page_title: "Openings / Contact"
 
+hero_image:
+  file: "cho_group_lab_3.png"
+  alt: "Cho Lab group illustration"
+
+intro:
+  - "The Cho Lab has a clear mission: your happiness and success as a scientist and engineer are our team’s priority. We are committed to creating an environment where you can thrive, both personally and professionally."
+  - "We are looking for highly motivated and passionate postdoctoral fellows, visiting graduate students, and undergraduate researchers to join our lab in the following areas:"
+
+positions:
+  - title: "Optical Microscopy and Hardware / Artificial Intelligence (AI)"
+    text: "Candidates with expertise in hardware development for advanced optical and imaging systems, computational imaging, or the physics of AI are encouraged to apply."
+
+  - title: "Nanophotonics / Semiconductors / Photonic Hardware"
+    text: "Candidates with a strong background in device fabrication, materials chemistry and engineering, simulations, nanophotonics, semiconductor photonics, or quantum engineering are encouraged to apply."
+
+  - title: "Bioengineering in Cancer and Brain / Tissue Engineering / Cell Biology"
+    text: "Candidates with experience in single-cell analysis, tissue engineering, cell biology, and diverse biological research fields are encouraged to apply."
+
+application:
+  heading: "How to Apply"
+  text: "To express your interest, please email Prof. Cho with the following materials:"
+  materials:
+    - "Your CV"
+    - "A cover letter outlining your past research, future research goals, career plan, and contact information for three references"
+  closing: "We look forward to hearing from you!"
+
+contact:
+  name: "Sangyeon (Fred) Cho"
+  title: "Assistant Professor"
+  department: "Department of Bioengineering"
+  institution: "Rice University"
+  email: "scho1105 at rice.edu"
+  office: "#615 BioScience Research Collaborative (BRC)"
+  location: "Rice University, Houston, TX"
+
+map:
+  query: "BioScience Research Collaborative, Rice University, Houston, TX"
