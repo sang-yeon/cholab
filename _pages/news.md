@@ -6,7 +6,8 @@ sitemap: false
 permalink: /news/
 ---
 
-<div class="news-list">
+<div class="news-list" style="padding-top: 20px;">
+
 {% for article in site.data.news %}
 <div class="news-item" style="margin-bottom: 35px;">
 
@@ -39,4 +40,5 @@ permalink: /news/
 
 </div>
 {% endfor %}
+
 </div>
