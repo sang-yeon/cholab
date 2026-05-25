@@ -81,7 +81,7 @@ Office: {{ site.data.openings.contact.office }}<br>
 
 </div>
 
-<div class="contact-map">
+<div class="contact-map-side">
 <iframe
   src="https://www.google.com/maps?q={{ site.data.openings.map.query | url_encode }}&output=embed"
   width="100%"
