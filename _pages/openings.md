@@ -8,10 +8,6 @@ permalink: /openings/
 
 <div class="openings-contact-page">
 
-<h1 class="openings-title">
-{{ site.data.openings.page_title }}
-</h1>
-
 <div class="openings-top-layout">
 
 <div class="openings-section">
