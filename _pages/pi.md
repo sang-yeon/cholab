@@ -48,7 +48,7 @@ Office: {{ site.data.pi.office }}
 
 <hr style="margin: 34px 0 28px 0; border: 0; border-top: 1px solid #e5e5e5;">
 
-<h2 style="font-size: 28px; font-weight: 500; margin-top: 0; margin-bottom: 18px;">Previous Employment and Education</h2>
+<h2 style="font-size: 28px; font-weight: 500; margin-top: 0; margin-bottom: 18px;">Employment and Education</h2>
 
 <table style="width: 100%; border-collapse: collapse; margin-bottom: 0;">
 <tbody>
