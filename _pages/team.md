@@ -5,7 +5,7 @@ excerpt: "Cho Lab: Team members"
 sitemap: false
 permalink: /team/
 ---
-
+<div class="team-intro" style="padding-top: 20px;">
 <div class="team-intro">
 <p>
 The Cho Lab is a collaborative team dedicated to developing creative tools that advance science and benefit society. We value openness, respect, curiosity, and the joy of discovery. Our priority is to help every lab member grow, succeed, and thrive as a scientist, engineer, and person.
