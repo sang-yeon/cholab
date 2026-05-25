@@ -559,25 +559,9 @@ firstp {
   margin-bottom: 28px;
 }
 
-.openings-hero {
-  width: 100%;
-  margin: 0 0 38px 0;
-  border-radius: 14px;
-  overflow: hidden;
-}
-
-.openings-hero img {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 !important;
-  border-radius: 14px !important;
-  box-shadow: none !important;
-}
-
-.openings-contact-layout {
+.openings-top-layout {
   display: flex;
-  gap: 48px;
+  gap: 42px;
   align-items: flex-start;
   flex-wrap: wrap;
   margin-bottom: 42px;
@@ -588,9 +572,33 @@ firstp {
   min-width: 320px;
 }
 
-.contact-section {
-  flex: 0 0 460px;
-  max-width: 100%;
+.openings-side-panel {
+  flex: 0 0 380px;
+  max-width: 380px;
+  width: 100%;
+}
+
+.openings-hero-square {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.openings-hero-square img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  display: block;
+  margin: 0 !important;
+  border-radius: 14px !important;
+  box-shadow: none !important;
+}
+
+.contact-block {
+  width: 100%;
+  margin-top: 10px;
 }
 
 .openings-contact-page h2 {
@@ -640,21 +648,18 @@ firstp {
     font-size: 32px !important;
   }
 
-  .openings-hero {
-    margin-bottom: 30px;
-    border-radius: 10px;
-  }
-
-  .openings-hero img {
-    border-radius: 10px !important;
-  }
-
-  .openings-contact-layout {
+  .openings-top-layout {
     gap: 28px;
   }
 
-  .contact-section {
+  .openings-side-panel {
     flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .openings-hero-square {
+    max-width: 420px;
+    margin: 0 auto;
   }
 
   .openings-contact-page h2 {
