@@ -58,9 +58,9 @@ permalink: /openings/
 
 <hr style="margin: 42px 0 34px 0; border: 0; border-top: 1px solid #e5e5e5;">
 
-<div class="contact-layout">
+<div class="contact-row">
 
-<div class="contact-info">
+<div class="contact-text">
 
 <h2>Contact</h2>
 
@@ -79,7 +79,7 @@ Office: {{ site.data.openings.contact.office }}<br>
 
 </div>
 
-<div class="contact-map-side">
+<div class="contact-map-box">
 <iframe
   src="https://www.google.com/maps?q={{ site.data.openings.map.query | url_encode }}&output=embed"
   width="100%"
