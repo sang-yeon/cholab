@@ -46,16 +46,16 @@ Office: {{ site.data.pi.office }}
 
 ---
 
-<h2 style="font-size: 28px; font-weight: 500; margin-top: 28px; margin-bottom: 22px;">Previous Employment and Education</h2>
+<h2 style="font-size: 28px; font-weight: 500; margin-top: 28px; margin-bottom: 18px;">Previous Employment and Education</h2>
 
-<div style="line-height: 1.35;">
+<div style="line-height: 1.25;">
 
 {% for item in site.data.pi.previous_positions %}
-<p style="margin-top: 0; margin-bottom: 16px;">
+<p style="margin-top: 0; margin-bottom: 11px;">
 <strong>{{ item.year }}</strong> &nbsp;&nbsp; {{ item.text }}
 {% if item.note %}
 <br>
-<span style="display: inline-block; margin-left: 46px; margin-top: 6px;">{{ item.note }}</span>
+<span style="display: inline-block; margin-left: 64px; margin-top: 2px; font-size: 0.96em;">{{ item.note }}</span>
 {% endif %}
 </p>
 {% endfor %}
@@ -73,12 +73,12 @@ Office: {{ site.data.pi.office }}
 
 ---
 
-<h2 style="font-size: 28px; font-weight: 500; margin-top: 28px; margin-bottom: 22px;">Selected Awards and Honors</h2>
+<h2 style="font-size: 28px; font-weight: 500; margin-top: 28px; margin-bottom: 18px;">Selected Awards and Honors</h2>
 
-<div style="line-height: 1.35;">
+<div style="line-height: 1.25;">
 
 {% for award in site.data.pi.awards %}
-<p style="margin-top: 0; margin-bottom: 16px;">
+<p style="margin-top: 0; margin-bottom: 11px;">
 <strong>{{ award.year }}</strong> &nbsp;&nbsp; {{ award.text }}
 </p>
 {% endfor %}
