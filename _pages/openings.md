@@ -48,19 +48,21 @@ permalink: /openings/
 </div>
 
 <div class="openings-side-panel">
-
 {% if site.data.openings.hero_image %}
 <div class="openings-hero-square">
 <img src="{{ site.url }}{{ site.baseurl }}/images/openings/{{ site.data.openings.hero_image.file }}"
      alt="{{ site.data.openings.hero_image.alt }}">
 </div>
 {% endif %}
-
 </div>
 
 </div>
 
-<div class="contact-block">
+<hr style="margin: 42px 0 34px 0; border: 0; border-top: 1px solid #e5e5e5;">
+
+<div class="contact-layout">
+
+<div class="contact-info">
 
 <h2>Contact</h2>
 
@@ -76,6 +78,8 @@ Email: {{ site.data.openings.contact.email }}<br>
 Office: {{ site.data.openings.contact.office }}<br>
 {{ site.data.openings.contact.location }}
 </p>
+
+</div>
 
 <div class="contact-map">
 <iframe
