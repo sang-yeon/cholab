@@ -23,14 +23,15 @@ previous_positions:
 
   - year: "2014–2019"
     text: "Ph.D. in Medical Engineering and Medical Physics (MEMP), Harvard-MIT Health Sciences and Technology (HST), with Prof. Seok-Hyun (Andy) Yun"
-    thesis_committee:
-    - "Moungi Bawendi, MIT Chemistry, Nobel Laureate 2023"
-    - "Marin Soljačić, MIT Physics"
-    - "Hakho Lee, Massachusetts General Hospital"
 
   - year: "2008–2014"
     text: "B.S. in Chemistry, Korea Advanced Institute of Science and Technology (KAIST), with Profs. Yongkeun (Paul) Park and Hyotcherl Ihee"
     note: "Included a 23-month pause for mandatory military service as a firefighter."
+
+thesis_committee:
+  - "Moungi Bawendi, MIT Chemistry, Nobel Laureate 2023"
+  - "Marin Soljačić, MIT Physics"
+  - "Hakho Lee, Massachusetts General Hospital"
 
 awards:
   - year: "2026"
@@ -50,3 +51,14 @@ awards:
 
   - year: "2010"
     text: "Grand Prix, KAIST Undergraduate Research Program"
+
+marathon:
+  photo: "images/pi/marathon.jpg"
+  photo_width: "260px"
+  quote: "Pain is inevitable. Suffering is optional."
+  quote_author: "Haruki Murakami"
+  quote_book: "What I Talk About When I Talk About Running"
+  text:
+    - "Professor Cho is also a marathon runner. Over the past 12 years, he has run a cumulative distance of approximately 4,500 km."
+    - "He has completed both the Los Angeles Full Marathon and the Hawaii Full Marathon."
+    - "He believes that research and marathon running share a similar spirit: both require patience, persistence, endurance, and the ability to keep moving forward through uncertainty."
