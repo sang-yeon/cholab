@@ -1,2 +1,30 @@
-image: "images/research/Cho_lab_research.png"
-image_width: "100%"
+page_title: "Research"
+
+intro_title: "Nanobiophotonic Research"
+
+intro_text:
+  - "Our research focuses on developing creative nanobiophotonic tools that harness the multiplexing power of light to study dynamic biological systems and advance biomedical and semiconductor photonic technologies. Currently, our work centers on nanolaser technologies as a powerful platform for realizing this broader vision."
+
+sections:
+  - question: "Question 1. How small can a laser be?"
+    image: "research1.png"
+    text:
+      - "Miniaturizing lasers represents a Moore’s law–like scaling in photonics, enabling fascinating light–matter interactions and opening new frontiers in on-chip integration and bioapplications."
+      - "We have recently demonstrated the world’s smallest laser and the first half-wavelength laser, with a physical size as small as 190 nm, emitting coherent light at 1200 nm."
+      - "These breakthroughs have been made possible through significant advancements in plasmonics, semiconductor materials, and nanofabrication techniques."
+      - "We are now taking on the challenge of pushing beyond the fundamental diffraction limit of laser size."
+
+  - question: "Question 2. How can nanolasers contribute to improving human health?"
+    image: "research3.png"
+    text:
+      - "The primary goal of our research is to help people in need. Nanolasers are promising light sources for studying inherently complex biological systems—but what makes them special?"
+      - "Their tunable and narrowband stimulated emission provides clear advantages over conventional probes such as green fluorescent proteins and quantum dots."
+      - "By seamlessly integrating into biological environments, nanolasers have the potential to enhance our ability to study, monitor, and ultimately improve human health."
+      - "Our research seeks to explore these possibilities and push the boundaries of what photonics can achieve for health and medicine."
+
+  - question: "Question 3. How can nanolasers shape the future of photonics?"
+    image: "research2.png"
+    text:
+      - "Nanolasers can serve as fundamental building blocks for next-generation photonic devices, enabling unprecedented levels of miniaturization, speed, and energy efficiency."
+      - "Their ability to confine light at the nanoscale opens transformative opportunities in on-chip optical communication, quantum technologies, and biomedical sensing."
+      - "By integrating these nanoscale light sources into a wide range of electronic and photonic systems, we aim to revolutionize how light is generated, manipulated, and utilized—pushing beyond the performance limits of today’s technologies."
