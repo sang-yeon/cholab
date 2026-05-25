@@ -4,12 +4,13 @@
   photo_position: center 10%
   info: Principal Investigator
   email: scho1105 at rice.edu
-  number_educ: 5
+  number_educ: 6
   education1: "Assistant Professor, Bioengineering, Rice University"
   education2: "Assistant Professor, Massachusetts General Hospital and Harvard Medical School (2026)"
-  education3: "Postdoctoral Fellow, Massachusetts General Hospital and Harvard Medical School (2023)"
-  education4: "Ph.D. in Medical Engineering and Medical Physics, Harvard-MIT Health Sciences and Technology (2019)"
-  education5: "B.S. in Chemistry, KAIST (2014)"
+  education3: "Instructor, Massachusetts General Hospital and Harvard Medical School (2025)"
+  education4: "Postdoctoral Fellow, Massachusetts General Hospital and Harvard Medical School (2023)"
+  education5: "Ph.D. in Medical Engineering and Medical Physics, Harvard-MIT Health Sciences and Technology (2019)"
+  education6: "B.S. in Chemistry, KAIST (2014)"
 
 - name: Xiao Cheng, Ph.D.
   photo: xiao_cheng.jpg
