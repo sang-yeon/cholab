@@ -425,3 +425,125 @@ firstp {
     display: block !important;
   }
 }
+/* Team page layout */
+.team-intro {
+  font-size: 17px;
+  line-height: 1.65;
+  margin-bottom: 42px;
+  width: 100%;
+  max-width: none;
+}
+
+.team-heading {
+  font-size: 36px;
+  font-weight: 500;
+  margin-top: 18px;
+  margin-bottom: 34px;
+}
+
+.team-row {
+  margin-bottom: 30px;
+}
+
+.team-member-card {
+  margin-bottom: 38px;
+}
+
+.team-member-inner {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.team-photo-wrap {
+  flex: 0 0 170px;
+  width: 170px;
+}
+
+.team-photo-img {
+  width: 170px !important;
+  height: 170px !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+  margin: 0 !important;
+  display: block !important;
+  transition: opacity 0.15s ease-in-out;
+}
+
+.team-photo-img:hover {
+  opacity: 0.92;
+}
+
+.team-member-text {
+  flex: 1;
+  min-width: 0;
+  padding-top: 0;
+}
+
+.team-member-text h4 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 0 !important;
+  margin-bottom: 4px !important;
+  line-height: 1.2;
+}
+
+.team-member-role {
+  font-size: 17px;
+  margin-bottom: 22px;
+}
+
+.team-member-email {
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+
+.team-member-text ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 20px;
+  line-height: 1.35;
+}
+
+.team-member-text li {
+  margin-bottom: 4px;
+}
+
+/* Mobile team layout */
+@media screen and (max-width: 768px) {
+  .team-intro {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 34px;
+  }
+
+  .team-heading {
+    font-size: 32px;
+    margin-bottom: 28px;
+  }
+
+  .team-member-inner {
+    gap: 16px;
+  }
+
+  .team-photo-wrap {
+    flex: 0 0 120px;
+    width: 120px;
+  }
+
+  .team-photo-img {
+    width: 120px !important;
+    height: 120px !important;
+  }
+
+  .team-member-text h4 {
+    font-size: 21px;
+  }
+
+  .team-member-role {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+}
