@@ -256,11 +256,11 @@ document.addEventListener("DOMContentLoaded", function () {
       if (isLocked) {
         photo.src = photo.getAttribute("data-original");
         photo.setAttribute("data-locked", "false");
-        button.textContent = "Alt";
+        button.textContent = "Jedi Mode";
       } else {
         photo.src = photo.getAttribute("data-hover");
         photo.setAttribute("data-locked", "true");
-        button.textContent = "Original";
+        button.textContent = "Lab Mode";
       }
     });
   });
