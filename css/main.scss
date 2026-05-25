@@ -915,3 +915,98 @@ firstp {
     font-size: 16px;
   }
 }
+
+/* Internal page */
+.internal-page {
+  padding-top: 20px;
+}
+
+.internal-page h1 {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+
+.internal-page h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.internal-page h3 {
+  font-size: 21px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.internal-page p {
+  font-size: 17px;
+  line-height: 1.55;
+}
+
+.internal-main-card {
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 22px;
+  background: #fafafa;
+  margin-top: 26px;
+  margin-bottom: 28px;
+}
+
+.internal-main-card p {
+  margin-bottom: 12px;
+}
+
+.internal-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+  margin-top: 28px;
+  margin-bottom: 44px;
+}
+
+.internal-card {
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 20px;
+  background: #ffffff;
+}
+
+.internal-card p {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.internal-card a,
+.internal-main-card a {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .internal-page {
+    padding-top: 12px;
+  }
+
+  .internal-page h1 {
+    font-size: 28px;
+  }
+
+  .internal-page h2 {
+    font-size: 22px;
+  }
+
+  .internal-page h3 {
+    font-size: 20px;
+  }
+
+  .internal-page p {
+    font-size: 16px;
+  }
+
+  .internal-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
