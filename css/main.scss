@@ -612,12 +612,7 @@ firstp {
 /* Openings / Contact page */
 .openings-contact-page {
   width: 100%;
-}
-
-.openings-title {
-  font-size: 36px;
-  font-weight: 500;
-  margin-bottom: 28px;
+  padding-top: 20px;
 }
 
 .openings-top-layout {
@@ -625,7 +620,7 @@ firstp {
   gap: 42px;
   align-items: flex-start;
   flex-wrap: wrap;
-  margin-bottom: 36px;
+  margin-bottom: 32px;
 }
 
 .openings-section {
@@ -637,7 +632,7 @@ firstp {
   flex: 0 0 300px;
   max-width: 300px;
   width: 100%;
-  margin-top: 54px;
+  margin-top: 10px;
 }
 
 .openings-hero-square {
@@ -669,7 +664,7 @@ firstp {
 .openings-contact-page h3 {
   font-size: 22px;
   font-weight: 500;
-  margin-top: 28px;
+  margin-top: 26px;
   margin-bottom: 8px;
 }
 
@@ -679,11 +674,11 @@ firstp {
 }
 
 .opening-position {
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 }
 
 .application-section {
-  margin-top: 30px;
+  margin-top: 28px;
 }
 
 .application-section ul {
@@ -692,7 +687,7 @@ firstp {
   padding-left: 22px;
 }
 
-/* Contact section: text left, map right */
+/* Contact section */
 .contact-row {
   display: flex !important;
   flex-direction: row !important;
@@ -725,7 +720,7 @@ firstp {
   display: block !important;
 }
 
-/* Disable old full-width map classes if they remain somewhere */
+/* Disable older map classes if they remain */
 .contact-map,
 .contact-map-side {
   width: auto !important;
@@ -734,42 +729,59 @@ firstp {
   border: none !important;
 }
 
+/* Mobile */
 @media screen and (max-width: 768px) {
-  .openings-title {
-    font-size: 32px !important;
+  .openings-contact-page {
+    padding-top: 8px;
   }
 
   .openings-top-layout {
-    gap: 28px;
+    gap: 18px;
+    margin-bottom: 18px;
   }
 
   .openings-side-panel {
     flex: 1 1 100%;
     max-width: 100%;
-    margin-top: 0;
+    margin-top: 4px;
   }
 
   .openings-hero-square {
-    max-width: 420px;
+    max-width: 100%;
+    aspect-ratio: 16 / 9;
     margin: 0 auto;
+    border-radius: 10px;
   }
 
   .openings-contact-page h2 {
     font-size: 25px !important;
+    margin-bottom: 14px;
   }
 
   .openings-contact-page h3 {
     font-size: 20px !important;
+    margin-top: 22px;
+    margin-bottom: 6px;
   }
 
   .openings-contact-page p,
   .application-section ul {
     font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .opening-position {
+    margin-bottom: 12px;
+  }
+
+  .application-section {
+    margin-top: 22px;
   }
 
   .contact-row {
     flex-direction: column !important;
-    gap: 24px !important;
+    gap: 18px !important;
+    margin-bottom: 28px !important;
   }
 
   .contact-text {
@@ -782,12 +794,14 @@ firstp {
     width: 100% !important;
     min-width: 0 !important;
     max-width: 100% !important;
-    height: 280px !important;
+    height: 240px !important;
+    border-radius: 10px !important;
   }
-}
 
-.openings-contact-page {
-  padding-top: 20px;
+  hr {
+    margin-top: 24px !important;
+    margin-bottom: 24px !important;
+  }
 }
 
 /* News page */
