@@ -658,7 +658,7 @@ firstp {
   }
 
   .openings-hero-square {
-    max-width: 420px;
+    max-width: 220px;
     margin: 0 auto;
   }
 
@@ -679,10 +679,12 @@ firstp {
     height: 280px;
   }
 }
+
 .team-photo-wrap {
   position: relative;
   display: inline-block;
   width: 170px;
+  overflow: visible;
 }
 
 .team-photo-img {
@@ -696,14 +698,14 @@ firstp {
 
 .team-photo-toggle {
   position: absolute;
-  right: 8px;
-  bottom: 8px;
+  right: -14px;
+  bottom: -2px;
   z-index: 5;
 
   padding: 4px 8px;
   border: none;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.88);
+  background: rgba(255, 255, 255, 0.92);
   color: #555555;
   font-size: 11px;
   line-height: 1.2;
@@ -712,6 +714,7 @@ firstp {
 
   margin: 0 !important;
   display: inline-block !important;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
 }
 
 .team-photo-toggle:hover {
@@ -722,6 +725,7 @@ firstp {
 @media screen and (max-width: 768px) {
   .team-photo-wrap {
     width: 120px;
+    overflow: visible;
   }
 
   .team-photo-img {
@@ -730,8 +734,8 @@ firstp {
   }
 
   .team-photo-toggle {
-    right: 6px;
-    bottom: 6px;
+    right: -12px;
+    bottom: -2px;
     font-size: 10px;
     padding: 3px 7px;
   }
