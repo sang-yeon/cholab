@@ -16,8 +16,6 @@ permalink: /openings/
 
 <div class="openings-section">
 
-<h2>Openings</h2>
-
 {% for paragraph in site.data.openings.intro %}
 <p>{{ paragraph }}</p>
 {% endfor %}
