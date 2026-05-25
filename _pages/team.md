@@ -10,6 +10,10 @@ permalink: /team/
 <p>
 The Cho Lab is a collaborative team dedicated to developing creative tools that advance science and benefit society. We value openness, respect, curiosity, and the joy of discovery. Our priority is to help every lab member grow, succeed, and thrive as a scientist, engineer, and person.
 </p>
+
+<p class="jedi-hint">
+Try Jedi Mode for a glimpse of our alternate universe.
+</p>
 </div>
 
 <h1 class="team-heading">Group Members</h1>
@@ -137,7 +141,7 @@ Email: {{ member.email }}
      alt="{{ member.name }}"
      style="object-position: {{ member.photo_position | default: 'center center' }} !important; transform: scale({{ member.photo_zoom | default: '1' }});" />
 
-<button type="button" class="team-photo-toggle">Alt</button>
+<button type="button" class="team-photo-toggle">Jedi Mode</button>
 
 {% else %}
 <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo }}"
