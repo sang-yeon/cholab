@@ -24,6 +24,7 @@
   photo: minsun_kim.jpg
   hover_photo: minsun_kim_fun.png
   info: Researcher
+  photo_position: "center -12%"
   email:
   number_educ: 2
   education1: "M.S. in Biomedical Engineering, Brown University (2019)"
@@ -56,6 +57,7 @@
 - name: Mark Prainito
   photo: mark_prainito.jpg
   hover_photo: mark_prainito_fun.png
+  photo_position: "center -12%"
   info: Undergraduate Researcher
   email:
   number_educ: 1
