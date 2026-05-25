@@ -680,21 +680,28 @@ firstp {
   }
 }
 
-/* Team alternate portrait button */
+/* Team alternate portrait overlay button */
+.team-photo-wrap {
+  position: relative;
+}
+
 .team-photo-toggle {
-  display: block;
-  margin: 8px auto 0 auto;
-  padding: 0;
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  padding: 3px 7px;
   border: none;
-  background: transparent;
-  color: #888888;
-  font-size: 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.82);
+  color: #555555;
+  font-size: 11px;
   line-height: 1.2;
   cursor: pointer;
   text-align: center;
+  backdrop-filter: blur(4px);
 }
 
 .team-photo-toggle:hover {
-  color: #333333;
-  text-decoration: underline;
+  background: rgba(255, 255, 255, 0.95);
+  color: #222222;
 }
