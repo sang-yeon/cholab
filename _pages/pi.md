@@ -48,16 +48,18 @@ Office: {{ site.data.pi.office }}
 
 <h2 style="font-size: 28px; font-weight: 500; margin-top: 28px; margin-bottom: 18px;">Previous Employment and Education</h2>
 
-<div style="line-height: 1.25;">
+<div style="line-height: 1.22;">
 
 {% for item in site.data.pi.previous_positions %}
-<p style="margin-top: 0; margin-bottom: 11px;">
-<strong>{{ item.year }}</strong> &nbsp;&nbsp; {{ item.text }}
-{% if item.note %}
-<br>
-<span style="display: inline-block; margin-left: 64px; margin-top: 2px; font-size: 0.96em;">{{ item.note }}</span>
-{% endif %}
-</p>
+<div style="display: flex; align-items: flex-start; gap: 16px; margin-bottom: 9px;">
+  <div style="flex: 0 0 115px; font-weight: 700;">{{ item.year }}</div>
+  <div style="flex: 1;">
+    <div>{{ item.text }}</div>
+    {% if item.note %}
+    <div style="margin-top: 1px; font-size: 0.96em;">{{ item.note }}</div>
+    {% endif %}
+  </div>
+</div>
 {% endfor %}
 
 </div>
@@ -75,12 +77,46 @@ Office: {{ site.data.pi.office }}
 
 <h2 style="font-size: 28px; font-weight: 500; margin-top: 28px; margin-bottom: 18px;">Selected Awards and Honors</h2>
 
-<div style="line-height: 1.25;">
+<div style="line-height: 1.22;">
 
 {% for award in site.data.pi.awards %}
-<p style="margin-top: 0; margin-bottom: 11px;">
-<strong>{{ award.year }}</strong> &nbsp;&nbsp; {{ award.text }}
+<div style="display: flex; align-items: flex-start; gap: 16px; margin-bottom: 9px;">
+  <div style="flex: 0 0 48px; font-weight: 700;">{{ award.year }}</div>
+  <div style="flex: 1;">{{ award.text }}</div>
+</div>
+{% endfor %}
+
+</div>
+
+{% if site.data.pi.marathon %}
+---
+
+<h2 style="font-size: 28px; font-weight: 500; margin-top: 28px; margin-bottom: 18px;">Marathon</h2>
+
+<div style="display: flex; gap: 28px; align-items: flex-start; flex-wrap: wrap; line-height: 1.35;">
+
+{% if site.data.pi.marathon.photo %}
+<div style="flex: 0 0 auto;">
+<img src="{{ site.url }}{{ site.baseurl }}/{{ site.data.pi.marathon.photo }}"
+     alt="Professor Cho marathon photo"
+     style="width: {{ site.data.pi.marathon.photo_width | default: '260px' }}; max-width: 100%; height: auto; border-radius: 6px; display: block; margin: 0 !important; padding: 0 !important;">
+</div>
+{% endif %}
+
+<div style="flex: 1; min-width: 280px;">
+
+{% if site.data.pi.marathon.quote %}
+<p style="margin-top: 0; margin-bottom: 14px; font-style: italic;">
+“{{ site.data.pi.marathon.quote }}” — {{ site.data.pi.marathon.quote_author }}, <em>{{ site.data.pi.marathon.quote_book }}</em>
+</p>
+{% endif %}
+
+{% for paragraph in site.data.pi.marathon.text %}
+<p style="margin-top: 0; margin-bottom: 10px;">
+{{ paragraph }}
 </p>
 {% endfor %}
 
 </div>
+</div>
+{% endif %}
