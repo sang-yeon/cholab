@@ -77,7 +77,7 @@ Office: {{ site.data.openings.contact.office }}<br>
 
 <div class="contact-map-box">
 <iframe
-  src="https://www.google.com/maps?q={{ site.data.openings.map.query | url_encode }}&output=embed"
+  src="https://maps.google.com/maps?q={{ site.data.openings.map.query | url_encode }}&t=&z=15&ie=UTF8&iwloc=&output=embed"
   width="100%"
   height="100%"
   style="border:0;"
