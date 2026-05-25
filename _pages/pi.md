@@ -14,13 +14,13 @@ permalink: /pi/
 <div style="flex: 0 0 auto;">
 <img src="{{ site.url }}{{ site.baseurl }}/{{ site.data.pi.photo }}"
      alt="{{ site.data.pi.name }}"
-     style="width: {{ site.data.pi.photo_width | default: '260px' }}; height: auto; border-radius: 6px; display: block;">
+     style="width: {{ site.data.pi.photo_width | default: '260px' }}; height: auto; border-radius: 6px; display: block; margin: 0 !important; padding: 0 !important;">
 </div>
 {% endif %}
 
 <div style="flex: 1; min-width: 280px; padding-top: 0;">
 
-<h2 style="font-size: 28px; font-weight: 500; margin-top: -6px; margin-bottom: 16px;">
+<h2 style="font-size: 28px; font-weight: 500; margin-top: 0; margin-bottom: 16px; line-height: 1.2;">
 {{ site.data.pi.name }}
 </h2>
 
