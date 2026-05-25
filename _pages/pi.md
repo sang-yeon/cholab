@@ -50,49 +50,43 @@ Office: {{ site.data.pi.office }}
 
 <h2 style="font-size: 28px; font-weight: 500; margin-top: 0; margin-bottom: 18px;">Previous Employment and Education</h2>
 
-<div style="line-height: 1.25;">
-
+<table style="width: 100%; border-collapse: collapse; margin-bottom: 0;">
+<tbody>
 {% for item in site.data.pi.previous_positions %}
-<div style="display: flex; align-items: flex-start; gap: 16px; margin-bottom: 10px;">
-<div style="flex: 0 0 115px; font-weight: 700;">{{ item.year }}</div>
-<div style="flex: 1;">
-<div>{{ item.text }}</div>
+<tr>
+<td style="width: 115px; vertical-align: top; font-weight: 700; padding: 0 16px 9px 0; border: none;">
+{{ item.year }}
+</td>
+<td style="vertical-align: top; padding: 0 0 9px 0; border: none; line-height: 1.25;">
+{{ item.text }}
 {% if item.note %}
-<div style="margin-top: 2px; font-size: 0.96em;">{{ item.note }}</div>
+<br>
+<span style="font-size: 0.96em;">{{ item.note }}</span>
 {% endif %}
-</div>
-</div>
+</td>
+</tr>
 {% endfor %}
-
-</div>
-
-{% if site.data.pi.thesis_committee %}
-<div style="display: flex; align-items: flex-start; gap: 16px; margin-top: 14px; line-height: 1.3;">
-<div style="flex: 0 0 115px; font-weight: 700;">Thesis Committee:</div>
-<div style="flex: 1;">
-<ul style="margin-top: 0; margin-bottom: 0; padding-left: 20px;">
-{% for person in site.data.pi.thesis_committee %}
-<li>{{ person }}</li>
-{% endfor %}
-</ul>
-</div>
-</div>
-{% endif %}
+</tbody>
+</table>
 
 <hr style="margin: 34px 0 28px 0; border: 0; border-top: 1px solid #e5e5e5;">
 
 <h2 style="font-size: 28px; font-weight: 500; margin-top: 0; margin-bottom: 18px;">Selected Awards and Honors</h2>
 
-<div style="line-height: 1.25;">
-
+<table style="width: 100%; border-collapse: collapse; margin-bottom: 0;">
+<tbody>
 {% for award in site.data.pi.awards %}
-<div style="display: flex; align-items: flex-start; gap: 16px; margin-bottom: 10px;">
-<div style="flex: 0 0 48px; font-weight: 700;">{{ award.year }}</div>
-<div style="flex: 1;">{{ award.text }}</div>
-</div>
+<tr>
+<td style="width: 48px; vertical-align: top; font-weight: 700; padding: 0 16px 9px 0; border: none;">
+{{ award.year }}
+</td>
+<td style="vertical-align: top; padding: 0 0 9px 0; border: none; line-height: 1.25;">
+{{ award.text }}
+</td>
+</tr>
 {% endfor %}
-
-</div>
+</tbody>
+</table>
 
 {% if site.data.pi.marathon %}
 <hr style="margin: 34px 0 28px 0; border: 0; border-top: 1px solid #e5e5e5;">
