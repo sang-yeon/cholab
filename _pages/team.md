@@ -31,12 +31,19 @@ The Cho Lab is a collaborative team dedicated to developing creative tools that 
 <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo }}"
 data-hover="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.hover_photo }}"
 data-original="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo }}"
+data-locked="false"
 class="img-responsive team-photo-img"
-alt="{{ member.name }}" />
+alt="{{ member.name }}"
+style="object-position: {{ member.photo_position | default: 'center center' }} !important;" />
+
+<button type="button" class="team-photo-toggle">
+Alternate portrait
+</button>
 {% else %}
 <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo }}"
 class="img-responsive team-photo-img"
-alt="{{ member.name }}" />
+alt="{{ member.name }}"
+style="object-position: {{ member.photo_position | default: 'center center' }} !important;" />
 {% endif %}
 </div>
 
@@ -108,11 +115,38 @@ document.addEventListener("DOMContentLoaded", function () {
 
   photos.forEach(function (photo) {
     photo.addEventListener("mouseenter", function () {
-      photo.src = photo.getAttribute("data-hover");
+      if (photo.getAttribute("data-locked") !== "true") {
+        photo.src = photo.getAttribute("data-hover");
+      }
     });
 
     photo.addEventListener("mouseleave", function () {
-      photo.src = photo.getAttribute("data-original");
+      if (photo.getAttribute("data-locked") !== "true") {
+        photo.src = photo.getAttribute("data-original");
+      }
+    });
+  });
+
+  var buttons = document.querySelectorAll(".team-photo-toggle");
+
+  buttons.forEach(function (button) {
+    button.addEventListener("click", function () {
+      var wrap = button.closest(".team-photo-wrap");
+      var photo = wrap.querySelector(".team-photo-img[data-hover]");
+
+      if (!photo) return;
+
+      var isLocked = photo.getAttribute("data-locked") === "true";
+
+      if (isLocked) {
+        photo.src = photo.getAttribute("data-original");
+        photo.setAttribute("data-locked", "false");
+        button.textContent = "Alternate portrait";
+      } else {
+        photo.src = photo.getAttribute("data-hover");
+        photo.setAttribute("data-locked", "true");
+        button.textContent = "Original portrait";
+      }
     });
   });
 });
