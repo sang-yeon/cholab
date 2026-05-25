@@ -8,10 +8,6 @@ permalink: /research/
 
 <div class="research-page">
 
-<h1 class="research-title">
-{{ site.data.research.page_title }}
-</h1>
-
 <h2 class="research-intro-title">
 {{ site.data.research.intro_title }}
 </h2>
