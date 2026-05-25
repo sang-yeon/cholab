@@ -22,7 +22,7 @@
 
 - name: Minsun Kim
   photo: minsun_kim.jpg
-  hover_photo: minsun_kim_fun.jpg
+  hover_photo: minsun_kim_fun.png
   info: Researcher
   email:
   number_educ: 2
@@ -31,7 +31,7 @@
 
 - name: Toby Chen
   photo: toby_chen.jpg
-  hover_photo: toby_chen_fun.jpg
+  hover_photo: toby_chen_fun.png
   info: Undergraduate Researcher
   email:
   number_educ: 1
@@ -39,7 +39,7 @@
 
 - name: Daniel Choi
   photo: daniel_choi.png
-  hover_photo: daniel_choi_fun.jpg
+  hover_photo: daniel_choi_fun.png
   info: Undergraduate Researcher
   email:
   number_educ: 1
@@ -47,14 +47,14 @@
 
 - name: Jada Kim
   photo: jada_kim.jpg
-  hover_photo: jada_kim_fun.jpg
+  hover_photo: jada_kim_fun.png
   info: Undergraduate Researcher
   email:
   number_educ: 1
   education1: "Human Developmental and Regenerative Biology & Applied Mathematics, Harvard University ’29"
 
 - name: Mark Prainito
-  photo: mark_prainito.jpg
+  photo: mark_prainito.png
   hover_photo: mark_prainito_fun.jpg
   info: Undergraduate Researcher
   email:
