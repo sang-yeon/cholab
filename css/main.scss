@@ -679,29 +679,60 @@ firstp {
     height: 280px;
   }
 }
-
-/* Team alternate portrait overlay button */
 .team-photo-wrap {
   position: relative;
+  display: inline-block;
+  width: 170px;
+}
+
+.team-photo-img {
+  width: 170px !important;
+  height: 170px !important;
+  object-fit: cover !important;
+  border-radius: 8px !important;
+  display: block !important;
+  margin: 0 !important;
 }
 
 .team-photo-toggle {
   position: absolute;
   right: 8px;
   bottom: 8px;
-  padding: 3px 7px;
+  z-index: 5;
+
+  padding: 4px 8px;
   border: none;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.82);
+  background: rgba(255, 255, 255, 0.88);
   color: #555555;
   font-size: 11px;
   line-height: 1.2;
   cursor: pointer;
   text-align: center;
-  backdrop-filter: blur(4px);
+
+  margin: 0 !important;
+  display: inline-block !important;
 }
 
 .team-photo-toggle:hover {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0.96);
   color: #222222;
+}
+
+@media screen and (max-width: 768px) {
+  .team-photo-wrap {
+    width: 120px;
+  }
+
+  .team-photo-img {
+    width: 120px !important;
+    height: 120px !important;
+  }
+
+  .team-photo-toggle {
+    right: 6px;
+    bottom: 6px;
+    font-size: 10px;
+    padding: 3px 7px;
+  }
 }
