@@ -1,23 +1,49 @@
 ---
-title: "Cho Lab - Research"
+title: "Research"
 layout: textlay
-excerpt: "Cho Lab -- Research"
+excerpt: "Cho Lab: Research"
 sitemap: false
 permalink: /research/
 ---
 
-<div style="text-align: center; margin-top: 10px; margin-bottom: 30px;">
-<h1 style="font-weight: 700;">{{ site.data.research.title }}</h1>
+<div class="research-page">
+
+<h1 class="research-title">
+{{ site.data.research.page_title }}
+</h1>
+
+<h2 class="research-intro-title">
+{{ site.data.research.intro_title }}
+</h2>
+
+{% for paragraph in site.data.research.intro_text %}
+<p class="research-intro-text">{{ paragraph }}</p>
+{% endfor %}
+
+{% for section in site.data.research.sections %}
+
+<div class="research-section">
+
+<div class="research-text">
+
+<h2>{{ section.question }}</h2>
+
+{% for paragraph in section.text %}
+<p>{{ paragraph }}</p>
+{% endfor %}
+
 </div>
 
-<div style="font-size: 1.25em; line-height: 1.6; margin-bottom: 30px;">
-{{ site.data.research.intro | markdownify }}
-</div>
-
-{% if site.data.research.image %}
-<div style="margin-top: 20px; text-align: center;">
-<img src="{{ site.url }}{{ site.baseurl }}/{{ site.data.research.image }}"
-     alt="Cho Lab research vision"
-     style="width: {{ site.data.research.image_width | default: '100%' }}; max-width: 1100px; height: auto; border-radius: 4px;">
+{% if section.image %}
+<div class="research-image-wrap">
+<img src="{{ site.url }}{{ site.baseurl }}/images/research/{{ section.image }}"
+     alt="{{ section.image_alt }}"
+     class="research-image">
 </div>
 {% endif %}
+
+</div>
+
+{% endfor %}
+
+</div>
