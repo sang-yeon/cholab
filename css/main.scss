@@ -984,6 +984,12 @@ firstp {
 .internal-main-card a {
   font-size: 16px;
 }
+.internal-inprep {
+  display: inline-block;
+  font-size: 15px;
+  color: #888888;
+  font-style: italic;
+}
 
 @media screen and (max-width: 768px) {
   .internal-page {
