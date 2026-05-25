@@ -29,21 +29,20 @@ The Cho Lab is a collaborative team dedicated to developing creative tools that 
 <div class="team-photo-wrap">
 {% if member.hover_photo %}
 <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo }}"
-data-hover="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.hover_photo }}"
-data-original="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo }}"
-data-locked="false"
-class="img-responsive team-photo-img"
-alt="{{ member.name }}"
-style="object-position: {{ member.photo_position | default: 'center center' }} !important;" />
+     data-hover="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.hover_photo }}"
+     data-original="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo }}"
+     data-locked="false"
+     class="img-responsive team-photo-img"
+     alt="{{ member.name }}"
+     style="object-position: {{ member.photo_position | default: 'center center' }} !important;" />
 
-<button type="button" class="team-photo-toggle">
-Alt
-</button>
+<button type="button" class="team-photo-toggle">Alt</button>
+
 {% else %}
 <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo }}"
-class="img-responsive team-photo-img"
-alt="{{ member.name }}"
-style="object-position: {{ member.photo_position | default: 'center center' }} !important;" />
+     class="img-responsive team-photo-img"
+     alt="{{ member.name }}"
+     style="object-position: {{ member.photo_position | default: 'center center' }} !important;" />
 {% endif %}
 </div>
 
