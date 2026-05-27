@@ -18,3 +18,7 @@ resources:
 
   - title: "Lab Calendar"
     description: "Shared calendar for lab meetings, group events, deadlines, equipment schedules, and other important lab activities."
+    
+  - title: "AI / Program Repository"
+    description: "Shared repository for lab software, analysis scripts, AI tools, simulation codes, data-processing pipelines, and reusable programming resources."
+    url:
