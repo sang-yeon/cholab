@@ -37,7 +37,7 @@ Try Jedi Mode for a glimpse of our alternate universe.
      data-original="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo }}"
      data-locked="false"
      class="img-responsive team-photo-img"
-     alt="{{ member.name }}"
+     alt="{{ member.name | escape }}"
      style="object-position: {{ member.photo_position | default: 'center center' }} !important; transform: scale({{ member.photo_zoom | default: '1' }});" />
 
 <button type="button" class="team-photo-toggle">Jedi Mode</button>
@@ -45,14 +45,14 @@ Try Jedi Mode for a glimpse of our alternate universe.
 {% else %}
 <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo }}"
      class="img-responsive team-photo-img"
-     alt="{{ member.name }}"
+     alt="{{ member.name | escape }}"
      style="object-position: {{ member.photo_position | default: 'center center' }} !important; transform: scale({{ member.photo_zoom | default: '1' }});" />
 {% endif %}
 </div>
 
 <div class="team-member-text">
 
-<h4>{{ member.name }}</h4>
+<h2 class="team-member-name">{{ member.name }}</h2>
 
 <div class="team-member-role">
 <i>{{ member.info }}</i>
@@ -138,7 +138,7 @@ Email: {{ member.email }}
      data-original="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo }}"
      data-locked="false"
      class="img-responsive team-photo-img"
-     alt="{{ member.name }}"
+     alt="{{ member.name | escape }}"
      style="object-position: {{ member.photo_position | default: 'center center' }} !important; transform: scale({{ member.photo_zoom | default: '1' }});" />
 
 <button type="button" class="team-photo-toggle">Jedi Mode</button>
@@ -146,14 +146,14 @@ Email: {{ member.email }}
 {% else %}
 <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo }}"
      class="img-responsive team-photo-img"
-     alt="{{ member.name }}"
+     alt="{{ member.name | escape }}"
      style="object-position: {{ member.photo_position | default: 'center center' }} !important; transform: scale({{ member.photo_zoom | default: '1' }});" />
 {% endif %}
 </div>
 
 <div class="team-member-text">
 
-<h4>{{ member.name }}</h4>
+<h2 class="team-member-name">{{ member.name }}</h2>
 
 <div class="team-member-role">
 <i>{{ member.info }}</i>
