@@ -20,6 +20,9 @@ figcaption {
   text-align: right;
   margin-top: -20px;
   margin-bottom: 20px;
+  color: #333333 !important;
+  font-size: 14px;
+  line-height: 1.35;
 }
 
 /* Top navigation bar */
@@ -1141,4 +1144,25 @@ a:focus,
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #333333 !important;
+}
+
+/* ============================================================
+   PI page caption contrast fix
+   ============================================================ */
+
+figcaption,
+.caption,
+.image-caption,
+.photo-caption,
+.pi-caption,
+#piid figcaption,
+#piid .caption,
+#piid .image-caption,
+#piid .photo-caption,
+.pi-page figcaption,
+.pi-page .caption,
+.pi-page .image-caption,
+.pi-page .photo-caption {
+  color: #333333 !important;
+  opacity: 1 !important;
 }
