@@ -8,24 +8,29 @@ permalink: /research/
 
 # Research
 
-## {{ site.data.research.intro.title }}
+## {{ site.data.research.intro_title }}
 
-{{ site.data.research.intro.text }}
+{% for paragraph in site.data.research.intro_text %}
+{{ paragraph }}
+{% endfor %}
 
 {% for section in site.data.research.sections %}
 
 ---
 
-## {{ section.title }}
+## {{ section.question }}
 
 {% if section.image %}
-<div style="margin: 18px 0;">
-<img src="{{ site.url }}{{ site.baseurl }}/{{ section.image }}"
-     alt="{{ section.title }}"
-     style="max-width: 720px; width: 100%; height: auto; border-radius: 4px;">
+<div class="research-image-container" style="margin: 18px 0;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/research/{{ section.image }}"
+       alt="{{ section.alt | default: section.question | strip_html | escape }}"
+       style="max-width: 720px; width: 100%; height: auto; border-radius: 4px;">
 </div>
 {% endif %}
 
-{{ section.text | markdownify }}
+{% for paragraph in section.text %}
+{{ paragraph }}
+
+{% endfor %}
 
 {% endfor %}
