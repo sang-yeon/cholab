@@ -21,8 +21,9 @@
     - label: "Journal Front Cover"
       url: "https://pubs.acs.org/toc/apchd5/13/9"
   image: "images/publications/ACS_Photonics_Cover.jpeg"
+  image_alt: "ACS Photonics journal cover featuring air-stable room-temperature quasi-2D tin iodide perovskite microlasers"
   image_height: "200px"
-  
+
 - year: "2025"
   title: "Half-Wave Nanolasers and Intracellular Plasmonic Lasing Particles"
   authors: "<strong><em>S. Cho</em></strong>, N. Martino, S. H. Yun."
@@ -93,11 +94,13 @@
       url: "https://www.massgeneral.org/research/news/newsletters/snapshotscience/sept-2021"
   note: "Online banner paper"
   images:
-  - path: "images/publications/Sci_Cover.jpg"
-    height: "200px"
-  - path: "images/publications/mgh_snap.png"
-    height: "200px"
-    
+    - path: "images/publications/Sci_Cover.jpg"
+      height: "200px"
+      alt: "Science Advances online banner featuring submicrometer perovskite plasmonic lasers"
+    - path: "images/publications/mgh_snap.png"
+      height: "200px"
+      alt: "Mass General Hospital Snapshot of Science highlight for the submicrometer perovskite plasmonic laser publication"
+
 - year: "2021"
   title: "Poly(catecholamine) Coated CsPbBr3 Perovskite Microlasers: Lasing in Water and Biofunctionalization"
   authors: "<strong><em>S. Cho</em></strong>, S. H. Yun."
@@ -139,6 +142,7 @@
       url: "https://communities.springernature.com/posts/ultrasonic-magic"
   note: "Online banner paper"
   image: "images/publications/comm_cover.png"
+  image_alt: "Communications Chemistry online banner for the perovskite-embedded dual-phase microcrystals publication"
   image_height: "200px"
 
 - year: "2017"
@@ -164,10 +168,12 @@
       url: "https://physics.aps.org/articles/v9/128"
   note: "PRL Editors' Suggestion."
   images:
-  - path: "images/publications/nature_mention.png"
-    height: "200px"
-  - path: "images/publications/HST_mention.png"
-    height: "200px"
+    - path: "images/publications/nature_mention.png"
+      height: "200px"
+      alt: "Nature news highlight for laser particle stimulated emission microscopy"
+    - path: "images/publications/HST_mention.png"
+      height: "200px"
+      alt: "MIT HST news highlight for laser particle stimulated emission microscopy"
 
 - year: "2013"
   title: "Simple Super-resolution Live-Cell Imaging Based on Diffusion-Assisted Förster Resonance Energy Transfer"
@@ -191,6 +197,7 @@
     - label: "KAIST’s Chemistry Undergraduate Lands Cover Article in Leading International Journal"
       url: "https://news.kaist.ac.kr/news/html/news/?mode=V&mng_no=2793"
   image: "images/publications/trend_cover.jpg"
+  image_alt: "Trends in Biotechnology cover for the optical imaging techniques for malaria review article"
   image_height: "200px"
 
 - year: "2012"
