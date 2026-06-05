@@ -13,7 +13,7 @@ permalink: /pi/
 {% if site.data.pi.photo %}
 <div style="flex: 0 0 auto;">
 <img src="{{ site.url }}{{ site.baseurl }}/{{ site.data.pi.photo }}"
-     alt="{{ site.data.pi.name | escape }}"
+     alt=""
      style="width: {{ site.data.pi.photo_width | default: '260px' }}; height: auto; border-radius: 6px; display: block; margin: 0 !important; padding: 0 !important;">
 </div>
 {% endif %}
@@ -52,43 +52,39 @@ Office: {{ site.data.pi.office }}
 
 <h2 style="font-size: 28px; font-weight: 500; margin-top: 0; margin-bottom: 18px;">Employment and Education</h2>
 
-<table style="width: 100%; border-collapse: collapse; margin-bottom: 0;">
-<tbody>
+<div class="pi-list" style="width: 100%; margin-bottom: 0;">
 {% for item in site.data.pi.previous_positions %}
-<tr>
-<td style="width: 115px; vertical-align: top; font-weight: 700; padding: 0 16px 9px 0; border: none;">
-{{ item.year }}
-</td>
-<td style="vertical-align: top; padding: 0 0 9px 0; border: none; line-height: 1.25;">
-{{ item.text }}
-{% if item.note %}
-<br>
-<span style="font-size: 0.96em;">{{ item.note }}</span>
-{% endif %}
-</td>
-</tr>
+<div class="pi-list-row" style="display: grid; grid-template-columns: 115px 1fr; column-gap: 16px; margin-bottom: 9px;">
+  <div class="pi-list-year" style="font-weight: 700; line-height: 1.25;">
+    {{ item.year }}
+  </div>
+  <div class="pi-list-text" style="line-height: 1.25;">
+    {{ item.text }}
+    {% if item.note %}
+    <br>
+    <span style="font-size: 0.96em;">{{ item.note }}</span>
+    {% endif %}
+  </div>
+</div>
 {% endfor %}
-</tbody>
-</table>
+</div>
 
 <hr style="margin: 34px 0 28px 0; border: 0; border-top: 1px solid #e5e5e5;">
 
 <h2 style="font-size: 28px; font-weight: 500; margin-top: 0; margin-bottom: 18px;">Selected Awards and Honors</h2>
 
-<table style="width: 100%; border-collapse: collapse; margin-bottom: 0;">
-<tbody>
+<div class="pi-list" style="width: 100%; margin-bottom: 0;">
 {% for award in site.data.pi.awards %}
-<tr>
-<td style="width: 48px; vertical-align: top; font-weight: 700; padding: 0 16px 9px 0; border: none;">
-{{ award.year }}
-</td>
-<td style="vertical-align: top; padding: 0 0 9px 0; border: none; line-height: 1.25;">
-{{ award.text }}
-</td>
-</tr>
+<div class="pi-list-row" style="display: grid; grid-template-columns: 48px 1fr; column-gap: 16px; margin-bottom: 9px;">
+  <div class="pi-list-year" style="font-weight: 700; line-height: 1.25;">
+    {{ award.year }}
+  </div>
+  <div class="pi-list-text" style="line-height: 1.25;">
+    {{ award.text }}
+  </div>
+</div>
 {% endfor %}
-</tbody>
-</table>
+</div>
 
 {% if site.data.pi.marathon %}
 <hr style="margin: 34px 0 28px 0; border: 0; border-top: 1px solid #e5e5e5;">
