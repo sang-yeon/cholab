@@ -1164,3 +1164,11 @@ figcaption,
   color: #333333 !important;
   opacity: 1 !important;
 }
+
+/* PI page responsive list layout */
+@media screen and (max-width: 768px) {
+  .pi-list-row {
+    grid-template-columns: 80px 1fr !important;
+    column-gap: 12px !important;
+  }
+}
