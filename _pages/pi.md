@@ -13,8 +13,8 @@ permalink: /pi/
 {% if site.data.pi.photo %}
 <div style="flex: 0 0 auto;">
 <img src="{{ site.url }}{{ site.baseurl }}/{{ site.data.pi.photo }}"
-alt="{{ site.data.pi.name }}"
-style="width: {{ site.data.pi.photo_width | default: '260px' }}; height: auto; border-radius: 6px; display: block; margin: 0 !important; padding: 0 !important;">
+     alt="{{ site.data.pi.name | escape }}"
+     style="width: {{ site.data.pi.photo_width | default: '260px' }}; height: auto; border-radius: 6px; display: block; margin: 0 !important; padding: 0 !important;">
 </div>
 {% endif %}
 
@@ -38,7 +38,9 @@ Office: {{ site.data.pi.office }}
 {% if site.data.pi.links %}
 <p>
 {% for item in site.data.pi.links %}
-<a href="{% if item.url contains 'http' %}{{ item.url }}{% else %}{{ site.url }}{{ site.baseurl }}{{ item.url }}{% endif %}" target="_blank">{{ item.label }}</a>{% unless forloop.last %} | {% endunless %}
+<a href="{% if item.url contains 'http' %}{{ item.url }}{% else %}{{ site.url }}{{ site.baseurl }}{{ item.url }}{% endif %}"
+   target="_blank"
+   rel="noopener noreferrer">{{ item.label }}</a>{% unless forloop.last %} | {% endunless %}
 {% endfor %}
 </p>
 {% endif %}
@@ -110,11 +112,11 @@ Office: {{ site.data.pi.office }}
 {% if site.data.pi.marathon.photo %}
 <div style="margin-top: 20px;">
 <img src="{{ site.url }}{{ site.baseurl }}/{{ site.data.pi.marathon.photo }}"
-alt="Professor Cho marathon photo"
-style="width: {{ site.data.pi.marathon.photo_width | default: '520px' }}; max-width: 100%; height: auto; border-radius: 6px; display: block; margin: 0 !important; padding: 0 !important;">
+     alt="Professor Cho running during a marathon"
+     style="width: {{ site.data.pi.marathon.photo_width | default: '520px' }}; max-width: 100%; height: auto; border-radius: 6px; display: block; margin: 0 !important; padding: 0 !important;">
 
 {% if site.data.pi.marathon.caption %}
-<div style="font-size: 13px; color: #777777; line-height: 1.35; margin-top: 8px;">
+<div style="font-size: 13px; color: #333333; line-height: 1.35; margin-top: 8px;">
 {{ site.data.pi.marathon.caption }}
 </div>
 {% endif %}
