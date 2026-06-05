@@ -187,7 +187,7 @@ firstp {
   padding-right: 26px;
 }
 
-/* Home carousel wrapper: horizontal image, slightly narrower than paragraph */
+/* Home carousel wrapper */
 #homeid .home-carousel-wrapper {
   width: 84% !important;
   max-width: 720px !important;
@@ -224,7 +224,7 @@ firstp {
   background: #ffffff !important;
 }
 
-/* Carousel images: force horizontal crop */
+/* Carousel images */
 #homeid #carouselExample .carousel-inner > .item > img {
   width: 100% !important;
   height: 100% !important;
@@ -542,7 +542,9 @@ firstp {
   padding-top: 0;
 }
 
-.team-member-text h4 {
+.team-member-text h2,
+.team-member-text h3,
+.team-member-name {
   font-size: 24px;
   font-weight: 500;
   margin-top: 0 !important;
@@ -610,7 +612,9 @@ firstp {
     padding: 3px 7px;
   }
 
-  .team-member-text h4 {
+  .team-member-text h2,
+  .team-member-text h3,
+  .team-member-name {
     font-size: 21px;
   }
 
@@ -1043,7 +1047,6 @@ firstp {
    This controls all hyperlinks across the entire website.
    ============================================================ */
 
-/* All regular links across Home, News, Research, Openings, Publications, Team, Internal */
 a,
 a:link,
 a:visited,
@@ -1081,7 +1084,6 @@ a:visited,
   opacity: 1 !important;
 }
 
-/* Hover and keyboard focus states for all regular links */
 a:hover,
 a:focus,
 #homeid a:hover,
@@ -1123,7 +1125,6 @@ a:focus,
   opacity: 1 !important;
 }
 
-/* Navbar hover/focus/active states */
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li.active > a,
@@ -1146,10 +1147,7 @@ a:focus,
   background-color: #333333 !important;
 }
 
-/* ============================================================
-   PI page caption contrast fix
-   ============================================================ */
-
+/* PI page caption contrast fix */
 figcaption,
 .caption,
 .image-caption,
