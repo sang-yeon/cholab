@@ -6,31 +6,40 @@ sitemap: false
 permalink: /research/
 ---
 
-# Research
+<div class="research-page">
 
-## {{ site.data.research.intro_title }}
+<h1 class="research-title">Research</h1>
+
+<h2 class="research-intro-title">{{ site.data.research.intro_title }}</h2>
 
 {% for paragraph in site.data.research.intro_text %}
-{{ paragraph }}
+<p class="research-intro-text">{{ paragraph }}</p>
 {% endfor %}
 
 {% for section in site.data.research.sections %}
 
----
+<div class="research-section">
 
-## {{ section.question }}
+<div class="research-text">
+
+<h2>{{ section.question }}</h2>
+
+{% for paragraph in section.text %}
+<p>{{ paragraph }}</p>
+{% endfor %}
+
+</div>
 
 {% if section.image %}
-<div class="research-image-container" style="margin: 18px 0;">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/research/{{ section.image }}"
-       alt="{{ section.alt | default: section.question | strip_html | escape }}"
-       style="max-width: 720px; width: 100%; height: auto; border-radius: 4px;">
+<div class="research-image-wrap">
+<img class="research-image"
+     src="{{ site.url }}{{ site.baseurl }}/images/research/{{ section.image }}"
+     alt="">
 </div>
 {% endif %}
 
-{% for paragraph in section.text %}
-{{ paragraph }}
+</div>
 
 {% endfor %}
 
-{% endfor %}
+</div>
