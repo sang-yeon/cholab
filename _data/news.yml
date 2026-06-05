@@ -1,16 +1,19 @@
 - date: "05.23.2026"
-  headline: 'Professor Cho was awarded the <a href="https://www.cprit.texas.gov/news-events/articles/cprit-awards-more-than-103-million-in-cancer-grants-expands-rural-clinical-trials/#:~:text=Rice%20University,Texas%20M.D.%20Anderson%20Cancer%20Center" target="_blank">Cancer Prevention and Research Institute of Texas (CPRIT) Rising Star Award</a>!'
+  headline: 'Professor Cho was awarded the <a href="https://www.cprit.texas.gov/news-events/articles/cprit-awards-more-than-103-million-in-cancer-grants-expands-rural-clinical-trials/#:~:text=Rice%20University,Texas%20M.D.%20Anderson%20Cancer%20Center" target="_blank" rel="noopener noreferrer">Cancer Prevention and Research Institute of Texas (CPRIT) Rising Star Award</a>!'
   link: "/news/"
 
 - date: "05.23.2026"
   headline: 'Professor Cho was invited to give seminars at Seoul National University Chemical and Biological Engineering (05.19.26), Asan Medical Center (05.21.26), and Samsung Advanced Institute of Technology (SAIT) (05.29.26).'
   images:
-  - path: "images/newspic/Asan1.jpg"
-    width: "300px"
-  - path: "images/newspic/Asan3.jpg"
-    width: "300px"
-  - path: "images/newspic/Asan2.jpg"
-    width: "200px"
+    - path: "images/newspic/Asan1.jpg"
+      width: "300px"
+      alt: "Professor Cho giving an invited seminar at Asan Medical Center"
+    - path: "images/newspic/Asan3.jpg"
+      width: "300px"
+      alt: "Audience and seminar room during Professor Cho's invited seminar at Asan Medical Center"
+    - path: "images/newspic/Asan2.jpg"
+      width: "200px"
+      alt: "Professor Cho at Asan Medical Center during an invited seminar visit"
   link: "/news/"
 
 - date: "05.04.2026"
@@ -18,17 +21,21 @@
   images:
     - path: "images/newspic/MGB_highlight.png"
       width: "350px"
+      alt: "Mass General Brigham Research highlight featuring Professor Cho's work on the world's smallest laser"
   link: "/news/"
 
 - date: "05.01.2026"
-  headline: 'Professor Cho’s ACS Photonics paper was featured on <a href="https://pubs.acs.org/toc/apchd5/13/9" target="_blank">the journal front cover</a>!'
+  headline: 'Professor Cho’s ACS Photonics paper was featured on <a href="https://pubs.acs.org/toc/apchd5/13/9" target="_blank" rel="noopener noreferrer">the journal front cover</a>!'
   image: "images/newspic/ACS_Photonics_Cover.jpeg"
   width: "200px"
+  alt: "ACS Photonics journal cover featuring Professor Cho's paper"
   link: "/news/"
 
 - date: "04.02.2026"
-  headline: 'Professor Cho was invited to give a talk at <a href="https://conference.kobra.kr/html/?pmode=speakers" target="_blank">the Korea Bio Research Association (KOBRA) Conference</a> (05.28.26) in Suwon, Korea.'
+  headline: 'Professor Cho was invited to give a talk at <a href="https://conference.kobra.kr/html/?pmode=speakers" target="_blank" rel="noopener noreferrer">the Korea Bio Research Association (KOBRA) Conference</a> (05.28.26) in Suwon, Korea.'
   image: "images/newspic/KOBRA.png"
+  width: "300px"
+  alt: "Korea Bio Research Association Conference announcement for Professor Cho's invited talk"
   link: "/news/"
 
 - date: "04.22.2026"
@@ -36,8 +43,10 @@
   link: "/news/"
 
 - date: "02.01.2026"
-  headline: 'Professor Cho was invited to give a talk at <a href="https://metaconferences.org/META26/index.php/META/symposia" target="_blank">META 2026 in Dublin, Ireland</a>!'
+  headline: 'Professor Cho was invited to give a talk at <a href="https://metaconferences.org/META26/index.php/META/symposia" target="_blank" rel="noopener noreferrer">META 2026 in Dublin, Ireland</a>!'
   image: "images/newspic/META26.webp"
+  width: "300px"
+  alt: "META 2026 conference announcement for Professor Cho's invited talk in Dublin"
   link: "/news/"
 
 - date: "11.25.2025"
@@ -45,12 +54,15 @@
   link: "/news/"
 
 - date: "09.22.2025"
-  headline: 'Professor Cho received the <a href="https://reporter.nih.gov/search/73sh_S5jvECDPVpo8TEW6Q/project-details/11112601" target="_blank">K25 Research Grant</a> from the National Cancer Institute.'
+  headline: 'Professor Cho received the <a href="https://reporter.nih.gov/search/73sh_S5jvECDPVpo8TEW6Q/project-details/11112601" target="_blank" rel="noopener noreferrer">K25 Research Grant</a> from the National Cancer Institute.'
   image: "images/newspic/NCI.png"
   width: "200px"
+  alt: "National Cancer Institute logo associated with Professor Cho's K25 Research Grant"
   link: "/news/"
 
 - date: "08.2025"
   headline: 'Dr. Cho was promoted to Assistant Professor at the Wellman Center for Photomedicine at Massachusetts General Hospital and Harvard Medical School, and the Cho Lab was launched.'
   image: "images/newspic/wellman_promotion.png"
+  width: "300px"
+  alt: "Announcement of Dr. Cho's promotion to Assistant Professor and launch of the Cho Lab"
   link: "/news/"
