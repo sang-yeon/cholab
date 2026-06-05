@@ -87,7 +87,7 @@ figcaption {
 
 /* Mobile navbar toggle contrast fix */
 .navbar-default .navbar-toggle {
-  border-color: #595959 !important;
+  border-color: #333333 !important;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -1036,51 +1036,77 @@ firstp {
 }
 
 /* ============================================================
-   Accessibility contrast fixes - final override
-   Put this at the very end of main.scss
+   Accessibility contrast fixes - strongest final override
+   This controls all hyperlinks across the entire website.
    ============================================================ */
 
-/* General link contrast fix */
+/* All regular links across Home, News, Research, Openings, Publications, Team, Internal */
 a,
 a:link,
-a:visited {
-  color: #005a8d !important;
-  opacity: 1 !important;
-}
-
-a:hover,
-a:focus {
-  color: #003f63 !important;
-  text-decoration: underline !important;
-  opacity: 1 !important;
-}
-
-/* News links contrast fix */
-.news-list a,
-.news-list a:link,
-.news-list a:visited,
+a:visited,
+#homeid a,
+#homeid a:link,
+#homeid a:visited,
 #newsid a,
 #newsid a:link,
 #newsid a:visited,
+.news-list a,
+.news-list a:link,
+.news-list a:visited,
 .news-page a,
 .news-page a:link,
-.news-page a:visited {
-  color: #005a8d !important;
+.news-page a:visited,
+.research-page a,
+.research-page a:link,
+.research-page a:visited,
+.research-text a,
+.research-text a:link,
+.research-text a:visited,
+.openings-contact-page a,
+.openings-contact-page a:link,
+.openings-contact-page a:visited,
+.publications-page a,
+.publications-page a:link,
+.publications-page a:visited,
+.team-member-text a,
+.team-member-text a:link,
+.team-member-text a:visited,
+.internal-page a,
+.internal-page a:link,
+.internal-page a:visited {
+  color: #003f63 !important;
   opacity: 1 !important;
 }
 
-.news-list a:hover,
-.news-list a:focus,
+/* Hover and keyboard focus states for all regular links */
+a:hover,
+a:focus,
+#homeid a:hover,
+#homeid a:focus,
 #newsid a:hover,
 #newsid a:focus,
+.news-list a:hover,
+.news-list a:focus,
 .news-page a:hover,
-.news-page a:focus {
-  color: #003f63 !important;
+.news-page a:focus,
+.research-page a:hover,
+.research-page a:focus,
+.research-text a:hover,
+.research-text a:focus,
+.openings-contact-page a:hover,
+.openings-contact-page a:focus,
+.publications-page a:hover,
+.publications-page a:focus,
+.team-member-text a:hover,
+.team-member-text a:focus,
+.internal-page a:hover,
+.internal-page a:focus {
+  color: #002b45 !important;
   text-decoration: underline !important;
   opacity: 1 !important;
 }
 
-/* Main navbar links - keep navbar gray/black, not blue */
+/* Navbar links should stay dark gray/black, not blue */
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-nav > li > a:link,
 .navbar-default .navbar-nav > li > a:visited,
