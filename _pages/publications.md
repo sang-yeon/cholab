@@ -8,6 +8,8 @@ permalink: /publications/
 
 <div class="publications-page" markdown="1">
 
+<h1 style="font-size: 32px; font-weight: 500; margin-top: 0; margin-bottom: 24px;">Publications</h1>
+
 <p style="margin-top: 5px; margin-bottom: 28px;">
   <a href="https://scholar.google.com/citations?hl=en&user=8RNAdMYAAAAJ"
      target="_blank"
