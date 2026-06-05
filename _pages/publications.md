@@ -9,7 +9,9 @@ permalink: /publications/
 <div class="publications-page" markdown="1">
 
 <p style="margin-top: 5px; margin-bottom: 28px;">
-  <a href="https://scholar.google.com/citations?hl=en&user=8RNAdMYAAAAJ" target="_blank">Google Scholar Citations</a>
+  <a href="https://scholar.google.com/citations?hl=en&user=8RNAdMYAAAAJ"
+     target="_blank"
+     rel="noopener noreferrer">Google Scholar Citations</a>
 </p>
 
 {% if site.data.publications and site.data.publications.size > 0 %}
@@ -35,7 +37,9 @@ permalink: /publications/
 <p style="margin: 0; line-height: 1.35;">
 <strong>{{ number }}.
 {% if pub.link %}
-<a href="{{ pub.link }}" target="_blank">{{ pub.title }}</a>
+<a href="{{ pub.link }}"
+   target="_blank"
+   rel="noopener noreferrer">{{ pub.title }}</a>
 {% else %}
 {{ pub.title }}
 {% endif %}
@@ -58,13 +62,17 @@ permalink: /publications/
 {% endif %}
 
 {% if pub.pdf %}
-<a href="{{ site.url }}{{ site.baseurl }}/{{ pub.pdf }}" target="_blank">PDF</a>
+<a href="{{ site.url }}{{ site.baseurl }}/{{ pub.pdf }}"
+   target="_blank"
+   rel="noopener noreferrer">PDF</a>
 {% endif %}
 
 {% if pub.extra_links %}
 {% for extra in pub.extra_links %}
 {% if pub.pdf or forloop.index0 > 0 %} | {% endif %}
-<a href="{{ extra.url }}" target="_blank">{{ extra.label }}</a>
+<a href="{{ extra.url }}"
+   target="_blank"
+   rel="noopener noreferrer">{{ extra.label }}</a>
 {% endfor %}
 {% endif %}
 </p>
@@ -73,14 +81,14 @@ permalink: /publications/
 <div class="publication-images" style="margin-top: 8px; margin-bottom: 4px; display: flex; gap: 12px; align-items: flex-start; flex-wrap: wrap;">
 {% for img in pub.images %}
 <img src="{{ site.url }}{{ site.baseurl }}/{{ img.path }}"
-     alt="Publication image"
+     alt="{{ img.alt | default: pub.image_alt | default: pub.title | strip_html | escape }}"
      style="height: {{ img.height | default: pub.image_height | default: '150px' }}; width: auto; max-width: {{ img.width | default: pub.image_width | default: '420px' }}; object-fit: contain; border-radius: 4px; margin-top: 0; margin-bottom: 0;">
 {% endfor %}
 </div>
 {% elsif pub.image %}
 <div class="publication-image" style="margin-top: 8px; margin-bottom: 4px;">
 <img src="{{ site.url }}{{ site.baseurl }}/{{ pub.image }}"
-     alt="Publication image"
+     alt="{{ pub.image_alt | default: pub.title | strip_html | escape }}"
      style="height: {{ pub.image_height | default: '150px' }}; width: auto; max-width: {{ pub.image_width | default: '420px' }}; object-fit: contain; border-radius: 4px; margin-top: 0; margin-bottom: 0;">
 </div>
 {% endif %}
