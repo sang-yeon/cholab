@@ -45,7 +45,7 @@ permalink: /openings/
 {% if site.data.openings.hero_image %}
 <div class="openings-hero-square">
 <img src="{{ site.url }}{{ site.baseurl }}/images/openings/{{ site.data.openings.hero_image.file }}"
-     alt="{{ site.data.openings.hero_image.alt }}">
+     alt="{{ site.data.openings.hero_image.alt | default: 'Cho Lab group illustration' | escape }}">
 </div>
 {% endif %}
 </div>
@@ -78,10 +78,11 @@ Office: {{ site.data.openings.contact.office }}<br>
 <div class="contact-map-box">
 <iframe
   src="https://maps.google.com/maps?q={{ site.data.openings.map.query | url_encode }}&t=&z=15&ie=UTF8&iwloc=&output=embed"
+  title="{{ site.data.openings.map.title | default: 'Map showing the Cho Lab location at Rice University' | escape }}"
   width="100%"
   height="100%"
   style="border:0;"
-  allowfullscreen=""
+  allowfullscreen
   loading="lazy"
   referrerpolicy="no-referrer-when-downgrade">
 </iframe>
