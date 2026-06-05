@@ -8,7 +8,6 @@ intro_text:
 sections:
   - question: "Question 1. How small can a laser be?"
     image: "research1.png"
-    alt: "Nanoscale laser concept illustrating the miniaturization of lasers beyond conventional photonic limits"
     text:
       - "Miniaturizing lasers represents a Moore’s law–like scaling in photonics, enabling fascinating light–matter interactions and opening new frontiers in on-chip integration and bioapplications."
       - "We have recently demonstrated the world’s smallest laser and the first half-wavelength laser, with a physical size as small as 190 nm, emitting coherent light at 1200 nm."
@@ -17,7 +16,6 @@ sections:
 
   - question: "Question 2. How can nanolasers contribute to improving human health?"
     image: "research3.png"
-    alt: "Nanolaser-based biosensors integrated with biological systems for biomedical monitoring"
     text:
       - "The primary goal of our research is to help people in need. Nanolasers are promising light sources for studying inherently complex biological systems—but what makes them special?"
       - "Their tunable and narrowband stimulated emission provides clear advantages over conventional probes such as green fluorescent proteins and quantum dots."
@@ -26,7 +24,6 @@ sections:
 
   - question: "Question 3. How can nanolasers shape the future of photonics?"
     image: "research2.png"
-    alt: "Nanolasers as building blocks for integrated photonic devices and nanoscale optical systems"
     text:
       - "Nanolasers can serve as fundamental building blocks for next-generation photonic devices, enabling unprecedented levels of miniaturization, speed, and energy efficiency."
       - "Their ability to confine light at the nanoscale opens transformative opportunities in on-chip optical communication, quantum technologies, and biomedical sensing."
