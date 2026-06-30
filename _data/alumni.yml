@@ -4,3 +4,13 @@
   email:
   number_educ: 1
   education1: "(2025-2026) Biomedical Engineering, Harvard University ’29"
+
+- name: Minsun Kim
+  photo: minsun_kim.jpg
+  hover_photo: minsun_kim_fun.png
+  info: Researcher
+  photo_position: "center -3%"
+  email:
+  number_educ: 2
+  education1: "M.S. in Biomedical Engineering, Brown University (2019)"
+  education2: "B.S. in Biomedical Engineering, Columbia University (2017)"
