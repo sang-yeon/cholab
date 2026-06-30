@@ -12,8 +12,6 @@ We are trailblazers on a mission to drive medicine and photonics forward in the 
 
 Our current focus is on nanolasers, which hold transformative potential across diverse fields—from high-performance photonic devices to advanced medical discoveries—through their coherence, speed-of-light operation, and multiplexing capability.
 
-The Cho Lab is relocating from Massachusetts General Hospital and Harvard Medical School to Rice University Bioengineering.
-
 <div class="home-carousel-wrapper" markdown="0">
 
 <div id="carouselExample"
