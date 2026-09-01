@@ -10,9 +10,9 @@ main_folder:
   url: "https://drive.google.com/drive/folders/1AdM7Jx7dh-KOR2NYrwNOc_8_qjIl2Q4z?usp=sharing"
 
 resources:
- - title: Ordering System
-    description: Request supplies, reagents, equipment, and other lab-related purchases.
-    url: https://fredericksycho.pythonanywhere.com
+  - title: "Ordering System"
+    description: "Request supplies, reagents, equipment, and other lab-related purchases."
+    url: "https://fredericksycho.pythonanywhere.com"
 
   - title: "Equipment Reservation"
     description: "Shared equipment schedules, microscope reservation, optics table use, and facility coordination."
