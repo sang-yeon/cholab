@@ -28,6 +28,12 @@ permalink: /publications/
 
 <hr style="margin: 28px 0 24px 0;">
 
+{% if current_year == "2026" %}
+<p style="font-size: 13px; color: #666; margin-top: 0; margin-bottom: 16px; line-height: 1.4;">
+  <sup>+</sup> Corresponding author &nbsp;&nbsp;&nbsp; <sup>*</sup> Co-first author
+</p>
+{% endif %}
+
 <h2 style="font-size: 32px; margin-top: 0; margin-bottom: 22px;">{{ current_year }}</h2>
 
 {% endif %}
@@ -134,3 +140,4 @@ S. H. Yun, S. Cho.<br>
 </div>
 
 </div>
+
