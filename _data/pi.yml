@@ -1,6 +1,17 @@
 name: "Sangyeon (Fred) Cho, 조상연"
 title: "Assistant Professor, CPRIT Rising Star Scholar"
 department: "Department of Bioengineering"
+department_url: "https://bioengineering.rice.edu/"
+affiliations:
+  - role: "Core Member"
+    institute: "Smalley-Curl Institute"
+    focus: "Nanoscience & Applied Physics"
+    url: "https://sci.rice.edu/"
+
+  - role: "Member"
+    institute: "Ken Kennedy Institute"
+    focus: "Artificial Intelligence & Computing"
+    url: "https://kenkennedy.rice.edu/"
 institution: "Rice University"
 email: "scho1105 at rice.edu"
 office: "#615 BioScience Research Collaborative (BRC), Rice University, Houston, TX"
