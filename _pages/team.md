@@ -131,7 +131,7 @@ Email: {{ member.email }}
 <div class="col-sm-6 clearfix team-member-card">
 <div class="team-member-inner">
 
-<div class="team-photo-wrap">
+<div class="team-photo-wrap alumni-photo-wrap">
 {% if member.hover_photo %}
 <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo }}"
      data-hover="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.hover_photo }}"
