@@ -1,3 +1,4 @@
+
 ---
 title: "PI"
 layout: textlay
@@ -24,9 +25,23 @@ permalink: /pi/
 {{ site.data.pi.name }}
 </h2>
 
-<p style="margin-top: 0; margin-bottom: 16px; line-height: 1.45;">
+<p style="margin-top: 0; margin-bottom: 16px; line-height: 1.55;">
 <strong>{{ site.data.pi.title }}</strong><br>
-{{ site.data.pi.department }}<br>
+
+<a href="{{ site.data.pi.department_url | default: 'https://bioengineering.rice.edu/' }}"
+   target="_blank"
+   rel="noopener noreferrer">{{ site.data.pi.department }}</a><br>
+
+{% if site.data.pi.affiliations %}
+{% for affiliation in site.data.pi.affiliations %}
+{{ affiliation.role }},
+<a href="{{ affiliation.url }}"
+   target="_blank"
+   rel="noopener noreferrer">{{ affiliation.institute }}</a>
+{% if affiliation.focus %}({{ affiliation.focus }}){% endif %}<br>
+{% endfor %}
+{% endif %}
+
 {{ site.data.pi.institution }}
 </p>
 
@@ -125,3 +140,4 @@ Office: {{ site.data.pi.office }}
 
 </div>
 {% endif %}
+
