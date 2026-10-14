@@ -14,3 +14,11 @@
   number_educ: 2
   education1: "M.S. in Biomedical Engineering, Brown University (2019)"
   education2: "B.S. in Biomedical Engineering, Columbia University (2017)"
+
+- name: Toby Chen
+  photo: toby_chen.jpg
+  hover_photo: toby_chen_fun.png
+  info: Undergraduate Researcher
+  email:
+  number_educ: 1
+  education1: "Biomedical Engineering and Comparative Literature, Harvard University ’29"
