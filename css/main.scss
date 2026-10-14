@@ -1172,3 +1172,26 @@ figcaption,
     column-gap: 12px !important;
   }
 }
+
+/* Smaller alumni photos */
+.alumni-photo-wrap {
+  flex: 0 0 110px;
+  width: 110px;
+}
+
+.alumni-photo-wrap .team-photo-img {
+  width: 110px !important;
+  height: 110px !important;
+}
+
+@media (max-width: 768px) {
+  .alumni-photo-wrap {
+    flex: 0 0 90px;
+    width: 90px;
+  }
+
+  .alumni-photo-wrap .team-photo-img {
+    width: 90px !important;
+    height: 90px !important;
+  }
+}
