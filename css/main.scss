@@ -1197,18 +1197,17 @@ figcaption,
 }
 
 /* Alumni: grayscale photos */
-.alumni-photo-wrap .team-photo-img {
+.alumni-only .team-photo-img {
   filter: grayscale(100%);
+  opacity: 0.9;
   transition: filter 0.3s ease, opacity 0.3s ease;
 }
 
-/* Restore color on hover */
-.alumni-photo-wrap .team-photo-img:hover {
+.alumni-only .team-photo-img:hover {
   filter: grayscale(0%);
   opacity: 1;
 }
 
-/* Hide Jedi Mode buttons for Alumni */
-.alumni-photo-wrap .team-photo-toggle {
+.alumni-only .team-photo-toggle {
   display: none !important;
 }
