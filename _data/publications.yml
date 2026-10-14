@@ -1,14 +1,14 @@
 - year: "2026"
-  title: "Lasing near the localization surface plasmon regime"
+  title: "Half-wave plasmonic nanolasers near the localization limit"
   authors: "<strong><em>S. Cho</em></strong><sup>+</sup>, S. H. Yun<sup>+</sup>."
-  journal: "Manuscript in editing."
+  journal: "OPTICA (In Press)"
+  note: "Breaking Our Own Record for the World’s Smallest Laser"
+  extra_links:
+    - label: "Arxiv Preprint"
+      url: "https://arxiv.org/abs/2607.03563"
 
 - year: "2026"
-  title: "Stable and Chaotic Multimode Lasing in Disordered Plasmonic–Perovskite Nanolaser Particles"
-  authors: "<strong><em>S. Cho</em></strong><sup>+</sup>, S. H. Yun<sup>+</sup>."
-  journal: "Manuscript in editing."
-
-- year: "2026"
+  section_heading: "Before Joining Rice University"
   title: "Air-Stable Room-Temperature Quasi-2D Tin Iodide Perovskite Microlasers"
   authors: "<strong><em>S. Cho</em></strong><sup>*</sup>, W. Shao<sup>*</sup>, J. Kim, L. Dou<sup>+</sup>, S. H. Yun<sup>+</sup>."
   journal_name: "ACS Photonics"
@@ -31,7 +31,7 @@
   journal_info: "20, 404–410."
   link: "https://www.nature.com/articles/s41565-024-01843-7"
   pdf: "papers/cho_natnano_2025.pdf"
-  note: "World's smallest laser"
+  note: "World's smallest laser (2025)"
   extra_links:
     - label: "Arxiv Preprint"
       url: "https://arxiv.org/abs/2310.08742"
