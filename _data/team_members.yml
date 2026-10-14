@@ -6,7 +6,6 @@
   email: scho1105 at rice.edu
   number_educ: 2
   education1: "Ph.D. in Medical Engineering and Medical Physics, Harvard-MIT Health Sciences and Technology (2019)"
-  education2: "B.S. in Chemistry, KAIST (2014)"
 
 - name: Xiao Cheng, Ph.D.
   photo: xiao_cheng_crop.jpg
@@ -15,14 +14,6 @@
   email:
   number_educ: 1
   education1: "Ph.D. in Biomedical Engineering, Nanjing University (2026)"
-
-- name: Toby Chen
-  photo: toby_chen.jpg
-  hover_photo: toby_chen_fun.png
-  info: Undergraduate Researcher
-  email:
-  number_educ: 1
-  education1: "Biomedical Engineering and Comparative Literature, Harvard University ’29"
 
 - name: Daniel Choi
   photo: daniel_choi.png
