@@ -1195,3 +1195,20 @@ figcaption,
     height: 90px !important;
   }
 }
+
+/* Alumni: grayscale photos */
+.alumni-photo-wrap .team-photo-img {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease, opacity 0.3s ease;
+}
+
+/* Restore color on hover */
+.alumni-photo-wrap .team-photo-img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+/* Hide Jedi Mode buttons for Alumni */
+.alumni-photo-wrap .team-photo-toggle {
+  display: none !important;
+}
