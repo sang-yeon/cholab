@@ -1,4 +1,3 @@
-
 ---
 title: "PI"
 layout: textlay
