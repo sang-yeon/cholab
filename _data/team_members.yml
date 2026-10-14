@@ -18,7 +18,7 @@
   photo: Artola.png
   hover_photo: Artola_fun.png
   photo_position: "center -1%"
-  info: PhD Student (Rice Applied Physics)
+  info: PhD Student (Rice Applied Physics, G1)
   email:
   number_educ: 1
   education1: "M.S. in Physics, University of Oklahoma (2026)"
@@ -26,24 +26,24 @@
 - name: Daniel Choi
   photo: daniel_choi.png
   hover_photo: daniel_choi_fun.png
-  info: Undergraduate Researcher (Harvard College)
+  info: Undergraduate Researcher (Harvard College ’29)
   email:
   number_educ: 1
-  education1: "Physics and Mathematics, Harvard University ’29"
+  education1: "Physics and Mathematics"
 
 - name: Jada Kim
   photo: jada_kim.jpg
   hover_photo: jada_kim_fun.png
-  info: Undergraduate Researcher (Harvard College)
+  info: Undergraduate Researcher (Harvard College ’29)
   email:
   number_educ: 1
-  education1: "Human Developmental and Regenerative Biology & Applied Mathematics, Harvard University ’29"
+  education1: "Human Developmental and Regenerative Biology & Applied Mathematics"
 
 - name: Mark Prainito
   photo: mark_prainito.jpg
   hover_photo: mark_prainito_fun.png
   photo_position: "center -12%"
-  info: Undergraduate Researcher (Harvard College)
+  info: Undergraduate Researcher (Harvard College ’29)
   email:
   number_educ: 1
-  education1: "Chemistry, Physics, and Engineering Science, Harvard University ’29"
+  education1: "Chemistry, Physics, and Engineering Science"
