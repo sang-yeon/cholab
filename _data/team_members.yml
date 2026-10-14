@@ -26,7 +26,7 @@
 - name: Daniel Choi
   photo: daniel_choi.png
   hover_photo: daniel_choi_fun.png
-  info: Undergraduate Researcher (Harvard College ’29)
+  info: Undergraduate Researcher (Harvard College ’29, U2)
   email:
   number_educ: 1
   education1: "Physics and Mathematics"
@@ -34,7 +34,7 @@
 - name: Jada Kim
   photo: jada_kim.jpg
   hover_photo: jada_kim_fun.png
-  info: Undergraduate Researcher (Harvard College ’29)
+  info: Undergraduate Researcher (Harvard College ’29, U2)
   email:
   number_educ: 1
   education1: "Human Developmental and Regenerative Biology & Applied Mathematics"
@@ -43,7 +43,7 @@
   photo: mark_prainito.jpg
   hover_photo: mark_prainito_fun.png
   photo_position: "center -12%"
-  info: Undergraduate Researcher (Harvard College ’29)
+  info: Undergraduate Researcher (Harvard College ’29, U2)
   email:
   number_educ: 1
   education1: "Chemistry, Physics, and Engineering Science"
