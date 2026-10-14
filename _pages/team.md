@@ -30,7 +30,7 @@ Try Jedi Mode for a glimpse of our alternate universe.
 <div class="col-sm-6 clearfix team-member-card">
 <div class="team-member-inner">
 
-<div class="team-photo-wrap alumni-photo-wrap">
+<div class="team-photo-wrap alumni-photo-wrap alumni-only">
 {% if member.hover_photo %}
 <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo }}"
      data-hover="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.hover_photo }}"
