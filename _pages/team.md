@@ -30,7 +30,9 @@ Try Jedi Mode for a glimpse of our alternate universe.
 <div class="col-sm-6 clearfix team-member-card">
 <div class="team-member-inner">
 
-<div class="team-photo-wrap alumni-photo-wrap alumni-only">
+<!-- Current Members: compact color photos -->
+<div class="team-photo-wrap alumni-photo-wrap member-only">
+
 {% if member.hover_photo %}
 <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo }}"
      data-hover="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.hover_photo }}"
@@ -48,6 +50,7 @@ Try Jedi Mode for a glimpse of our alternate universe.
      alt="{{ member.name | escape }}"
      style="object-position: {{ member.photo_position | default: 'center center' }} !important; transform: scale({{ member.photo_zoom | default: '1' }});" />
 {% endif %}
+
 </div>
 
 <div class="team-member-text">
@@ -131,7 +134,9 @@ Email: {{ member.email }}
 <div class="col-sm-6 clearfix team-member-card">
 <div class="team-member-inner">
 
-<div class="team-photo-wrap alumni-photo-wrap">
+<!-- Alumni: compact grayscale photos -->
+<div class="team-photo-wrap alumni-photo-wrap alumni-only">
+
 {% if member.hover_photo %}
 <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo }}"
      data-hover="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.hover_photo }}"
@@ -141,14 +146,13 @@ Email: {{ member.email }}
      alt="{{ member.name | escape }}"
      style="object-position: {{ member.photo_position | default: 'center center' }} !important; transform: scale({{ member.photo_zoom | default: '1' }});" />
 
-<button type="button" class="team-photo-toggle">Jedi Mode</button>
-
 {% else %}
 <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo }}"
      class="img-responsive team-photo-img"
      alt="{{ member.name | escape }}"
      style="object-position: {{ member.photo_position | default: 'center center' }} !important; transform: scale({{ member.photo_zoom | default: '1' }});" />
 {% endif %}
+
 </div>
 
 <div class="team-member-text">
@@ -254,3 +258,4 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 </script>
+
