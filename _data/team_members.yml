@@ -6,7 +6,7 @@
   number_educ: 1
   education1: "M.S. in Physics, University of Oklahoma (2026)"
 
-- name: Xiao Cheng, Ph.D.
+- name: Xiao Cheng
   photo: xiao_cheng_crop.jpg
   hover_photo: xiao_cheng_fun_new.png
   info: Postdoctoral Fellow (Rice BioE)
@@ -14,7 +14,7 @@
   number_educ: 1
   education1: "Ph.D. in Biomedical Engineering, Nanjing University (2026)"
 
-- name: Sangyeon (Fred) Cho, Ph.D.
+- name: Sangyeon (Fred) Cho
   photo: headshot_cho.jpg
   hover_photo: cho_fun_ratio.png
   photo_position: center 10%
