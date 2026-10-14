@@ -33,8 +33,8 @@ permalink: /publications/
 {% endif %}
 
 {% if pub.section_heading %}
-<hr style="margin: 36px 0 24px 0;">
-<h2 style="font-size: 26px; font-weight: 500; margin-top: 0; margin-bottom: 24px;">
+<hr style="margin: 28px 0 20px 0;">
+<h2 style="font-size: 20px; font-weight: 500; margin-top: 0; margin-bottom: 18px;">
 {{ pub.section_heading }}
 </h2>
 {% endif %}
