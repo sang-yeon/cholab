@@ -12,6 +12,12 @@ affiliations:
     institute: "Ken Kennedy Institute"
     focus: "Artificial Intelligence & Computing"
     url: "https://kenkennedy.rice.edu/"
+
+  - role: "Member"
+    institute: "Rice Advanced Materials Institute (RAMI)"
+    focus: "Material Researche"
+    url: "https://rami.rice.edu/"
+    
 institution: "Rice University"
 email: "scho1105 at rice.edu"
 office: "#615 BioScience Research Collaborative (BRC), Rice University, Houston, TX"
