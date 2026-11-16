@@ -1,8 +1,11 @@
 - year: "2026"
   title: "Half-wave plasmonic nanolasers near the localization limit"
   authors: "<strong><em>S. Cho</em></strong><sup>+</sup>, S. H. Yun<sup>+</sup>."
-  journal: "OPTICA (In Press)"
-  note: "Breaking Our Own Record for the World’s Smallest Laser"
+  journal_name: "Optica"
+  journal_info: "13(12), 2415."
+  link: "https://opg.optica.org/optica/fulltext.cfm?uri=optica-13-12-2415"
+  pdf: "papers/cho_optica_2026.pdf"
+  note: "Breaking Our Own Record for the World's Smallest Laser"
   extra_links:
     - label: "Arxiv Preprint"
       url: "https://arxiv.org/abs/2607.03563"
