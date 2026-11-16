@@ -30,6 +30,22 @@ permalink: /news/
 </div>
 {% endif %}
 
+{% if article.youtube_id %}
+<div class="news-video" style="width: 100%; max-width: 350px; margin-top: 12px; margin-bottom: 12px;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/{{ article.youtube_id }}"
+    title="Cho Lab research interview"
+    width="350"
+    height="197"
+    style="display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; border-radius: 6px;"
+    loading="lazy"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+{% endif %}
+
 {% if article.pdfs %}
 <div class="news-pdfs" style="margin-top: 8px;">
 {% for pdf in article.pdfs %}
