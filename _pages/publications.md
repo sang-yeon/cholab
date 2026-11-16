@@ -92,6 +92,23 @@ permalink: /publications/
 {% endif %}
 </p>
 
+{% if pub.youtube_id %}
+<div class="publication-video"
+     style="width: 100%; max-width: 320px; margin-top: 12px; margin-bottom: 12px;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/{{ pub.youtube_id }}"
+    title="{{ pub.title | strip_html | escape }} - Research Interview"
+    width="320"
+    height="180"
+    style="display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; border-radius: 6px;"
+    loading="lazy"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+{% endif %}
+
 {% if pub.images %}
 <div class="publication-images" style="margin-top: 8px; margin-bottom: 4px; display: flex; gap: 12px; align-items: flex-start; flex-wrap: wrap;">
 {% for img in pub.images %}
@@ -140,4 +157,5 @@ S. H. Yun, S. Cho.<br>
 </div>
 
 </div>
+
 
