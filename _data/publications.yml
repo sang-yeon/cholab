@@ -6,7 +6,12 @@
   link: "https://opg.optica.org/optica/fulltext.cfm?uri=optica-13-12-2415"
   pdf: "papers/cho_optica_2026.pdf"
   note: "Breaking Our Own Record for the World's Smallest Laser"
+  youtube_id: "bN9i9CRax1Q"
   extra_links:
+    - label: "Rice News"
+      url: "https://news.rice.edu/news/2026/rice-researchers-help-develop-lasers-near-physical-limits-miniaturization-opening-new"
+    - label: "YouTube Interview"
+      url: "https://www.youtube.com/watch?v=bN9i9CRax1Q"
     - label: "Arxiv Preprint"
       url: "https://arxiv.org/abs/2607.03563"
 
