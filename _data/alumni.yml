@@ -1,7 +1,7 @@
 - name: Toby Chen
   photo: toby_chen.jpg
   hover_photo: toby_chen_fun.png
-  info: Undergraduate Researcher (Harvard College ’29)
+  info: Undergraduate Researcher (2025–2026, Harvard College ’29)
   email:
   number_educ: 1
   education1: "Biomedical Engineering and Comparative Literature"
@@ -9,7 +9,7 @@
 - name: Minsun Kim
   photo: minsun_kim.jpg
   hover_photo: minsun_kim_fun.png
-  info: Researcher
+  info: Researcher (2025–2026)
   photo_position: "center -3%"
   email:
   number_educ: 2
@@ -18,7 +18,7 @@
 
 - name: Chloe Lee
   photo: chloe_lee.jpeg
-  info: Undergraduate Researcher (Harvard College ’29)
+  info: Undergraduate Researcher (2025–2026, Harvard College ’29)
   email:
   number_educ: 1
   education1: "Biomedical Engineering"
