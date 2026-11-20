@@ -29,8 +29,8 @@
   education1: "B.S. in Computational Biology, UT Austin (2025)"
 
 - name: Ayazhan Karabek
-  photo: ayazhan.jpg
-  hover_photo: ayazhan_fun.png
+  photo: aya.jpg
+  hover_photo: aya_fun.png
   info: Undergraduate Researcher (2026-current, Rice Computer Science, U1)
   number_educ: 1
   education1: "Computer Science"
@@ -50,8 +50,8 @@
   education1: "Human Developmental and Regenerative Biology & Applied Mathematics"
 
 - name: Laksh Sarda
-  photo: laksh.jpg
-  hover_photo: laksh_fun.png
+  photo: laksh_fun.jpeg
+  hover_photo: laksh.png
   info: Undergraduate Researcher (2026-current, Rice Computer Science ’29, U1)
   number_educ: 1
   education1: "Computer Science, Minor in Data Science"
