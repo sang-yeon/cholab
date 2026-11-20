@@ -31,28 +31,28 @@
 - name: Ayazhan Karabek
   photo: aya.jpg
   hover_photo: aya_fun.png
-  info: Undergraduate Researcher (2026-current, Rice Computer Science, U1)
+  info: Undergraduate Researcher (2026-current, Rice '29, U1)
   number_educ: 1
   education1: "Computer Science"
 
 - name: Daniel Choi
   photo: daniel_choi.png
   hover_photo: daniel_choi_fun.png
-  info: Undergraduate Researcher (2025-current, Harvard College ’29, U2)
+  info: Undergraduate Researcher (2025-current, Harvard ’29, U2)
   number_educ: 1
   education1: "Physics and Mathematics"
 
 - name: Jada Kim
   photo: jada_kim.jpg
   hover_photo: jada_kim_fun.png
-  info: Undergraduate Researcher (2025-current, Harvard College ’29, U2)
+  info: Undergraduate Researcher (2025-current, Harvard ’29, U2)
   number_educ: 1
   education1: "Human Developmental and Regenerative Biology & Applied Mathematics"
 
 - name: Laksh Sarda
   photo: laksh_fun.jpeg
   hover_photo: laksh.png
-  info: Undergraduate Researcher (2026-current, Rice Computer Science ’29, U1)
+  info: Undergraduate Researcher (2026-current, Rice ’29, U1)
   number_educ: 1
   education1: "Computer Science, Minor in Data Science"
   
@@ -60,7 +60,7 @@
   photo: mark_prainito.jpg
   hover_photo: mark_prainito_fun.png
   photo_position: "center -12%"
-  info: Undergraduate Researcher (2025-current, Harvard College ’29, U2)
+  info: Undergraduate Researcher (2025-current, Harvard ’29, U2)
   number_educ: 1
   education1: "Chemistry, Physics, and Engineering Science"
 
