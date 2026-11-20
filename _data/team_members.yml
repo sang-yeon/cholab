@@ -10,7 +10,6 @@
   photo: xiao_cheng_crop.jpg
   hover_photo: xiao_cheng_fun_new.png
   info: Postdoctoral Fellow (2026-current, Rice BioE, P1)
-  email:
   number_educ: 1
   education1: "Ph.D. in Biomedical Engineering, Nanjing University (2026)"
 
@@ -19,7 +18,6 @@
   hover_photo: Artola_fun.png
   photo_position: "center 37%"
   info: PhD Student (2026-current, Rice Applied Physics, G1)
-  email:
   number_educ: 1
   education1: "M.S. in Physics, University of Oklahoma (2026)"
 
@@ -27,14 +25,13 @@
   photo: Jaewhi.jpg
   hover_photo: Jaewhi_fun.png
   info: Researcher (2026-current, Rice BioE, R1)
-  email:
   number_educ: 1
   education1: "B.S. in Computational Biology, UT Austin (2025)"
 
 - name: Ayazhan Karabek
-  photo: ayazhan_karabek.jpg
+  photo: ayazhan.jpg
+  hover_photo: ayazhan_fun.png
   info: Undergraduate Researcher (2026-current, Rice Computer Science, U1)
-  email: ak305@rice.edu
   number_educ: 1
   education1: "Computer Science"
 
@@ -42,7 +39,6 @@
   photo: daniel_choi.png
   hover_photo: daniel_choi_fun.png
   info: Undergraduate Researcher (2025-current, Harvard College ’29, U2)
-  email:
   number_educ: 1
   education1: "Physics and Mathematics"
 
@@ -50,14 +46,13 @@
   photo: jada_kim.jpg
   hover_photo: jada_kim_fun.png
   info: Undergraduate Researcher (2025-current, Harvard College ’29, U2)
-  email:
   number_educ: 1
   education1: "Human Developmental and Regenerative Biology & Applied Mathematics"
 
 - name: Laksh Sarda
-  photo: laksh_sarda.jpg
+  photo: laksh.jpg
+  hover_photo: laksh_fun.png
   info: Undergraduate Researcher (2026-current, Rice Computer Science ’29, U1)
-  email: lakshsarda137@gmail.com
   number_educ: 1
   education1: "Computer Science, Minor in Data Science"
   
@@ -66,7 +61,6 @@
   hover_photo: mark_prainito_fun.png
   photo_position: "center -12%"
   info: Undergraduate Researcher (2025-current, Harvard College ’29, U2)
-  email:
   number_educ: 1
   education1: "Chemistry, Physics, and Engineering Science"
 
